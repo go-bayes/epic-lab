@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "EPIC-lab: Evaluating Policy Implications with Causal-inference"
+  site-url: https://go-bayes.github.io/epic-lab/
+  description: "EPIC-lab at Victoria University of Wellington advances causal inference methods for policy evaluation using machine learning and statistical rigor"
+  image: "images/epic-lab-social.png"
+  favicon: "images/favicon.ico"
+  google-analytics: "G-XXXXXXXXXX"
+  open-graph:
+    locale: en_US
+    site-name: EPIC-lab
+  twitter-card:
+    creator: "@prof_joe_"
+    site: "@prof_joe_"
+    card-style: summary_large_image
+  navbar:
+    left:
+      - text: "📊 PRESENTATIONS"
+        menu:
+          - text: "All Presentations"
+            href: presentations.qmd
+          - text: "---"
+          - text: "2025"
+          - text: "APA-BIER: Causal Inference"
+            href: presentations.qmd#apa-bier-2025
+      - text: "About"
+        href: about.qmd
+      - text: "Team"
+        href: team.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Publications"
+        href: publications.qmd
+    right:
+      - icon: github
+        href: "https://github.com/go-bayes"
+        aria-label: "GitHub"
+      - icon: twitter
+        href: "https://x.com/prof_joe_"
+        aria-label: "X (Twitter)"
+      - text: "Bluesky"
+        href: "https://epiclab.bsky.social"
+        aria-label: "Bluesky"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0002-5861-2056"
+        aria-label: "ORCID"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: false
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    code-fold: true
+    code-tools: true
+    code-copy: hover
+    code-overflow: wrap
+    fig-align: center
+    fig-responsive: true
+    self-contained: false
+    anchor-sections: true
+    citations-hover: true
+    footnotes-hover: true

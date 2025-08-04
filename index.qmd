@@ -1,0 +1,64 @@
+---
+title: "EPIC-lab"
+subtitle: "Evaluating Policy Implications with Causal-inference"
+---
+
+## Welcome to the EPIC-lab
+
+Understanding what truly drives human behavior is complex. When governments and organizations launch new programs, whether aimed at improving mental health, reducing prejudice, or encouraging sustainable choices, how do we know if they are actually working?
+
+The EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating *whether* interventions work, *for whom*, and *in which contexts*.
+
+The EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia.
+
+## Our Mission
+
+We'd like to:
+
+- **Advance causal inference methodology in the social sciences**, both in observational research and experimental design. 
+- **Bridge theory and practice** by developing accessible tools for social scientists
+- **Foster collaboration** between researchers, policy-makers, and practitioners
+- **Promote evidence-based decision making** through robust causal analysis
+
+## Research Focus
+
+Our research spans several areas:
+
+:::: {.columns}
+
+::: {.column width="60%"}
+### Causal Methods in Social Science
+
+- Doubly robust machine learning
+- Causal forests and heterogeneous effects
+- Longitudinal causal inference
+- Sensitivity analysis
+:::
+
+::: {.column width="40%"}
+### Application Domains
+
+- Social policy evaluation
+- Public health interventions
+- Charities
+- Public trust
+- Environmental psychology
+- Religion
+:::
+
+::::
+
+## Featured Work
+
+Visit our [Presentations](presentations.qmd) section to explore our latest research talks and workshops, including recent presentations at major conferences.
+
+## Get Involved
+
+Check out our [Resources](resources.qmd) section for tools and materials to get started, and get in touch!
+
+---
+
+::: {.callout-note}
+## Recent News
+Stay updated with our latest research, publications, and events in the [News](news.qmd) section.
+:::

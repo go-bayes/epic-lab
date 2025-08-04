@@ -1,0 +1,345 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "CRAN status\n\n\nThe boilerplate package provides tools for generating standardised boilerplate text and documentation for research projects. Available on CRAN.\n\nDocumentation\nSource Code\n\n\n\n\n\n\n\n\n\n\nWarningPackage Migration Notice\n\n\n\nThe margot package is currently being restructured into the margotverse ecosystem. This migration will provide a more modular and maintainable framework for causal inference. Please check our GitHub for the latest updates.\n\n\nA comprehensive framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses."
+  },
+  {
+    "objectID": "resources.html#software-tools",
+    "href": "resources.html#software-tools",
+    "title": "Resources",
+    "section": "",
+    "text": "CRAN status\n\n\nThe boilerplate package provides tools for generating standardised boilerplate text and documentation for research projects. Available on CRAN.\n\nDocumentation\nSource Code\n\n\n\n\n\n\n\n\n\n\nWarningPackage Migration Notice\n\n\n\nThe margot package is currently being restructured into the margotverse ecosystem. This migration will provide a more modular and maintainable framework for causal inference. Please check our GitHub for the latest updates.\n\n\nA comprehensive framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses."
+  },
+  {
+    "objectID": "resources.html#educational-materials",
+    "href": "resources.html#educational-materials",
+    "title": "Resources",
+    "section": "Educational Materials",
+    "text": "Educational Materials\n\nWorkshop Materials\n\nSPARCC Causal Inference Workshop"
+  },
+  {
+    "objectID": "resources.html#external-resources",
+    "href": "resources.html#external-resources",
+    "title": "Resources",
+    "section": "External Resources",
+    "text": "External Resources\n\nRecommended Textbooks\n\nCausal Inference: What If by Hernán & Robins\nElements of Causal Inference by Peters, Janzing & Schölkopf\n\n\n\nOnline Courses\n\nLinks to relevant MOOCs and online materials"
+  },
+  {
+    "objectID": "resources.html#code-examples",
+    "href": "resources.html#code-examples",
+    "title": "Resources",
+    "section": "Code Examples",
+    "text": "Code Examples\nVisit our GitHub repository for code examples and implementations."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About EPIC-lab",
+    "section": "",
+    "text": "The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address pressing societal challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions."
+  },
+  {
+    "objectID": "about.html#our-vision",
+    "href": "about.html#our-vision",
+    "title": "About EPIC-lab",
+    "section": "",
+    "text": "The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address pressing societal challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions."
+  },
+  {
+    "objectID": "about.html#what-we-do",
+    "href": "about.html#what-we-do",
+    "title": "About EPIC-lab",
+    "section": "What We Do",
+    "text": "What We Do\nWe specialise in:\n\nMethodological Innovation: Applying robust designs and methods to observational and experimental data.\nApplied Research: Collaborating with partners to evaluate real-world policies and interventions\nOpen Science: Creating accessible tools and resources for the broader research community\nEducation: Training the next generation of causal inference researchers"
+  },
+  {
+    "objectID": "about.html#our-approach",
+    "href": "about.html#our-approach",
+    "title": "About EPIC-lab",
+    "section": "Our Approach",
+    "text": "Our Approach\nWe combine cutting-edge statistical methods with domain expertise to:\n\nIdentify and state clearly defined causal questions (harder than it seems!)\nDesign studies that can answer these questions\nApply robust analytical techniques\nCommunicate findings clearly"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About EPIC-lab",
+    "section": "Contact",
+    "text": "Contact\nFor collaboration inquiries or more information about our work:\nEmail: joseph.bulbulia@vuw.ac.nz\nInstitution: Victoria University of Wellington, New Zealand\nLocation: Easterfield Building, Room EA 324, Kelburn Campus\nX (Twitter): @prof_joe_\nBluesky: epiclab.bsky.social\n\nLab Location"
+  },
+  {
+    "objectID": "about.html#funding-support",
+    "href": "about.html#funding-support",
+    "title": "About EPIC-lab",
+    "section": "Funding Support",
+    "text": "Funding Support\nThe EPIC-lab gratefully acknowledges support from:\nTempleton Religion Trust\n\nTRT-2022-30666: “Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities”\n\nJoseph Bulbulia (Contact PI) and Joseph Watts\n\nTRT-2022-30579: “A national longitudinal study of Muslim diversity and flourishing”\n\nUsman Afzali (Contact PI), Joseph Bulbulia (Co-PI)\n\nTRT0418: “New Zealand Attitudes and Values Study Matching Grant”\n\nJoseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton\n\n\n\n\n\n\n\nVictoria University of Wellington\n\n\n\n\n\n\n\n\n\nTempleton Religion Trust\n\n\n\n\n*The EPIC-lab is based at Victoria University of Wellington, New Zealand."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EPIC-lab",
+    "section": "",
+    "text": "Understanding what truly drives human behavior is complex. When governments and organizations launch new programs, whether aimed at improving mental health, reducing prejudice, or encouraging sustainable choices, how do we know if they are actually working?\nThe EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating whether interventions work, for whom, and in which contexts.\nThe EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia."
+  },
+  {
+    "objectID": "index.html#welcome-to-the-epic-lab",
+    "href": "index.html#welcome-to-the-epic-lab",
+    "title": "EPIC-lab",
+    "section": "",
+    "text": "Understanding what truly drives human behavior is complex. When governments and organizations launch new programs, whether aimed at improving mental health, reducing prejudice, or encouraging sustainable choices, how do we know if they are actually working?\nThe EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating whether interventions work, for whom, and in which contexts.\nThe EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia."
+  },
+  {
+    "objectID": "index.html#our-mission",
+    "href": "index.html#our-mission",
+    "title": "EPIC-lab",
+    "section": "Our Mission",
+    "text": "Our Mission\nWe’d like to:\n\nAdvance causal inference methodology in the social sciences, both in observational research and experimental design.\nBridge theory and practice by developing accessible tools for social scientists\nFoster collaboration between researchers, policy-makers, and practitioners\nPromote evidence-based decision making through robust causal analysis"
+  },
+  {
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "EPIC-lab",
+    "section": "Research Focus",
+    "text": "Research Focus\nOur research spans several areas:\n\n\n\nCausal Methods in Social Science\n\nDoubly robust machine learning\nCausal forests and heterogeneous effects\nLongitudinal causal inference\nSensitivity analysis\n\n\n\n\nApplication Domains\n\nSocial policy evaluation\nPublic health interventions\nCharities\nPublic trust\nEnvironmental psychology\nReligion"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "EPIC-lab",
+    "section": "Featured Work",
+    "text": "Featured Work\nVisit our Presentations section to explore our latest research talks and workshops, including recent presentations at major conferences."
+  },
+  {
+    "objectID": "index.html#get-involved",
+    "href": "index.html#get-involved",
+    "title": "EPIC-lab",
+    "section": "Get Involved",
+    "text": "Get Involved\nCheck out our Resources section for tools and materials to get started, and get in touch!\n\n\n\n\n\n\n\nNoteRecent News\n\n\n\nStay updated with our latest research, publications, and events in the News section."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Joseph Bulbulia\n\n\n\nDirector, EPIC-lab\n📧 joseph.bulbulia@vuw.ac.nz\n🔗 University Profile\nJoseph Bulbulia is a Professor at the School of Psychology at Victoria University of Wellington, New Zealand. He leads the EPIC-lab and directs the Centre for Applied Cross-Cultural Research (CACR).\nHis research interests include religion, cooperation, and conflict, with a specialisation in methodologies for inferring causality from observational data.\n\n\n\n\n\n\nNew Zealand Attitudes and Values Study (NZAVS): Joseph is one of four members of the senior leadership team for the NZAVS, a longitudinal study that has measured the attitudes and values of 76,490 New Zealanders since 2009.\nPulotu Database: He is a founding investigator for the Pulotu database. This project encompasses 116 Austronesian cultures and was purpose-built to study the evolution of religious beliefs and rituals during Pacific expansions and settlements.\n\n\n\n\nJoseph supervises students in a broad range of areas, including:\n\nPersonality and individual differences\nPolitical psychology\nMulti-dimensional well-being\n\n\n\n\nWhen not working, Joseph is an avid distance runner.\n\n\n\nView Joseph Bulbulia’s CV"
+  },
+  {
+    "objectID": "team.html#principal-investigator",
+    "href": "team.html#principal-investigator",
+    "title": "Team",
+    "section": "",
+    "text": "Joseph Bulbulia\n\n\n\nDirector, EPIC-lab\n📧 joseph.bulbulia@vuw.ac.nz\n🔗 University Profile\nJoseph Bulbulia is a Professor at the School of Psychology at Victoria University of Wellington, New Zealand. He leads the EPIC-lab and directs the Centre for Applied Cross-Cultural Research (CACR).\nHis research interests include religion, cooperation, and conflict, with a specialisation in methodologies for inferring causality from observational data.\n\n\n\n\n\n\nNew Zealand Attitudes and Values Study (NZAVS): Joseph is one of four members of the senior leadership team for the NZAVS, a longitudinal study that has measured the attitudes and values of 76,490 New Zealanders since 2009.\nPulotu Database: He is a founding investigator for the Pulotu database. This project encompasses 116 Austronesian cultures and was purpose-built to study the evolution of religious beliefs and rituals during Pacific expansions and settlements.\n\n\n\n\nJoseph supervises students in a broad range of areas, including:\n\nPersonality and individual differences\nPolitical psychology\nMulti-dimensional well-being\n\n\n\n\nWhen not working, Joseph is an avid distance runner.\n\n\n\nView Joseph Bulbulia’s CV"
+  },
+  {
+    "objectID": "team.html#research-fellow",
+    "href": "team.html#research-fellow",
+    "title": "Team",
+    "section": "Research Fellow",
+    "text": "Research Fellow\n\nDr. Inkuk Kim\n\n\n\n\n\n\nDr. Inkuk Kim\n\n\n\nInkuk Kim is a Research Fellow at the Centre for Applied Cross-cultural Research and the School of Psychological Sciences at Victoria University of Wellington. His research focuses on fostering social cohesion to mitigate conflicts in multicultural societies, addressing climate change, and enhancing well-being. He is currently investigating the causal effects of trust in science on environmental attitudes and behaviours.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Longitudinal Modified Treatment Policies; Causal Machine Learning\nORCID Profile\nUniversity Profile\nGitHub"
+  },
+  {
+    "objectID": "team.html#phd-students",
+    "href": "team.html#phd-students",
+    "title": "Team",
+    "section": "PhD Students",
+    "text": "PhD Students\n\nJake Ireland\n\n\n\n\n\n\nJake Ireland\n\n\n\nJake is investigating the co-evolution of religious and political culture in the Pacific.\n\nProject: Pulotu\nMethods: Causal Machine Learning\nORCID Profile\n\n\n\n\n\n\nJesse Auckerman\n\n\n\n\n\n\nJesse Auckerman\n\n\n\nJesse is investigating individual differences in personal resilience related to poverty.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
+  },
+  {
+    "objectID": "team.html#masters-students",
+    "href": "team.html#masters-students",
+    "title": "Team",
+    "section": "Master’s Students",
+    "text": "Master’s Students\n\nBoyang Cao\n\n\n\n\n\n\nBoyang Cao\n\n\n\nBoyang is researching the causal associations between religious service attendance and personality.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning\n\n\n\n\n\n\nHannah Robinson\n\n\n\n\n\n\nHannah Robinson\n\n\n\nHannah is researching the causal associations between religious service attendance and personality.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning\n\n\n\n\n\n\nZahle Wisely\n\n\n\n\n\n\nZahle Wisely\n\n\n\nZahle is investigating the causal effects of employer gratitude on multi-dimensional well-being.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
+  },
+  {
+    "objectID": "team.html#research-assistants",
+    "href": "team.html#research-assistants",
+    "title": "Team",
+    "section": "Research Assistants",
+    "text": "Research Assistants\n\nMillie Rea\n\n\n\n\n\n\nMillie Rea\n\n\n\nMillie is investigating extensions of epic-lab workflows to policy settings, focusing on IDI (Integrated Data Infrastructure) data.\n\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
+  },
+  {
+    "objectID": "team.html#alumni",
+    "href": "team.html#alumni",
+    "title": "Team",
+    "section": "Alumni",
+    "text": "Alumni\n\nDr. JohnMark Kempthorn\n\n\n\n\n\n\nDr. JohnMark Kempthorn\n\n\n\nJohnMark received his PhD from the School of Psychology at Victoria University of Wellington in 2025.\n\nORCID Profile\n\n\n\n\n\n\nBella Chong\n\n\n\n\n\n\nBella Chong\n\n\n\nBella received her Master’s degree from Victoria University of Wellington in 2023. Her research investigated the causal effects of work hours on multi-dimensional well-being.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Longitudinal Modified Treatment Policies\nORCID Profile"
+  },
+  {
+    "objectID": "team.html#collaborators",
+    "href": "team.html#collaborators",
+    "title": "Team",
+    "section": "Collaborators",
+    "text": "Collaborators\nWe work with researchers and institutions worldwide to advance causal inference methods and applications."
+  },
+  {
+    "objectID": "team.html#join-us",
+    "href": "team.html#join-us",
+    "title": "Team",
+    "section": "Join Us",
+    "text": "Join Us\nWe’re always looking for motivated researchers interested in causal inference. If you’re interested in joining our team, please contact:\n📧 joseph.bulbulia@vuw.ac.nz"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Developing machine learning methods that maintain causal interpretability in panel studies.\n\n\n\nInvestigating how policy impacts vary across different populations and contexts.\n\n\n\nCreating tools to assess the robustness of causal conclusions to unmeasured confounding."
+  },
+  {
+    "objectID": "research.html#current-projects",
+    "href": "research.html#current-projects",
+    "title": "Research",
+    "section": "",
+    "text": "Developing machine learning methods that maintain causal interpretability in panel studies.\n\n\n\nInvestigating how policy impacts vary across different populations and contexts.\n\n\n\nCreating tools to assess the robustness of causal conclusions to unmeasured confounding."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n2025\nPublications will be listed here…\n\n\n2024\nPublications will be listed here…"
+  },
+  {
+    "objectID": "research.html#software",
+    "href": "research.html#software",
+    "title": "Research",
+    "section": "Software",
+    "text": "Software\nWe develop open-source software for causal inference:\n\n[Package Name]: Description of the package and its capabilities\n[Tool Name]: Description of the tool"
+  },
+  {
+    "objectID": "research.html#preprints",
+    "href": "research.html#preprints",
+    "title": "Research",
+    "section": "Preprints",
+    "text": "Preprints\nAccess our latest working papers and preprints on [platform]."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Joseph Bulbulia will deliver the William Bier Interdisciplinary Award lecture titled “Who Benefits from Religious Attendance? Heterogeneous Causal Effects on Well-being and Cooperation in New Zealand” at 11:30-12:30 in Convention Centre Street Level 208.\nThe William Bier Interdisciplinary Award is presented by the American Psychological Association Division 36 (Psychology of Religion and Spirituality)."
+  },
+  {
+    "objectID": "news.html#section",
+    "href": "news.html#section",
+    "title": "News",
+    "section": "",
+    "text": "Joseph Bulbulia will deliver the William Bier Interdisciplinary Award lecture titled “Who Benefits from Religious Attendance? Heterogeneous Causal Effects on Well-being and Cooperation in New Zealand” at 11:30-12:30 in Convention Centre Street Level 208.\nThe William Bier Interdisciplinary Award is presented by the American Psychological Association Division 36 (Psychology of Religion and Spirituality)."
+  },
+  {
+    "objectID": "news.html#section-1",
+    "href": "news.html#section-1",
+    "title": "News",
+    "section": "2024",
+    "text": "2024\nNews archive coming soon…"
+  },
+  {
+    "objectID": "news.html#upcoming-events",
+    "href": "news.html#upcoming-events",
+    "title": "News",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\n[2025 August 10-13]: Workshop on Causal Inferece at the University of San Diego link\n[2025 November 19]: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology converence link"
+  },
+  {
+    "objectID": "news.html#subscribe",
+    "href": "news.html#subscribe",
+    "title": "News",
+    "section": "Subscribe",
+    "text": "Subscribe\nStay updated with EPIC-lab news and announcements. [Sign up for our newsletter]"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "For a comprehensive and up-to-date list of publications, please visit:\n\nORCID Profile\nGoogle Scholar"
+  },
+  {
+    "objectID": "publications.html#complete-publication-list",
+    "href": "publications.html#complete-publication-list",
+    "title": "Publications",
+    "section": "",
+    "text": "For a comprehensive and up-to-date list of publications, please visit:\n\nORCID Profile\nGoogle Scholar"
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n2025 Preprints\n\nAn Invitation to Causal Inference in Environmental Psychology\nOSF Preprint\nBeyond Deficit Narratives: Religious Prejudice, Meaning, and Resilience in a National Sample of New Zealand Muslims\nOSF Preprint\n\n\n\n2024\n\nCausal effects of religious service attendance on charity and volunteering using novel measures from a national longitudinal panel\nBulbulia, J. A., Davis, D. E., Rice, K., Sibley, C. G., & Troughton, G.\nArchive for the Psychology of Religion 46(3), 244-267\nFull Text\nMethods in Causal Inference Series\n\nPart 1: Causal Diagrams and Confounding\nPart 2: Interaction, Mediation, and Time-Varying Treatments\n\nPart 3: Measurement Error and External Validity Threats\nPart 4: Confounding in Experiments\nEvolutionary Human Sciences, 6\n\nThe anatomy of prejudice during pandemic lockdowns: Evidence from a national panel study\nKempthorne, J., Yogeeswaran, K., Sibley, C. G., & Bulbulia, J. A.\nPLOS ONE, 19(5), 1–14\nFull Text\n\n\n\n2023\n\nA workflow for causal inference in cross-cultural psychology\nBulbulia, J. A.\nReligion, Brain & Behavior, 13(3), 291-306\nFull Text\nLong-term causal effects of far-right terrorism in New Zealand\nBulbulia, J. A., Afzali, M. U., Yogeeswaran, K., & Sibley, C. G.\nPNAS Nexus, 2(8), pgad242\nFull Text"
+  },
+  {
+    "objectID": "publications.html#featured-publications",
+    "href": "publications.html#featured-publications",
+    "title": "Publications",
+    "section": "Featured Publications",
+    "text": "Featured Publications\n\nCausal Inference Methods\n\nPractical Causal Inference for Longitudinal Data (2024). Comprehensive guide to applying doubly robust methods in panel studies.\nHeterogeneous Treatment Effects in Social Science (2023). Novel approaches using causal forests for policy evaluation.\n\n\n\nApplied Research\n\nReligion, Cooperation, and Conflict (2023). Large-scale analysis using NZAVS data to understand social dynamics.\nWell-being Trajectories During COVID-19 (2022). Causal analysis of pandemic impacts on mental health."
+  },
+  {
+    "objectID": "publications.html#books-chapters",
+    "href": "publications.html#books-chapters",
+    "title": "Publications",
+    "section": "Books & Chapters",
+    "text": "Books & Chapters\n\nCausal Inference in the Social Sciences (2023). Chapter on “Machine Learning Methods for Causal Analysis.”"
+  },
+  {
+    "objectID": "publications.html#software",
+    "href": "publications.html#software",
+    "title": "Publications",
+    "section": "Software",
+    "text": "Software\n\nboilerplate: A lightweight and flexible toolkit for reporting workflows and measures, for reproducible research\nJ. A. Bulbulia\nR package version 1.3.0, License: MIT, 2024\nPackage Website | CRAN | DOI\nmargot: MARGinal Observational Treatment-effects\nJ. A. Bulbulia\nR package version 0.2.3, License: CC BY 4.0, 2024\nPackage Website | DOI"
+  },
+  {
+    "objectID": "publications.html#working-papers",
+    "href": "publications.html#working-papers",
+    "title": "Publications",
+    "section": "Working Papers",
+    "text": "Working Papers\nVisit our GitHub for preprints and working papers.\n\n\n\n\n\n\n\nTipCitation Formats\n\n\n\nAll publications include DOI links when available. Click on any publication for full citation details and export options."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Title: Who Benefits from Religious Attendance? Heterogeneous Causal Effects on Well-being and Cooperation in New Zealand\nPresenter: Joseph Bulbulia\nEvent: William Bier Interdisciplinary Award, APA Division 36 Psychology of Religion\nDate: 2025\nTime: 11:30-12:30\nLocation: Convention Centre Street Level 208\n\n\n📍 Conference Presentation | 🕐 Duration: ~50 minutes | 📊 Format: HTML Slides\n\n\n\n\n\nView Options: - Open in new tab (full screen) - View all presentations (presentations index)\n\n\n\n\n\n\nNoteAlternative Viewing Options\n\n\n\n\nDownload: Use the download button in Dropbox to save a local copy\nShare: Copy the Dropbox link to share with colleagues\n\n\n\n\n\n\n\n\n\nTipViewing Tips\n\n\n\n\nFor best viewing experience, open in full screen mode\nUse arrow keys to navigate between slides\nPress ‘S’ for speaker notes (if available)\n\n\n\nAbstract: This presentation examines who benefits from religious attendance using heterogeneous treatment effect methods applied to longitudinal data from New Zealand. We explore how the causal effects of religious participation on well-being and cooperation vary across different population subgroups, providing insights into when and for whom religious engagement promotes positive outcomes.\nKeywords: causal inference, heterogeneous effects, religion, well-being, cooperation, New Zealand"
+  },
+  {
+    "objectID": "presentations.html#presentations",
+    "href": "presentations.html#presentations",
+    "title": "Presentations",
+    "section": "",
+    "text": "Title: Who Benefits from Religious Attendance? Heterogeneous Causal Effects on Well-being and Cooperation in New Zealand\nPresenter: Joseph Bulbulia\nEvent: William Bier Interdisciplinary Award, APA Division 36 Psychology of Religion\nDate: 2025\nTime: 11:30-12:30\nLocation: Convention Centre Street Level 208\n\n\n📍 Conference Presentation | 🕐 Duration: ~50 minutes | 📊 Format: HTML Slides\n\n\n\n\n\nView Options: - Open in new tab (full screen) - View all presentations (presentations index)\n\n\n\n\n\n\nNoteAlternative Viewing Options\n\n\n\n\nDownload: Use the download button in Dropbox to save a local copy\nShare: Copy the Dropbox link to share with colleagues\n\n\n\n\n\n\n\n\n\nTipViewing Tips\n\n\n\n\nFor best viewing experience, open in full screen mode\nUse arrow keys to navigate between slides\nPress ‘S’ for speaker notes (if available)\n\n\n\nAbstract: This presentation examines who benefits from religious attendance using heterogeneous treatment effect methods applied to longitudinal data from New Zealand. We explore how the causal effects of religious participation on well-being and cooperation vary across different population subgroups, providing insights into when and for whom religious engagement promotes positive outcomes.\nKeywords: causal inference, heterogeneous effects, religion, well-being, cooperation, New Zealand"
+  },
+  {
+    "objectID": "presentations.html#presentations-1",
+    "href": "presentations.html#presentations-1",
+    "title": "Presentations",
+    "section": "2024 Presentations",
+    "text": "2024 Presentations\nComing soon…"
+  },
+  {
+    "objectID": "presentations.html#archive",
+    "href": "presentations.html#archive",
+    "title": "Presentations",
+    "section": "Archive",
+    "text": "Archive\nFor older presentations (pre-2024), please contact the lab directly.\n\n\n\n\n\n\nNoteNote on Large Files\n\n\n\nTo keep our website fast and efficient, presentations are hosted externally on Dropbox. This allows us to share high-quality slides with embedded media while maintaining quick page load times."
+  },
+  {
+    "objectID": "publications.html#selected-recent-publications",
+    "href": "publications.html#selected-recent-publications",
+    "title": "Publications",
+    "section": "Selected Recent Publications",
+    "text": "Selected Recent Publications\n\n2025 Preprints\n\nAn Invitation to Causal Inference in Environmental Psychology\nOSF Preprint\nBeyond Deficit Narratives: Religious Prejudice, Meaning, and Resilience in a National Sample of New Zealand Muslims\nOSF Preprint\n\n\n\n2024\n\nCausal effects of religious service attendance on charity and volunteering using novel measures from a national longitudinal panel\nBulbulia, J. A., Davis, D. E., Rice, K., Sibley, C. G., & Troughton, G.\nArchive for the Psychology of Religion 46(3), 244-267\nFull Text\nMethods in Causal Inference Series\n\nPart 1: Causal Diagrams and Confounding\nPart 2: Interaction, Mediation, and Time-Varying Treatments\n\nPart 3: Measurement Error and External Validity Threats\nPart 4: Confounding in Experiments\nEvolutionary Human Sciences, 6\n\nThe anatomy of prejudice during pandemic lockdowns: Evidence from a national panel study\nKempthorne, J., Yogeeswaran, K., Sibley, C. G., & Bulbulia, J. A.\nPLOS ONE, 19(5), 1–14\nFull Text\n\n\n\n2023\n\nA workflow for causal inference in cross-cultural psychology\nBulbulia, J. A.\nReligion, Brain & Behavior, 13(3), 291-306\nFull Text\nLong-term causal effects of far-right terrorism in New Zealand\nBulbulia, J. A., Afzali, M. U., Yogeeswaran, K., & Sibley, C. G.\nPNAS Nexus, 2(8), pgad242\nFull Text"
+  },
+  {
+    "objectID": "about.html#our-mission",
+    "href": "about.html#our-mission",
+    "title": "About EPIC-lab",
+    "section": "Our Mission",
+    "text": "Our Mission\nWe bridge the gap between advanced quantitative methodology, psychological theory, and real-world application in New Zealand and globally.\n\nInnovate: advance causal inference methodology to address the unique challenges of psychological and behavioral research.\nImpact: partner with agencies and NGOs to rigorously evaluate the effectiveness of social and behavioral interventions.\nEmpower: develop and disseminate accessible statistical tools tailored for applied researchers and practitioners.\nTrain: mentor the next generation of psychological scientists in methods for causal inference and machine-learning."
+  }
+]

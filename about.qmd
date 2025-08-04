@@ -1,0 +1,82 @@
+---
+title: "About EPIC-lab"
+---
+
+## Our Vision
+
+The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address pressing societal challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions.
+
+## Our Mission
+
+We bridge the gap between advanced quantitative methodology, psychological theory, and real-world application in New Zealand and globally.
+
+- **Innovate:** advance causal inference methodology to address the unique challenges of psychological and behavioral research.
+- **Impact:** partner with agencies and NGOs to rigorously evaluate the effectiveness of social and behavioral interventions.
+- **Empower:** develop and disseminate accessible statistical tools tailored for applied researchers and practitioners.
+- **Train:** mentor the next generation of psychological scientists in methods for causal inference and machine-learning.
+
+
+## Our Approach
+
+We combine cutting-edge statistical methods with domain expertise to:
+
+1. Identify and state clearly defined causal questions (harder than it seems!)
+2. Design studies that can answer these questions
+3. Apply robust analytical techniques
+4. Communicate findings clearly
+
+## Contact
+
+For collaboration inquiries or more information about our work:
+
+**Email:** joseph.bulbulia@vuw.ac.nz  
+**Institution:** Victoria University of Wellington, New Zealand  
+**Location:** Easterfield Building, Room EA 324, Kelburn Campus  
+**X (Twitter):** [@prof_joe_](https://x.com/prof_joe_)  
+**Bluesky:** [epiclab.bsky.social](https://epiclab.bsky.social)
+
+### Lab Location
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| column: body-outset
+
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lng=174.7681, lat=-41.2889, 
+             popup="EPIC-lab<br>Easterfield Building EA 324<br>Victoria University of Wellington")
+```
+
+---
+
+## Funding Support
+
+The EPIC-lab gratefully acknowledges support from:
+
+**Templeton Religion Trust**
+
+- TRT-2022-30666: "Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities"
+  - Joseph Bulbulia (Contact PI) and Joseph Watts
+  
+- TRT-2022-30579: "A national longitudinal study of Muslim diversity and flourishing"
+  - Usman Afzali (Contact PI), Joseph Bulbulia (Co-PI)
+  
+- TRT0418: "New Zealand Attitudes and Values Study Matching Grant"
+  - Joseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton
+
+:::: {.columns}
+::: {.column width="60%"}
+![Victoria University of Wellington](images/logos/vuw-logo.jpg){height="120px"}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![Templeton Religion Trust](images/logos/trt-logo.png.pdf){height="120px"}
+:::
+::::
+
+*The EPIC-lab is based at Victoria University of Wellington, New Zealand.

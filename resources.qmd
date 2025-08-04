@@ -1,0 +1,60 @@
+---
+title: "Resources"
+---
+
+## Software & Tools
+
+### R Packages
+
+#### boilerplate
+[![CRAN status](https://www.r-pkg.org/badges/version/boilerplate)](https://CRAN.R-project.org/package=boilerplate)
+
+The `boilerplate` package provides tools for generating standardised boilerplate text and documentation for research projects. Available on CRAN.
+
+- [Documentation](https://go-bayes.github.io/boilerplate/)
+- [Source Code](https://github.com/go-bayes/boilerplate/)
+
+#### margot (migrating to margotverse)
+::: {.callout-warning}
+## Package Migration Notice
+The `margot` package is currently being restructured into the `margotverse` ecosystem. This migration will provide a more modular and maintainable framework for causal inference. Please check our GitHub for the latest updates.
+:::
+
+A comprehensive framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses.
+
+<!-- ### Tutorials -->
+
+<!-- - Getting started with causal inference -->
+<!-- - Introduction to doubly robust methods -->
+<!-- - Analysing heterogeneous treatment effects -->
+
+---
+
+## Educational Materials
+
+### Workshop Materials
+
+- [SPARCC Causal Inference Workshop](https://go-bayes.github.io/sparcc-day-2/)
+
+<!-- ### Reading Lists -->
+
+<!-- - Essential papers in causal inference -->
+<!-- - Recent advances in machine learning for causality -->
+
+<!-- --- -->
+
+<!-- ## External Resources -->
+
+<!-- ### Recommended Textbooks -->
+<!-- - *Causal Inference: What If* by Hernán & Robins -->
+
+
+<!-- ### Online Courses -->
+
+<!-- - Links to relevant MOOCs and online materials -->
+
+<!-- --- -->
+
+<!-- ## Code Examples -->
+
+<!-- Visit our [GitHub repository](https://github.com/go-bayes) for code examples and implementations. -->

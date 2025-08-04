@@ -1,0 +1,83 @@
+---
+title: "Presentations"
+---
+
+## 2025 Presentations
+
+### William Bier Interdisciplinary Award Lecture {#apa-bier-2025}
+
+::: {.presentation-container}
+::: {.presentation-header}
+**Title:** Who Benefits from Religious Attendance? Heterogeneous Causal Effects on Well-being and Cooperation in New Zealand  
+**Presenter:** Joseph Bulbulia  
+**Event:** William Bier Interdisciplinary Award, APA Division 36 Psychology of Religion  
+**Date:** 2025  
+**Time:** 11:30-12:30  
+**Location:** Convention Centre Street Level 208  
+:::
+
+::: {.presentation-meta}
+📍 Conference Presentation | 🕐 Duration: ~50 minutes | 📊 Format: HTML Slides
+:::
+
+::: {.presentation-embed}
+<iframe src="https://go-bayes.github.io/epic-presentations/2025/apa-bier/" 
+        width="100%" 
+        height="600px"
+        style="border: 1px solid #ddd; border-radius: 4px;">
+</iframe>
+:::
+
+**View Options:**
+- [Open in new tab](https://go-bayes.github.io/epic-presentations/2025/apa-bier/) (full screen)
+- [View all presentations](https://go-bayes.github.io/epic-presentations/) (presentations index)
+
+::: {.callout-note}
+## Alternative Viewing Options
+- **Download:** Use the download button in Dropbox to save a local copy
+- **Share:** Copy the Dropbox link to share with colleagues
+:::
+
+::: {.callout-tip}
+## Viewing Tips
+- For best viewing experience, open in full screen mode
+- Use arrow keys to navigate between slides
+- Press 'S' for speaker notes (if available)
+:::
+
+**Abstract:** This presentation examines who benefits from religious attendance using heterogeneous treatment effect methods applied to longitudinal data from New Zealand. We explore how the causal effects of religious participation on well-being and cooperation vary across different population subgroups, providing insights into when and for whom religious engagement promotes positive outcomes.
+
+**Keywords:** causal inference, heterogeneous effects, religion, well-being, cooperation, New Zealand
+
+### Venue Location
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| column: body-outset
+
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lng=-104.9956, lat=39.7431, 
+             popup="Colorado Convention Center<br>Street Level 208<br><a href='https://denverconvention.com/attend-an-event/venue-directory' target='_blank'>Venue Directory</a>")
+```
+:::
+
+---
+
+## 2024 Presentations
+
+*Coming soon...*
+
+---
+
+## Archive
+
+For older presentations (pre-2024), please contact the lab directly.
+
+::: {.callout-note}
+## Note on Large Files
+To keep our website fast and efficient, presentations are hosted externally on Dropbox. This allows us to share high-quality slides with embedded media while maintaining quick page load times.
+:::

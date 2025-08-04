@@ -1,0 +1,39 @@
+---
+title: "Research"
+---
+
+## Current Projects
+
+### Doubly Robust Methods for Longitudinal Data
+Developing machine learning methods that maintain causal interpretability in panel studies.
+
+### Heterogeneous Treatment Effects
+Investigating how policy impacts vary across different populations and contexts.
+
+### Sensitivity Analysis Frameworks
+Creating tools to assess the robustness of causal conclusions to unmeasured confounding.
+
+---
+
+## Publications
+
+### 2025
+*Publications will be listed here...*
+
+### 2024
+*Publications will be listed here...*
+
+---
+
+## Software
+
+We develop open-source software for causal inference:
+
+- **[Package Name]:** Description of the package and its capabilities
+- **[Tool Name]:** Description of the tool
+
+---
+
+## Preprints
+
+Access our latest working papers and preprints on [platform].

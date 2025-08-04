@@ -1,0 +1,51 @@
+# Generated files
+.quarto/
+_site/
+
+# Note: docs/ is NOT ignored - needed for GitHub Pages
+# But we still ignore other HTML/PDF files outside docs/
+/*.html
+/*.pdf
+*.pptx
+*.zip
+*.tar.gz
+
+# R/RStudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.last-update
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+package-lock.json
+/.quarto/
