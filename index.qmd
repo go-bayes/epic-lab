@@ -5,7 +5,7 @@ subtitle: "Evaluating Policy Implications with Causal-inference"
 
 ## Welcome to the EPIC-lab
 
-Understanding what truly drives human behavior is complex. When governments and organizations launch new programs, whether aimed at improving mental health, reducing prejudice, or encouraging sustainable choices, how do we know if they are actually working?
+Understanding what drives human behaviour is complex. When governments launch new programs, to improve mental health, to reduce prejudice, to encourage sustainable choices, how do we know if they work? 
 
 The EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating *whether* interventions work, *for whom*, and *in which contexts*.
 
@@ -22,28 +22,28 @@ We'd like to:
 
 ## Research Focus
 
-Our research spans several areas:
 
 :::: {.columns}
 
 ::: {.column width="60%"}
 ### Causal Methods in Social Science
 
-- Doubly robust machine learning
-- Causal forests and heterogeneous effects
-- Longitudinal causal inference
-- Sensitivity analysis
+- doubly robust machine learning
+- causal forests and heterogeneous treatment effects
+- longitudinal causal inference (multi-exposures)
+- sensitivity analysis
 :::
 
 ::: {.column width="40%"}
 ### Application Domains
 
-- Social policy evaluation
-- Public health interventions
-- Charities
-- Public trust
-- Environmental psychology
-- Religion
+- psychology of religion
+- social policy evaluation
+- public health interventions
+- charities
+- public trust
+- environmental psychology
+
 :::
 
 ::::

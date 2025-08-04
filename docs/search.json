@@ -81,14 +81,14 @@
     "href": "index.html",
     "title": "EPIC-lab",
     "section": "",
-    "text": "Understanding what truly drives human behavior is complex. When governments and organizations launch new programs, whether aimed at improving mental health, reducing prejudice, or encouraging sustainable choices, how do we know if they are actually working?\nThe EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating whether interventions work, for whom, and in which contexts.\nThe EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia."
+    "text": "Understanding what drives human behaviour is complex. When governments launch new programs, to improve mental health, to reduce prejudice, to encourage sustainable choices, how do we know if they work?\nThe EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating whether interventions work, for whom, and in which contexts.\nThe EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia."
   },
   {
     "objectID": "index.html#welcome-to-the-epic-lab",
     "href": "index.html#welcome-to-the-epic-lab",
     "title": "EPIC-lab",
     "section": "",
-    "text": "Understanding what truly drives human behavior is complex. When governments and organizations launch new programs, whether aimed at improving mental health, reducing prejudice, or encouraging sustainable choices, how do we know if they are actually working?\nThe EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating whether interventions work, for whom, and in which contexts.\nThe EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia."
+    "text": "Understanding what drives human behaviour is complex. When governments launch new programs, to improve mental health, to reduce prejudice, to encourage sustainable choices, how do we know if they work?\nThe EPIC-Lab specialises in distinguishing correlation from causation. We leverage methods for causal inference and causal machine learning to provide rigorous, data-driven answers to critical questions in psychological science and public policy. We are interested in quantitatively evaluating whether interventions work, for whom, and in which contexts.\nThe EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka. It is led by Prof. Joseph Bulbulia."
   },
   {
     "objectID": "index.html#our-mission",
@@ -102,7 +102,7 @@
     "href": "index.html#research-focus",
     "title": "EPIC-lab",
     "section": "Research Focus",
-    "text": "Research Focus\nOur research spans several areas:\n\n\n\nCausal Methods in Social Science\n\nDoubly robust machine learning\nCausal forests and heterogeneous effects\nLongitudinal causal inference\nSensitivity analysis\n\n\n\n\nApplication Domains\n\nSocial policy evaluation\nPublic health interventions\nCharities\nPublic trust\nEnvironmental psychology\nReligion"
+    "text": "Research Focus\n\n\n\nCausal Methods in Social Science\n\ndoubly robust machine learning\ncausal forests and heterogeneous treatment effects\nlongitudinal causal inference (multi-exposures)\nsensitivity analysis\n\n\n\n\nApplication Domains\n\npsychology of religion\nsocial policy evaluation\npublic health interventions\ncharities\npublic trust\nenvironmental psychology"
   },
   {
     "objectID": "index.html#featured-work",
