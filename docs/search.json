@@ -116,7 +116,7 @@
     "href": "index.html#get-involved",
     "title": "EPIC-lab",
     "section": "Get Involved",
-    "text": "Get Involved\nCheck out our Resources section for tools and materials to get started, and get in touch!\n\n\n\n\n\n\n\nNoteRecent News\n\n\n\nStay updated with our latest research, publications, and events in the News section."
+    "text": "Get Involved\nCheck out our about section to get in touch!\n\n\n\n\n\n\n\nNoteRecent News\n\n\n\nStay updated with our latest research, publications, and events in the News section."
   },
   {
     "objectID": "team.html",
@@ -186,7 +186,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Developing machine learning methods that maintain causal interpretability in panel studies.\n\n\n\nInvestigating how policy impacts vary across different populations and contexts.\n\n\n\nCreating tools to assess the robustness of causal conclusions to unmeasured confounding."
+    "text": "For a comprehensive and up-to-date list of publications, please visit:\n\nORCID Profile\nGoogle Scholar"
   },
   {
     "objectID": "research.html#current-projects",
@@ -207,7 +207,7 @@
     "href": "research.html#software",
     "title": "Research",
     "section": "Software",
-    "text": "Software\nWe develop open-source software for causal inference:\n\n[Package Name]: Description of the package and its capabilities\n[Tool Name]: Description of the tool"
+    "text": "Software\n\nboilerplate: A lightweight and flexible toolkit for reporting workflows and measures, for reproducible research\nJ. A. Bulbulia\nR package version 1.3.0, License: MIT, 2024\nPackage Website | CRAN | DOI\nmargot: MARGinal Observational Treatment-effects\nJ. A. Bulbulia\nR package version 0.2.3, License: CC BY 4.0, 2024\nPackage Website | DOI"
   },
   {
     "objectID": "research.html#preprints",
@@ -341,5 +341,33 @@
     "title": "About EPIC-lab",
     "section": "Our Mission",
     "text": "Our Mission\nWe bridge the gap between advanced quantitative methodology, psychological theory, and real-world application in New Zealand and globally.\n\nInnovate: advance causal inference methodology to address the unique challenges of psychological and behavioral research.\nImpact: partner with agencies and NGOs to rigorously evaluate the effectiveness of social and behavioral interventions.\nEmpower: develop and disseminate accessible statistical tools tailored for applied researchers and practitioners.\nTrain: mentor the next generation of psychological scientists in methods for causal inference and machine-learning."
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "EPIC-lab",
+    "section": "Resources",
+    "text": "Resources\nVisit our about section for tools and materials to get started."
+  },
+  {
+    "objectID": "research.html#complete-publication-list",
+    "href": "research.html#complete-publication-list",
+    "title": "Research",
+    "section": "",
+    "text": "For a comprehensive and up-to-date list of publications, please visit:\n\nORCID Profile\nGoogle Scholar"
+  },
+  {
+    "objectID": "research.html#selected-recent-publications",
+    "href": "research.html#selected-recent-publications",
+    "title": "Research",
+    "section": "Selected Recent Publications",
+    "text": "Selected Recent Publications\n\n2025 Preprints\n\nAn Invitation to Causal Inference in Environmental Psychology\nOSF Preprint\nBeyond Deficit Narratives: Religious Prejudice, Meaning, and Resilience in a National Sample of New Zealand Muslims\nOSF Preprint\n\n\n\n2024\n\nCausal effects of religious service attendance on charity and volunteering using novel measures from a national longitudinal panel\nBulbulia, J. A., Davis, D. E., Rice, K., Sibley, C. G., & Troughton, G.\nArchive for the Psychology of Religion 46(3), 244-267\nFull Text\nMethods in Causal Inference Series\n\nPart 1: Causal Diagrams and Confounding\nPart 2: Interaction, Mediation, and Time-Varying Treatments\n\nPart 3: Measurement Error and External Validity Threats\nPart 4: Confounding in Experiments\nEvolutionary Human Sciences, 6\n\nThe anatomy of prejudice during pandemic lockdowns: Evidence from a national panel study\nKempthorne, J., Yogeeswaran, K., Sibley, C. G., & Bulbulia, J. A.\nPLOS ONE, 19(5), 1–14\nFull Text\n\n\n\n2023\n\nA workflow for causal inference in cross-cultural psychology\nBulbulia, J. A.\nReligion, Brain & Behavior, 13(3), 291-306\nFull Text\nLong-term causal effects of far-right terrorism in New Zealand\nBulbulia, J. A., Afzali, M. U., Yogeeswaran, K., & Sibley, C. G.\nPNAS Nexus, 2(8), pgad242\nFull Text"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nVisit our GitHub for preprints and working papers.\n\n\n\n\n\n\n\nTipCitation Formats\n\n\n\nAll publications include DOI links when available. Click on any publication for full citation details and export options."
   }
 ]
