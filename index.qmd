@@ -5,11 +5,11 @@ subtitle: "Evaluating Policy Implications with Causal-inference"
 
 ## Welcome to the EPIC-lab
 
-Understanding the forces that shape human behaviour is a formidable challenge. When governments roll out new initiatives —  to strengthen mental health, reduce prejudice, or promote sustainable choices — how can we be sure they achieve their aims?
+Understanding the forces that shape human behaviour is formidable. How can we know what works? 
 
 EPIC‑Lab specialises in separating correlation from causation. We pair rigorous workflows for causal inference with machine learning to deliver robust, data‑driven answers to urgent questions in psychological science and public policy. We quantify *whether* interventions work, *for whom* they are most effective, and *under which circumstances* they provide benefit.
 
-The EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka.
+EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka.
 
 ## Our Mission
 
@@ -18,8 +18,7 @@ We'd like to:
 - **Advance causal inference methodology in the social sciences**, both in observational research and experimental design. 
 <!-- - **Bridge theory and practice** by developing accessible tools for social scientists -->
 - **Educate and mentor emerging scholars** through hands‑on training in modern causal methods  
-- **Foster collaboration** between researchers, policy-makers, and practitioners
-- **Promote evidence-based decision making** through robust causal analysis
+- **Promote evidence-based decision making** through robust causal analysis and collaboration between researchers, policy-makers, and practitioners
 
 ## Research Focus
 
@@ -31,19 +30,15 @@ We'd like to:
 
 - doubly robust machine learning
 - causal forests and heterogeneous treatment effects
-- longitudinal causal inference (multi-exposures)
-- sensitivity analysis
+- longitudinal modified treatment policies (multi-exposures)
 :::
 
 ::: {.column width="40%"}
 ### Application Domains
 
-- psychology of religion
-- social policy evaluation
-- public health interventions
-- charities
-- public trust
-- environmental psychology
+- policy evaluation
+- multi-dimensional flourishing 
+- individual differences
 
 :::
 
@@ -65,5 +60,5 @@ Check out our [about](about.qmd) section to get in touch!
 
 ::: {.callout-note}
 ## Recent News
-Stay updated with our latest research, publications, and events in the [News](news.qmd) section.
+Stay updated with our latest research, publications, and events in the [news](news.qmd) section.
 :::

@@ -7,8 +7,7 @@ title: "Resources"
 ### R Packages
 
 #### boilerplate
-[![CRAN status](https://www.r-pkg.org/badges/version/boilerplate)](https://cran.r-project.org/web/packages/boilerplate)
-The `boilerplate` package provides tools for generating standardised boilerplate text and documentation for research projects. Available on CRAN.
+The `boilerplate` package provides tools for generating standardised boilerplate text and documentation for research projects. Available on [CRAN](https://cran.r-project.org/web/packages/boilerplate/index.html).
 
 - [Documentation](https://go-bayes.github.io/boilerplate/)
 - [Source Code](https://github.com/go-bayes/boilerplate/)
