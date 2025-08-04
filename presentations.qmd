@@ -21,6 +21,7 @@ title: "Presentations"
 :::
 
 ::: {.presentation-embed}
+```{=html}
 <div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
     <h3>🎯 View Presentation</h3>
     <p>This presentation is hosted on Dropbox for optimal performance.</p>
@@ -28,6 +29,7 @@ title: "Presentations"
         Open Presentation
     </a>
 </div>
+```
 :::
 
 ::: {.callout-note}
