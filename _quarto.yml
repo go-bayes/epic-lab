@@ -36,8 +36,8 @@ website:
         href: resources.qmd
       - text: "News"
         href: news.qmd
-      - text: "Publications"
-        href: publications.qmd
+      - text: "Reports"
+        href: reports.qmd
     right:
       - icon: github
         href: "https://github.com/go-bayes"
