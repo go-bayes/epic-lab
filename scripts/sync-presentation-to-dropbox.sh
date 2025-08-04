@@ -5,8 +5,9 @@
 
 # Configuration
 SOURCE_FILE="/Users/joseph/GIT/epic-pubs/2025/talks/25-BULBULIA-APA-BIER.html"
-DEST_DIR="/Users/joseph/GIT/epic-presentations/2025/apa-bier"
-DEST_FILE="$DEST_DIR/index.html"
+DROPBOX_DIR="/Users/joseph/v-project Dropbox/data/epic-lab-presentations/2025/apa-bier"
+DEST_FILE="$DROPBOX_DIR/index.html"
+# Keep git repo path for potential redirect file
 PRESENTATIONS_REPO="/Users/joseph/GIT/epic-presentations"
 
 # Colours for output
@@ -24,7 +25,7 @@ if [ ! -f "$SOURCE_FILE" ]; then
 fi
 
 # Create destination directory if it doesn't exist
-mkdir -p "$DEST_DIR"
+mkdir -p "$DROPBOX_DIR"
 
 # Get file sizes for comparison
 if [ -f "$DEST_FILE" ]; then
@@ -53,35 +54,16 @@ if [ $? -eq 0 ]; then
     SIZE=$(du -h "$DEST_FILE" | cut -f1)
     echo "📊 File size: $SIZE"
     
-    # Offer to commit and push
     echo ""
-    echo "Would you like to commit and push to GitHub? (y/n)"
-    read -r response
-    
-    if [[ "$response" =~ ^[Yy]$ ]]; then
-        cd "$PRESENTATIONS_REPO"
-        
-        # Check git status
-        if git diff --quiet HEAD -- "$DEST_FILE" 2>/dev/null; then
-            echo -e "${YELLOW}No changes to commit${NC}"
-        else
-            git add "$DEST_FILE"
-            git commit -m "Update APA-BIER presentation"
-            
-            echo "🚀 Pushing to GitHub..."
-            git push
-            
-            if [ $? -eq 0 ]; then
-                echo -e "${GREEN}✅ Successfully pushed to GitHub${NC}"
-                echo "🌐 Presentation will be live at:"
-                echo "   https://go-bayes.github.io/epic-presentations/2025/apa-bier/"
-            else
-                echo -e "${RED}❌ Push failed. Please push manually.${NC}"
-            fi
-        fi
-    else
-        echo "ℹ️  Skipping git commit. You can commit manually later."
-    fi
+    echo -e "${GREEN}✅ Presentation synced to Dropbox!${NC}"
+    echo "📁 Location: $DROPBOX_DIR"
+    echo ""
+    echo "📤 Next steps:"
+    echo "1. The file is now in your Dropbox folder"
+    echo "2. Get the Dropbox share link for the presentation"
+    echo "3. Update the epic-lab presentations page with the Dropbox link"
+    echo ""
+    echo "💡 Tip: Right-click the file in Dropbox and select 'Copy Dropbox Link'"
 else
     echo -e "${RED}❌ Error: Failed to copy presentation${NC}"
     exit 1
