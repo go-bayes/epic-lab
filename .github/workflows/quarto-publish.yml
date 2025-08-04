@@ -18,10 +18,17 @@ jobs:
       with:
         r-version: '4.3.0'
 
-    - name: Install R packages
+    - name: Install system dependencies
       run: |
-        install.packages(c('rmarkdown', 'leaflet'))
-      shell: Rscript {0}
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+
+    - name: Install R packages
+      uses: r-lib/actions/setup-r-dependencies@v2
+      with:
+        packages: |
+          any::rmarkdown
+          any::leaflet
 
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
