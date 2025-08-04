@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://go-bayes.github.io/epic-lab/resources.html</loc>
-    <lastmod>2025-08-04T04:02:38.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://go-bayes.github.io/epic-lab/about.html</loc>
-    <lastmod>2025-08-04T03:21:46.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://go-bayes.github.io/epic-lab/reports.html</loc>
-    <lastmod>2025-08-04T04:58:03.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://go-bayes.github.io/epic-lab/team.html</loc>
-    <lastmod>2025-08-04T03:54:32.653Z</lastmod>
+    <loc>https://go-bayes.github.io/epic-lab/presentations.html</loc>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
   </url>
   <url>
     <loc>https://go-bayes.github.io/epic-lab/research.html</loc>
-    <lastmod>2025-08-04T04:41:12.101Z</lastmod>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
   </url>
   <url>
-    <loc>https://go-bayes.github.io/epic-lab/news.html</loc>
-    <lastmod>2025-08-04T03:12:17.965Z</lastmod>
+    <loc>https://go-bayes.github.io/epic-lab/resources.html</loc>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
   </url>
   <url>
     <loc>https://go-bayes.github.io/epic-lab/index.html</loc>
-    <lastmod>2025-08-04T05:04:42.596Z</lastmod>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
   </url>
   <url>
-    <loc>https://go-bayes.github.io/epic-lab/presentations.html</loc>
-    <lastmod>2025-08-04T03:46:37.868Z</lastmod>
+    <loc>https://go-bayes.github.io/epic-lab/about.html</loc>
+    <lastmod>2025-08-04T05:41:32.395Z</lastmod>
+  </url>
+  <url>
+    <loc>https://go-bayes.github.io/epic-lab/reports.html</loc>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://go-bayes.github.io/epic-lab/news.html</loc>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://go-bayes.github.io/epic-lab/team.html</loc>
+    <lastmod>2025-08-04T05:41:32.428Z</lastmod>
   </url>
 </urlset>
