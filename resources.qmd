@@ -7,14 +7,17 @@ title: "Resources"
 ### R Packages
 
 #### boilerplate
-[![CRAN status](https://www.r-pkg.org/badges/version/boilerplate)](https://CRAN.R-project.org/package=boilerplate)
-
+[![CRAN status](https://www.r-pkg.org/badges/version/boilerplate)](https://cran.r-project.org/web/packages/boilerplate)
 The `boilerplate` package provides tools for generating standardised boilerplate text and documentation for research projects. Available on CRAN.
 
 - [Documentation](https://go-bayes.github.io/boilerplate/)
 - [Source Code](https://github.com/go-bayes/boilerplate/)
 
 #### margot (migrating to margotverse)
+
+- [Documentation](https://go-bayes.github.io/margot/)
+- [Source Code](https://github.com/go-bayes/margot/)
+
 ::: {.callout-warning}
 ## Package Migration Notice
 The `margot` package is currently being restructured into the `margotverse` ecosystem. This migration will provide a more modular and maintainable framework for causal inference. Please check our GitHub for the latest updates.
