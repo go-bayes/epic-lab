@@ -9,7 +9,7 @@ Access our collection of research reports, working papers, and detailed analyses
 ### Report Collections
 
 ::: {.callout-note}
-## 📊 General Research Reports
+## General Research Reports  (Previous Reports Page)
 **[Browse General Reports →](https://go-bayes.github.io/reports/)**
 
 Our main repository of research reports covering:
@@ -22,7 +22,7 @@ Our main repository of research reports covering:
 :::
 
 ::: {.callout-note}
-## 🎯 B-Causal: Causal Inference Resources
+## B-Causal: Causal Inference Resources (Previous Lab)
 **[Browse B-Causal Reports →](https://go-bayes.github.io/b-causal/)**
 
 Specialised resources for causal inference including:
