@@ -16,7 +16,8 @@ The EPIC-lab is based at the School of Psychological Sciences at Victoria Univer
 We'd like to:
 
 - **Advance causal inference methodology in the social sciences**, both in observational research and experimental design. 
-- **Bridge theory and practice** by developing accessible tools for social scientists
+<!-- - **Bridge theory and practice** by developing accessible tools for social scientists -->
+- **Educate and mentor emerging scholars** through hands‑on training in modern causal methods  
 - **Foster collaboration** between researchers, policy-makers, and practitioners
 - **Promote evidence-based decision making** through robust causal analysis
 
