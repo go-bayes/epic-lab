@@ -5,20 +5,15 @@ subtitle: "Evaluating Policy Implications with Causal-inference"
 
 ## Welcome to the EPIC-lab
 
-Understanding the forces that shape human behaviour is formidable. How can we know what works? 
-
-EPIC‑Lab specialises in separating correlation from causation. We pair rigorous workflows for causal inference with machine learning to deliver robust, data‑driven answers to urgent questions in psychological science and public policy. We quantify *whether* interventions work, *for whom* they are most effective, and *under which circumstances* they provide benefit.
-
-EPIC-lab is based at the School of Psychological Sciences at Victoria University of Wellington—Te Herenga Waka.
+Disentangling the forces that shape human behaviour is like trying to isolate a single voice in a choir; simple observation reveals the music, but not who is singing which part. EPIC-Lab (**E**valuating **P**olicy **I**mplications with **C**ausal-inference) isolates that single voice. We pair the rigorous logic of causal inference with the predictive power of machine learning to quantify *whether* interventions work, *for whom* they are most effective, and *under which* circumstances they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington-Te Herenga Waka, New Zealand.
 
 ## Our Mission
 
-We'd like to:
 
-- **Advance causal inference methodology in the social sciences**, both in observational research and experimental design. 
+1. **Advance causal inference in the social sciences**, both in observational research and experimental design. 
 <!-- - **Bridge theory and practice** by developing accessible tools for social scientists -->
-- **Educate and mentor emerging scholars** through hands‑on training in modern causal methods  
-- **Promote evidence-based decision making** through robust causal analysis and collaboration between researchers, policy-makers, and practitioners
+2. **Educate scholars** through hands‑on training in modern causal methods  
+3. **Promote evidence-based decision making** through robust causal workflows and collaboration with experts. 
 
 ## Research Focus
 
@@ -36,9 +31,9 @@ We'd like to:
 ::: {.column width="40%"}
 ### Application Domains
 
-- policy evaluation
-- multi-dimensional flourishing 
-- individual differences
+- Civic Virtues
+- Institutional Trust
+- Individual Differences
 
 :::
 

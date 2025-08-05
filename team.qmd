@@ -2,9 +2,9 @@
 title: "Team"
 ---
 
-## Principal Investigator
+## Director
 
-### Joseph Bulbulia
+### Professor Joseph Bulbulia
 
 :::: {.team-member}
 ::: {.columns}
@@ -14,22 +14,23 @@ title: "Team"
 :::
 
 ::: {.column width="75%"}
-*Director, EPIC-lab*  
-📧 joseph.bulbulia@vuw.ac.nz  
-🔗 [University Profile](https://people.wgtn.ac.nz/joseph.bulbulia)
+**Director, EPIC-lab**: 📧 joseph.bulbulia@vuw.ac.nz  
+🔗 [University Profile](https://people.wgtn.ac.nz/joseph.bulbulia) [Full CV](https://www.dropbox.com/scl/fi/jtlekxwxf05rfu1dw5hw9/bulbulia-j-a-cv.pdf?rlkey=4mink1sq6hftvje39t4y53s46&dl=0)
 
-Joseph Bulbulia is a Professor at the School of Psychology at Victoria University of Wellington, New Zealand. He leads the EPIC-lab and directs the Centre for Applied Cross-Cultural Research (CACR).
 
-His research interests include religion, cooperation, and conflict, with a specialisation in methodologies for inferring causality from observational data.
+Professor Joseph Bulbulia teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPIC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).
+
 :::
 
 :::
 ::::
 
-#### Main Projects
+**Research Projects**
+Joseph's methodological focus is applied through his leadership roles in two major longitudinal projects:
 
-- **New Zealand Attitudes and Values Study (NZAVS):** Joseph is one of four members of the senior leadership team for the NZAVS, a longitudinal study that has measured the attitudes and values of 76,490 New Zealanders since 2009.
-- **Pulotu Database:** He is a founding investigator for the Pulotu database. This project encompasses 116 Austronesian cultures and was purpose-built to study the evolution of religious beliefs and rituals during Pacific expansions and settlements.
+1. **New Zealand Attitudes and Values Study (NZAVS)**: as a member of the senior leadership team and principle investigator on the study's largest projects, Joseph uses 15-years of repeated measures longitudinal data from over 76,000+ New Zealanders to o model the drivers of social and political change.
+
+2. **Pulotu Database of Pacific Religions**: as a founding co-investigator, Joseph uses this database of 116 Austronesian cultures to test theories about the evolution of religious beliefs and their effects on social behaviour.
 
 #### Supervision
 
@@ -46,7 +47,6 @@ When not working, Joseph is an avid distance runner.
 
 #### CV
 
-[View Joseph Bulbulia's CV](https://www.dropbox.com/scl/fi/jtlekxwxf05rfu1dw5hw9/bulbulia-j-a-cv.pdf?rlkey=4mink1sq6hftvje39t4y53s46&dl=0)
 
 ---
 
