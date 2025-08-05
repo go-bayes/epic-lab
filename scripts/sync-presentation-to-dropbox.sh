@@ -58,12 +58,31 @@ if [ $? -eq 0 ]; then
     echo -e "${GREEN}✅ Presentation synced to Dropbox!${NC}"
     echo "📁 Location: $DROPBOX_DIR"
     echo ""
-    echo "📤 Next steps:"
-    echo "1. The file is now in your Dropbox folder"
-    echo "2. Get the Dropbox share link for the presentation"
-    echo "3. Update the epic-lab presentations page with the Dropbox link"
+    
+    # Update the website
+    echo "🔄 Updating website..."
+    cd "/Users/joseph/GIT/epic-lab"
+    
+    # Render the presentations page
+    if command -v quarto &> /dev/null; then
+        quarto render presentations.qmd
+        
+        if [ $? -eq 0 ]; then
+            echo -e "${GREEN}✅ Website updated successfully${NC}"
+        else
+            echo -e "${YELLOW}⚠️  Website update failed. Run 'quarto render presentations.qmd' manually${NC}"
+        fi
+    else
+        echo -e "${YELLOW}⚠️  Quarto not found. Please update the website manually${NC}"
+    fi
+    
     echo ""
-    echo "💡 Tip: Right-click the file in Dropbox and select 'Copy Dropbox Link'"
+    echo "📤 All done! Your presentation is:"
+    echo "1. ✅ Synced to Dropbox"
+    echo "2. ✅ Website updated (if Quarto is installed)"
+    echo ""
+    echo "🌐 View your presentation at:"
+    echo "   https://go-bayes.github.io/epic-lab/presentations.html"
 else
     echo -e "${RED}❌ Error: Failed to copy presentation${NC}"
     exit 1
