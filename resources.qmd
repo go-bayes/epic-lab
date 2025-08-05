@@ -166,7 +166,7 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 #### How Do We Learn What Works?
 *Miguel Hernán*
 
-{{< video https://www.youtube.com/watch?v=bspMnt3ujYA&t=1499s >}}
+{{< video https://www.youtube.com/watch?v=NsVDfKiVGPc >}}
 :::
 
 ::: {.column width="50%"}

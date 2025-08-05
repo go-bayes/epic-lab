@@ -9,15 +9,13 @@ The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed
 
 ## Our Approach
 
-We combine cutting-edge statistical methods with domain expertise to:
+We combine causal inference workflows with domain expertise to:
 
-1. Identify and state clearly defined causal questions (harder than it seems)
-2. Design principled studies based on clear workflows that can answer these questions (also tricky)
-3. Communicate technical findings clearly.
+1. Identify and state clearly defined causal questions
+2. Design studies that answer these questions
+3. Clearly communicate findings
 
 ## Contact
-
-For collaboration inquiries or more information about our work:
 
 **Email:** joseph.bulbulia@vuw.ac.nz  
 **Institution:** Victoria University of Wellington, New Zealand  
@@ -25,7 +23,7 @@ For collaboration inquiries or more information about our work:
 **X (Twitter):** [@prof_joe_](https://x.com/prof_joe_)  
 **Bluesky:** [epiclab.bsky.social](https://epiclab.bsky.social)
 
-### Lab Location
+### Location
 
 ```{r}
 #| echo: false
@@ -42,7 +40,7 @@ leaflet() %>%
 
 ---
 
-## Funding Support
+## Funding
 
 The EPIC-lab gratefully acknowledges support from:
 
