@@ -108,7 +108,7 @@ Jake graduated with a Bachelor of Science in Psychology and Mathematics from Vic
 :::
 
 ::: {.column width="75%"}
-Jesse is investigating individual differences in personal resilience related to poverty.
+Jessie is investigating individual differences in personal resilience related to poverty.
 
 - **Project:** New Zealand Attitudes and Values Study (NZAVS)
 - **Methods:** Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning

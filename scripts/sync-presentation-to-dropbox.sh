@@ -25,7 +25,28 @@ if [ ! -f "$SOURCE_FILE" ]; then
 fi
 
 # Create destination directory if it doesn't exist
-mkdir -p "$DROPBOX_DIR"
+echo "📁 Checking Dropbox directory..."
+if ! mkdir -p "$DROPBOX_DIR" 2>/dev/null; then
+    echo -e "${RED}❌ Error: Cannot create/access Dropbox directory${NC}"
+    echo -e "${RED}   Path: $DROPBOX_DIR${NC}"
+    echo -e "${YELLOW}💡 This could be a Dropbox Teams permissions issue${NC}"
+    echo -e "${YELLOW}   Check your Teams admin settings or contact your admin${NC}"
+    exit 1
+fi
+
+# Test write permissions
+TEST_FILE="$DROPBOX_DIR/.write-test-$$"
+if ! touch "$TEST_FILE" 2>/dev/null; then
+    echo -e "${RED}❌ Error: No write permissions in Dropbox directory${NC}"
+    echo -e "${RED}   Path: $DROPBOX_DIR${NC}"
+    echo -e "${YELLOW}💡 Possible causes:${NC}"
+    echo -e "${YELLOW}   - Dropbox Teams folder restrictions${NC}"
+    echo -e "${YELLOW}   - macOS security permissions${NC}"
+    echo -e "${YELLOW}   - Dropbox sync issues${NC}"
+    exit 1
+else
+    rm -f "$TEST_FILE"
+fi
 
 # Get file sizes for comparison
 if [ -f "$DEST_FILE" ]; then
@@ -43,12 +64,50 @@ if [ -f "$DEST_FILE" ]; then
     fi
 fi
 
+# Create backup if destination exists
+if [ -f "$DEST_FILE" ]; then
+    BACKUP_FILE="${DEST_FILE}.backup"
+    echo "🔒 Creating backup at $BACKUP_FILE"
+    cp "$DEST_FILE" "$BACKUP_FILE"
+fi
+
 # Copy the file
 echo "📋 Copying presentation..."
-cp "$SOURCE_FILE" "$DEST_FILE"
+if ! cp "$SOURCE_FILE" "$DEST_FILE" 2>&1; then
+    echo -e "${RED}❌ Error: Failed to copy file to Dropbox${NC}"
+    echo -e "${RED}   This could be due to:${NC}"
+    echo -e "${RED}   - Dropbox Teams folder permissions${NC}"
+    echo -e "${RED}   - Dropbox sync issues${NC}"
+    echo -e "${RED}   - Disk space limitations${NC}"
+    echo -e "${YELLOW}💡 Try:${NC}"
+    echo -e "${YELLOW}   1. Check Dropbox app is running and synced${NC}"
+    echo -e "${YELLOW}   2. Verify you have write permissions in Teams admin console${NC}"
+    echo -e "${YELLOW}   3. Check available disk space${NC}"
+    exit 1
+fi
 
-if [ $? -eq 0 ]; then
-    echo -e "${GREEN}✅ Presentation copied successfully${NC}"
+echo -e "${GREEN}✅ Presentation copied successfully${NC}"
+    
+    # Verify the file was copied correctly
+    if [ -f "$DEST_FILE" ]; then
+        NEW_HASH=$(shasum -a 256 "$DEST_FILE" | cut -d' ' -f1)
+        SOURCE_HASH=$(shasum -a 256 "$SOURCE_FILE" | cut -d' ' -f1)
+        
+        if [ "$NEW_HASH" != "$SOURCE_HASH" ]; then
+            echo -e "${RED}❌ Error: File integrity check failed!${NC}"
+            # Restore backup if it exists
+            if [ -f "${DEST_FILE}.backup" ]; then
+                echo "🔄 Restoring from backup..."
+                mv "${DEST_FILE}.backup" "$DEST_FILE"
+            fi
+            exit 1
+        fi
+        
+        # Remove backup after successful verification
+        if [ -f "${DEST_FILE}.backup" ]; then
+            rm "${DEST_FILE}.backup"
+        fi
+    fi
     
     # Show file size
     SIZE=$(du -h "$DEST_FILE" | cut -f1)
