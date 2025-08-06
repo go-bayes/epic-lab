@@ -17,7 +17,7 @@ title: "Presentations"
 :::
 
 ::: {.presentation-meta}
-📍 Conference Presentation | 🕐 Duration: ~50 minutes | 📊 Format: HTML Slides
+Conference Presentation | Duration: ~50 minutes | Format: HTML Slides
 :::
 
 ::: {.presentation-embed}
@@ -34,23 +34,23 @@ title: "Presentations"
 
 ::: {.callout-note}
 ## Alternative Viewing Options
-- **Download:** Use the download button in Dropbox to save a local copy
-- **Share:** Copy the Dropbox link to share with colleagues
+- **Download:** Use the download button in Dropbox to save a local copy. Renders best in Google Chrome.
 :::
 
 ::: {.callout-tip}
 ## Viewing Tips
-- For best viewing experience, open in full screen mode
+- Open in full screen mode
 - Use arrow keys to navigate between slides
 - Press 'S' for speaker notes (if available)
 :::
 
-**Abstract:** This presentation examines who benefits from religious attendance using heterogeneous treatment effect methods applied to longitudinal data from New Zealand. We explore how the causal effects of religious participation on well-being and cooperation vary across different population subgroups, providing insights into when and for whom religious engagement promotes positive outcomes.
+**Abstract:** This presentation examines who benefits from religious attendance using heterogeneous treatment effect methods applied to longitudinal data from New Zealand. We explore how the causal effects of religious participation on well-being and cooperation vary across different population subgroups, providing insights into when and for whom religious engagement promotes positive outcomes. The study links two literatures on religious attendance that have developed independently: health and cooperation.
 
-**Keywords:** causal inference, heterogeneous effects, religion, well-being, cooperation, New Zealand
+**Keywords:** causal inference, heterogeneous effects, religion, well-being, cooperation, longitudinal, panel, New Zealand
 
 ### Venue Location
 
+:::
 ```{r}
 #| echo: false
 #| message: false
@@ -67,17 +67,15 @@ leaflet() %>%
 
 ---
 
-## 2024 Presentations
+## Archive of Presentations
 
 *Coming soon...*
 
 ---
 
-## Archive
 
-For older presentations (pre-2024), please contact the lab directly.
 
-::: {.callout-note}
-## Note on Large Files
-To keep our website fast and efficient, presentations are hosted externally on Dropbox. This allows us to share high-quality slides with embedded media while maintaining quick page load times.
-:::
+<!-- ::: {.callout-note} -->
+<!-- ## Note on Large Files -->
+<!-- To keep our website fast and efficient, presentations are hosted externally on Dropbox. This allows us to share high-quality slides with embedded media while maintaining quick page load times. -->
+<!-- ::: -->
