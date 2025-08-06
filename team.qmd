@@ -105,7 +105,7 @@ Jake graduated with a Bachelor of Science in Psychology and Mathematics from Vic
 ::: {.columns}
 
 ::: {.column width="25%"}
-![Jesse Auckrman](images/team/jesse-auckerman.jpg){.team-photo}
+![Jessie Auckram](images/team/jessie-auckram.jpg){.team-photo}
 :::
 
 ::: {.column width="75%"}
