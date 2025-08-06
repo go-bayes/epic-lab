@@ -46,7 +46,7 @@
     "href": "resources.html#reference-texts",
     "title": "Resources",
     "section": "Reference Texts",
-    "text": "Reference Texts\n\nCore Textbooks\n\n\nCausal Inference: What If\nMiguel A. Hernán & James M. Robins\nFree PDF • The definitive text on causal inference methods\nIntroduction to Causal Inference\nBrady Neal\nFree Online Course • Modern introduction with code examples\n\nMethodology in Cross-Cultural Psychology\nFons J.R. van de Vijver & Kwok Leung\nCambridge University Press • Essential for cross-cultural research\nThe Effect: An Introduction to Research Design and Causality\nNick Huntington-Klein\nFree Online • Practical guide with visualizations\n\n\n\n\nAdditional Resources\n\nStatistical Rethinking by Richard McElreath - Bayesian approach to causal inference\nCounterfactuals and Causal Inference by Morgan & Winship - Social science applications\nTargeted Learning by van der Laan & Rose - Machine learning for causal inference"
+    "text": "Reference Texts\n\nCore Textbooks\n\n\nCausal Inference: What If\nMiguel A. Hernán & James M. Robins\nFree Book & Resources • The definitive text on causal inference methods with code examples\nIntroduction to Causal Inference\nBrady Neal\nFree Online Course • Modern introduction with code examples\n\nMethodology in Cross-Cultural Psychology\nFons J.R. van de Vijver & Kwok Leung\nCambridge University Press • Essential for cross-cultural research\nThe Effect: An Introduction to Research Design and Causality\nNick Huntington-Klein\nFree Online • Practical guide with visualizations\n\n\n\n\nAdditional Resources\n\nStatistical Rethinking by Richard McElreath - Bayesian approach to causal inference\nCounterfactuals and Causal Inference by Morgan & Winship - Social science applications\nTargeted Learning by van der Laan & Rose - Machine learning for causal inference"
   },
   {
     "objectID": "resources.html#quick-reference",
@@ -320,5 +320,12 @@
     "title": "About EPIC-lab",
     "section": "Funding",
     "text": "Funding\nThe EPIC-lab gratefully acknowledges support from:\nTempleton Religion Trust\n\nTRT-2022-30666: “Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities”\n\nJoseph Bulbulia (Contact PI) and Joseph Watts\n\nTRT-2022-30579: “A national longitudinal study of Muslim diversity and flourishing”\n\nUsman Afzali (Contact PI), Joseph Bulbulia (Co-PI)\n\nTRT0418: “New Zealand Attitudes and Values Study Matching Grant”\n\nJoseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton\n\n\n\n\n\n\n\nVictoria University of Wellington\n\n\n\n\n\n\n\n\n\nTempleton Religion Trust\n\n\n\n\n*The EPIC-lab is based at Victoria University of Wellington, New Zealand."
+  },
+  {
+    "objectID": "resources.html#online-resources",
+    "href": "resources.html#online-resources",
+    "title": "Resources",
+    "section": "Online Resources",
+    "text": "Online Resources\n\nSeminars & Lectures\nOnline Causal Inference Seminar\nA comprehensive collection of talks by leading researchers in causal inference\nYouTube Channel • Weekly seminars covering cutting-edge methods and applications\n\n\nPodcasts\n\n\nCasual Inference\nEllie Murray & Lucy D’Agostino McGowan\nApple Podcasts\nA lighthearted podcast about causal inference methods and applications\n\nSERious Epi\nSue Bevan & Matthew Fox\nApple Podcasts\nEpidemiology and causal inference discussions with leading researchers"
   }
 ]
