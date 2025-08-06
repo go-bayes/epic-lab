@@ -292,34 +292,6 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 
 ---
 
-## Online Resources
-
-### Seminars & Lectures
-
-**Online Causal Inference Seminar**  
-A comprehensive collection of talks by leading researchers in causal inference  
-[YouTube Channel](https://www.youtube.com/@onlinecausalinferencesemin2364) • Weekly seminars covering cutting-edge methods and applications
-
-### Podcasts
-
-:::: {.columns}
-::: {.column width="50%"}
-**Casual Inference**  
-*Ellie Murray & Lucy D'Agostino McGowan*  
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/casual-inference/id1485892859)  
-A lighthearted podcast about causal inference methods and applications
-:::
-
-::: {.column width="50%"}
-**SERious Epi**  
-*Sue Bevan & Matthew Fox*  
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/serious-epi/id1520680479)  
-Epidemiology and causal inference discussions with leading researchers
-:::
-::::
-
----
-
 ## Quick Reference
 
 ::: {.callout-note}
