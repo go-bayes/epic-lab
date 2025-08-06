@@ -135,6 +135,17 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 **Outcome-Wide Approaches**
 - VanderWeele, T.J. et al. (2020). [Outcome-Wide Longitudinal Designs](https://www.dropbox.com/scl/fi/srpynr0dvjcndveplcydn/OutcomeWide_StatisticalScience.pdf?rlkey=h4fv32oyjegdfl3jq9u1fifc3&dl=0) 🟡
 
+### Heterogeneous Treatment Effects
+
+**Key Papers**
+- Athey, S. & Wager, S. (2019). [Estimating Treatment Effects with Causal Forests: An Application](https://arxiv.org/pdf/1902.07409.pdf) 🟡
+- Wager, S. & Athey, S. (2018). [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests](https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1319839) 🔴
+- Künzel, S.R. et al. (2019). [Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning](https://www.pnas.org/doi/10.1073/pnas.1804597116) 🟡
+
+**Practical Applications**
+- Davis, J. & Heller, S.B. (2017). [Using Causal Forests to Predict Treatment Heterogeneity](https://arxiv.org/pdf/1707.02641.pdf) 🟢
+- Athey, S. & Imbens, G.W. (2016). [Recursive Partitioning for Heterogeneous Causal Effects](https://www.pnas.org/doi/10.1073/pnas.1510489113) 🟡
+
 :::
 
 ---
@@ -159,6 +170,40 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 :::
 ::::
 
+### Causal Inference Methods
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Synthetic Control Methods
+*Alberto Abadie*
+
+{{< video https://www.youtube.com/watch?v=nKzNp-qpE-I&list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&index=11 >}}
+:::
+
+::: {.column width="50%"}
+#### Difference-in-Differences
+*Paul Goldsmith-Pinkham*
+
+{{< video https://www.youtube.com/watch?v=2nDgrNP7XSE&list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&index=10 >}}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Instrumental Variables
+*Brady Neal*
+
+{{< video https://www.youtube.com/watch?v=B0SRWteGoOw&list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&index=9 >}}
+:::
+
+::: {.column width="50%"}
+#### Problems with Mediation Analysis
+*Tyler VanderWeele*
+
+{{< video https://www.youtube.com/watch?v=IgC7R07Qk6A&t=953s >}}
+:::
+::::
+
 ### Advanced Topics
 
 :::: {.columns}
@@ -179,19 +224,26 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 
 ### Specialized Topics
 
-:::: {.columns}
-::: {.column width="50%"}
-#### The Problem of Mediation Analysis
-*Stijn Vansteelandt*
-
-{{< video https://www.youtube.com/watch?v=IgC7R07Qk6A >}}
-:::
-
-::: {.column width="50%"}
 #### Causal Inference Workflows
 *Stijn Vansteelandt & Betsy Ogburn*
 
 {{< video https://www.youtube.com/watch?v=DkyNCJLWqUg&t=2827s >}}
+
+### Heterogeneous Treatment Effects
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Introduction to Causal Forests
+*Susan Athey & Stefan Wager*
+
+{{< video https://www.youtube.com/watch?v=YBbnCDRCcAI&t=1241s >}}
+:::
+
+::: {.column width="50%"}
+#### Technical Deep Dive: Causal Forests
+*Stefan Wager*
+
+{{< video https://www.youtube.com/watch?v=lBW4fwjCF44 >}}
 :::
 ::::
 
@@ -214,7 +266,7 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 ::: {.column width="50%"}
 **Causal Inference: What If**  
 *Miguel A. Hernán & James M. Robins*  
-[Free PDF](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) • The definitive text on causal inference methods
+[Free Book & Resources](https://miguelhernan.org/whatifbook) • The definitive text on causal inference methods with code examples
 
 **Introduction to Causal Inference**  
 *Brady Neal*  
@@ -237,6 +289,34 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 - **Statistical Rethinking** by Richard McElreath - Bayesian approach to causal inference
 - **Counterfactuals and Causal Inference** by Morgan & Winship - Social science applications
 - **Targeted Learning** by van der Laan & Rose - Machine learning for causal inference
+
+---
+
+## Online Resources
+
+### Seminars & Lectures
+
+**Online Causal Inference Seminar**  
+A comprehensive collection of talks by leading researchers in causal inference  
+[YouTube Channel](https://www.youtube.com/@onlinecausalinferencesemin2364) • Weekly seminars covering cutting-edge methods and applications
+
+### Podcasts
+
+:::: {.columns}
+::: {.column width="50%"}
+**Casual Inference**  
+*Ellie Murray & Lucy D'Agostino McGowan*  
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/casual-inference/id1485892859)  
+A lighthearted podcast about causal inference methods and applications
+:::
+
+::: {.column width="50%"}
+**SERious Epi**  
+*Sue Bevan & Matthew Fox*  
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/serious-epi/id1520680479)  
+Epidemiology and causal inference discussions with leading researchers
+:::
+::::
 
 ---
 
