@@ -50,7 +50,6 @@ Conference Presentation | Duration: ~50 minutes | Format: HTML Slides
 
 ### Venue Location
 
-:::
 ```{r}
 #| echo: false
 #| message: false
