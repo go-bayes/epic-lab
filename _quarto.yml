@@ -34,6 +34,8 @@ website:
         href: research.qmd
       - text: "Resources"
         href: resources.qmd
+      - text: "Discussion Points"
+        href: discussion-points.qmd
       - text: "News"
         href: news.qmd
       - text: "Reports"
