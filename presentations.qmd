@@ -164,6 +164,28 @@ Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
 ### Workshop Context
 
 These presentations were delivered as part of SPARCC Day 2, a methods workshop focusing on advanced statistical techniques for studying religion, spirituality, and social behaviour. The sessions covered practical applications of causal inference methods using real-world longitudinal data, progressing from average treatment effects to more sophisticated heterogeneous effect estimation.
+
+### Workshop Materials
+
+::: {.callout-note}
+## Download Workshop Scripts Package
+
+The complete set of R scripts used in the SPARCC Day 2 workshop is available for download. This package includes:
+
+- **Setup verification** script with CLI alerts
+- **4 hands-on scripts** demonstrating causal inference methods
+- **Simulated datasets** with realistic NZ population characteristics  
+- **Comprehensive README** with installation and usage instructions
+- **Clean, documented code** with lower-case comments and NZ English
+
+<div style="text-align: center; padding: 1rem;">
+<a href="https://www.dropbox.com/scl/fi/a0jxyossvmijwne75hdvq/sparcc-workshop-scripts.zip?rlkey=clzv8p30yxezngyu5r7e313qk&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #28a745; color: white; text-decoration: none; border-radius: 4px; margin: 0.5rem;">
+    📦 Download Workshop Scripts (.zip)
+</a>
+</div>
+
+**Package Contents:** Baseline adjustment, ATE estimation, heterogeneous effects, and policy learning scripts with the margot ecosystem.
+:::
 :::
 
 ---
