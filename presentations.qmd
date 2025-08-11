@@ -64,6 +64,108 @@ leaflet() %>%
 ```
 :::
 
+### SPARCC Day 2: Average Treatment Effects {#sparcc-day-2-ate-2025}
+
+::: {.presentation-container}
+::: {.presentation-header}
+**Title:** Average Treatment Effects: Church Attendance and Cooperation  
+**Presenter:** Joseph Bulbulia  
+**Event:** SPARCC Day 2 - Methods Workshop  
+**Date:** 2025  
+**Location:** Victoria University of Wellington  
+:::
+
+::: {.presentation-meta}
+Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
+:::
+
+::: {.presentation-embed}
+```{=html}
+<div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
+    <h3>📖 View Presentation</h3>
+    <p>This PDF presentation is hosted on Dropbox for optimal performance.</p>
+    <iframe src="https://www.dropbox.com/scl/fi/bmbr9do4pn5facnl0idc2/presentation.pdf?rlkey=10i5z7d0fghwfa8b7vdyb6e75&dl=0&raw=1" 
+            width="100%" height="500px" style="border: 1px solid #ddd; border-radius: 4px; margin: 1rem 0;">
+    </iframe>
+    <br>
+    <a href="https://www.dropbox.com/scl/fi/bmbr9do4pn5facnl0idc2/presentation.pdf?rlkey=10i5z7d0fghwfa8b7vdyb6e75&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
+        Open in New Tab
+    </a>
+</div>
+```
+:::
+
+::: {.callout-note}
+## Alternative Viewing Options
+- **Download:** Use the download button in Dropbox to save a local copy
+- **Full Screen:** Open in new tab and use browser's full screen mode
+:::
+
+::: {.callout-tip}
+## Viewing Tips
+- Use browser zoom controls to adjust text size
+- Navigate with page up/down keys or scroll wheel
+- Compatible with all modern browsers
+:::
+
+**Abstract:** This workshop presentation focuses on average treatment effects in causal inference, specifically examining the relationship between church attendance and cooperation behaviours. Using panel data from New Zealand, we demonstrate methods for identifying and estimating causal effects while addressing common challenges in observational studies including confounding, selection bias, and temporal ordering.
+
+**Keywords:** causal inference, average treatment effects, church attendance, cooperation, panel data, confounding, observational studies, New Zealand
+:::
+
+### SPARCC Day 2: Heterogeneous Treatment Effects {#sparcc-day-2-hte-2025}
+
+::: {.presentation-container}
+::: {.presentation-header}
+**Title:** Heterogeneous Treatment Effects: Who Benefits from Church Attendance?  
+**Presenter:** Joseph Bulbulia  
+**Event:** SPARCC Day 2 - Methods Workshop  
+**Date:** 2025  
+**Location:** Victoria University of Wellington  
+:::
+
+::: {.presentation-meta}
+Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
+:::
+
+::: {.presentation-embed}
+```{=html}
+<div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
+    <h3>📖 View Presentation</h3>
+    <p>This PDF presentation is hosted on Dropbox for optimal performance.</p>
+    <iframe src="https://www.dropbox.com/scl/fi/PLACEHOLDER-HTE/presentation.pdf?rlkey=PLACEHOLDER-HTE-KEY&dl=0&raw=1" 
+            width="100%" height="500px" style="border: 1px solid #ddd; border-radius: 4px; margin: 1rem 0;">
+    </iframe>
+    <br>
+    <a href="https://www.dropbox.com/scl/fi/PLACEHOLDER-HTE/presentation.pdf?rlkey=PLACEHOLDER-HTE-KEY&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
+        Open in New Tab
+    </a>
+</div>
+```
+:::
+
+::: {.callout-note}
+## Alternative Viewing Options
+- **Download:** Use the download button in Dropbox to save a local copy
+- **Full Screen:** Open in new tab and use browser's full screen mode
+:::
+
+::: {.callout-tip}
+## Viewing Tips
+- Use browser zoom controls to adjust text size
+- Navigate with page up/down keys or scroll wheel
+- Compatible with all modern browsers
+:::
+
+**Abstract:** This workshop presentation explores heterogeneous treatment effects in the context of religious attendance and well-being outcomes. Moving beyond average effects, we examine how the causal impact of church attendance varies across different population subgroups, using machine learning methods to identify systematic patterns of treatment effect heterogeneity. The presentation demonstrates methods for discovering who benefits most from religious participation.
+
+**Keywords:** heterogeneous treatment effects, causal inference, church attendance, well-being, cooperation, machine learning, subgroup analysis, personalised treatment effects, New Zealand
+
+### Workshop Context
+
+These presentations were delivered as part of SPARCC Day 2, a methods workshop focusing on advanced statistical techniques for studying religion, spirituality, and social behaviour. The sessions covered practical applications of causal inference methods using real-world longitudinal data, progressing from average treatment effects to more sophisticated heterogeneous effect estimation.
+:::
+
 ---
 
 ## Archive of Presentations
