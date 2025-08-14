@@ -84,12 +84,8 @@ Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
 <div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
     <h3>📖 View Presentation</h3>
     <p>This PDF presentation is hosted on Dropbox for optimal performance.</p>
-    <iframe src="https://www.dropbox.com/scl/fo/7r6651nqozmdo8f1smqj5/AM7_oWlk9p11BGEvypojG10?rlkey=7onptof2aak3pagnzx9m0sk3a&dl=0&raw=1" 
-            width="100%" height="500px" style="border: 1px solid #ddd; border-radius: 4px; margin: 1rem 0;">
-    </iframe>
-    <br>
     <a href="https://www.dropbox.com/scl/fo/7r6651nqozmdo8f1smqj5/AM7_oWlk9p11BGEvypojG10?rlkey=7onptof2aak3pagnzx9m0sk3a&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
-        Open in New Tab
+        📖 Open Presentation
     </a>
 </div>
 ```
@@ -133,12 +129,8 @@ Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
 <div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
     <h3>📖 View Presentation</h3>
     <p>This PDF presentation is hosted on Dropbox for optimal performance.</p>
-    <iframe src="https://www.dropbox.com/scl/fi/op60chx25eypm36u30zo8/presentation.pdf?rlkey=ya244bljbj7y953p37sejgq0w&dl=0&raw=1" 
-            width="100%" height="500px" style="border: 1px solid #ddd; border-radius: 4px; margin: 1rem 0;">
-    </iframe>
-    <br>
     <a href="https://www.dropbox.com/scl/fi/op60chx25eypm36u30zo8/presentation.pdf?rlkey=ya244bljbj7y953p37sejgq0w&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
-        Open in New Tab
+        📖 Open Presentation
     </a>
 </div>
 ```
