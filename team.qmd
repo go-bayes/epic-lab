@@ -181,16 +181,16 @@ Millie is investigating extensions of epic-lab workflows to policy settings, foc
 
 ## Alumni
 
-### Dr. JohnMark Kempthorn
+### Dr. John Mark Kempthorne
 
 :::: {.columns}
 
 ::: {.column width="25%"}
-![Dr. JohnMark Kempthorn](images/team/johnmark-kempthorn.jpg){.team-photo}
+![Dr. JohnMark Kempthorne](images/team/johnmarkkempthorne.png){.team-photo}
 :::
 
 ::: {.column width="75%"}
-JohnMark received his PhD from the School of Psychology at Victoria University of Wellington in 2025. His disseration investigated application of causal methods to NZAVS time-series data.
+John Mark received his PhD from the School of Psychology at Victoria University of Wellington in 2025. His disseration investigated application of causal methods to NZAVS time-series data. He is currently working as a Post-doctoral Fellow at the [Shaver Lab](https://anthropology.artsandsciences.baylor.edu/person/john-h-shaver)
 
 - [ORCID Profile](https://orcid.org/0000-0001-6398-7509)
 :::
