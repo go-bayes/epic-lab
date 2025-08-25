@@ -6,7 +6,7 @@ title: "Resources"
 
 ### 🎯 Start Here: Methods in Causal Inference Series
 
-A comprehensive four-part tutorial series published in *Evolutionary Human Sciences* that provides a systematic introduction to causal inference methods:
+A four-part tutorial series published in *Evolutionary Human Sciences* that provides a systematic introduction to causal inference methods:
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -44,7 +44,7 @@ A comprehensive four-part tutorial series published in *Evolutionary Human Scien
 #### Causal Inference
 
 **margot** *(migrating to margotverse)*  
-A comprehensive framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses.
+A framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses.
 - [Documentation](https://go-bayes.github.io/margot/)
 - [Source Code](https://github.com/go-bayes/margot/)
 - Installation: `devtools::install_github("go-bayes/margot")`
@@ -55,7 +55,7 @@ The `margot` package is currently being restructured into the `margotverse` ecos
 :::
 
 **ggdag**  
-Create and analyze directed acyclic graphs (DAGs) for causal inference.
+Create directed acyclic graphs (DAGs) for causal inference.
 - [Documentation](https://r-causal.github.io/ggdag/)
 - [CRAN](https://cran.r-project.org/package=ggdag)
 - Installation: `install.packages("ggdag")`
@@ -95,10 +95,15 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 - Suzuki, E. et al. (2020). [Causal Diagrams: Pitfalls and Tips](https://www.dropbox.com/scl/fi/4midxwr9ltg9oce02e0ss/suzuki-causal-diagrams.pdf?rlkey=uktzf3nurtgpbj8m4h0xz82dn&dl=0) 🟡
 - Neal, B. (2020). [Introduction to Causal Inference](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf) - Chapter 3 🟢
 
-**Advanced Topics**
+**On the Importance of Timing in Data**
 - Hernán, M.A. & Robins, J.M. (2024). [Causal Inference: What If](https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&dl=0) - Chapter 6 🔴
 
 ### Effect Modification & Interaction
+
+
+**Tutorial**
+- VanderWeele, T.J.  and Knol, M.J. (2014). [A tutorial on interaction](https://www.degruyterbrill.com/document/doi/10.1515/em-2013-0005/html?lang=en&srsltid=AfmBOopUbFZ6aArax32MEBwLRB2jtM9nDST_KQ8XjhCuZ2fnNsrrvrij)
+
 
 **Foundational Papers**
 - VanderWeele, T.J. (2007). [Four Types of Effect Modification](https://www.dropbox.com/scl/fi/drytp2ui2b8o9jplh4bm9/four_types_of_effect_modification__a.6.pdf?rlkey=mb9nl599v93m6kyyo69iv5nz1&dl=0) 🟡
@@ -152,25 +157,57 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 
 ## Video Library
 
-### Core Concepts
-
 :::: {.columns}
 ::: {.column width="50%"}
-#### Getting Started in R
-*Johannes Karl*
+#### How Do We Learn What Works?
+*Miguel Hernán*
 
-{{< video https://www.youtube.com/embed/haYxa3vWA28 >}}
+{{< video https://www.youtube.com/watch?v=NsVDfKiVGPc >}}
 :::
 
 ::: {.column width="50%"}
-#### Causal Inference
-*Richard McElreath*
+#### Measurement Constructs
+*Tyler VanderWeele*
 
-{{< video https://www.youtube.com/watch?v=KNPYUVmY3NM >}}
+{{< video https://www.youtube.com/watch?v=UA2WvYlT2RE&t=24s >}}
 :::
 ::::
 
-### Causal Inference Methods
+
+
+### Effect Modification/ Heterogeneity
+
+*Stijn Vansteelandt & Betsy Ogburn*
+
+{{< video https://www.youtube.com/watch?v=DkyNCJLWqUg&t=2827s >}}
+
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Introduction to Causal Forests
+*Susan Athey & Stefan Wager*
+
+{{< video https://www.youtube.com/watch?v=YBbnCDRCcAI&t=1241s >}}
+:::
+
+::: {.column width="50%"}
+#### Technical Deep Dive: Causal Forests
+*Stefan Wager*
+
+{{< video https://www.youtube.com/watch?v=lBW4fwjCF44 >}}
+:::
+::::
+
+### How Traditional Statistical Mediation Analysis Fails
+
+::: {.column width="100%"}
+*Stijn Vansteelandt *
+
+{{< video https://www.youtube.com/watch?v=IgC7R07Qk6A&t=953s >}}
+:::
+
+
+### Design
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -197,55 +234,13 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 :::
 
 ::: {.column width="50%"}
-#### Problems with Mediation Analysis
-*Tyler VanderWeele*
+#### Introduction to Causal Inference
+*Richard McElreath*
 
-{{< video https://www.youtube.com/watch?v=IgC7R07Qk6A&t=953s >}}
-:::
-::::
-
-### Advanced Topics
-
-:::: {.columns}
-::: {.column width="50%"}
-#### How Do We Learn What Works?
-*Miguel Hernán*
-
-{{< video https://www.youtube.com/watch?v=NsVDfKiVGPc >}}
+{{< video https://www.youtube.com/watch?v=KNPYUVmY3NM >}}
 :::
 
-::: {.column width="50%"}
-#### Measurement Constructs
-*Tyler VanderWeele*
-
-{{< video https://www.youtube.com/watch?v=UA2WvYlT2RE&t=24s >}}
 :::
-::::
-
-### Specialized Topics
-
-#### Causal Inference Workflows
-*Stijn Vansteelandt & Betsy Ogburn*
-
-{{< video https://www.youtube.com/watch?v=DkyNCJLWqUg&t=2827s >}}
-
-### Heterogeneous Treatment Effects
-
-:::: {.columns}
-::: {.column width="50%"}
-#### Introduction to Causal Forests
-*Susan Athey & Stefan Wager*
-
-{{< video https://www.youtube.com/watch?v=YBbnCDRCcAI&t=1241s >}}
-:::
-
-::: {.column width="50%"}
-#### Technical Deep Dive: Causal Forests
-*Stefan Wager*
-
-{{< video https://www.youtube.com/watch?v=lBW4fwjCF44 >}}
-:::
-::::
 
 ---
 
@@ -267,28 +262,32 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 **Causal Inference: What If**  
 *Miguel A. Hernán & James M. Robins*  
 [Free Book & Resources](https://miguelhernan.org/whatifbook) • The definitive text on causal inference methods with code examples
-
-**Introduction to Causal Inference**  
-*Brady Neal*  
-[Free Online Course](https://www.bradyneal.com/causal-inference-course) • Modern introduction with code examples
 :::
 
 ::: {.column width="50%"}
-**Methodology in Cross-Cultural Psychology**  
-*Fons J.R. van de Vijver & Kwok Leung*  
-[Cambridge University Press](https://doi.org/10.1017/9781107415188) • Essential for cross-cultural research
+**Explanation in Causal Inference**  
+*Tyler VanderWeele*  
+[Link to OUP page](https://global.oup.com/academic/product/explanation-in-causal-inference-9780199325870) * I think this best book ever written on causal mediation analysis and interaction -- and arguably one of the best books every written in statistics! Expensive, unfortunately, but worth checking out of the library (or purchasing if you have the means).
+:::
 
-**The Effect: An Introduction to Research Design and Causality**  
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+**The Effect**  
 *Nick Huntington-Klein*  
-[Free Online](https://theeffectbook.net/) • Practical guide with visualizations
+[Free Online](https://theeffectbook.net/) • Practical guide with good visualisations. Accessible.
 :::
 ::::
+
 
 ### Additional Resources
 
 - **Statistical Rethinking** by Richard McElreath - Bayesian approach to causal inference
 - **Counterfactuals and Causal Inference** by Morgan & Winship - Social science applications
 - **Targeted Learning** by van der Laan & Rose - Machine learning for causal inference
+
+
 
 ---
 

@@ -406,11 +406,9 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
   <li><a href="#essential-readings" id="toc-essential-readings" class="nav-link" data-scroll-target="#essential-readings">Essential Readings</a></li>
   <li><a href="#video-library" id="toc-video-library" class="nav-link" data-scroll-target="#video-library">Video Library</a>
   <ul class="collapse">
-  <li><a href="#core-concepts" id="toc-core-concepts" class="nav-link" data-scroll-target="#core-concepts">Core Concepts</a></li>
-  <li><a href="#causal-inference-methods" id="toc-causal-inference-methods" class="nav-link" data-scroll-target="#causal-inference-methods">Causal Inference Methods</a></li>
-  <li><a href="#advanced-topics" id="toc-advanced-topics" class="nav-link" data-scroll-target="#advanced-topics">Advanced Topics</a></li>
-  <li><a href="#specialized-topics" id="toc-specialized-topics" class="nav-link" data-scroll-target="#specialized-topics">Specialized Topics</a></li>
-  <li><a href="#heterogeneous-treatment-effects-1" id="toc-heterogeneous-treatment-effects-1" class="nav-link" data-scroll-target="#heterogeneous-treatment-effects-1">Heterogeneous Treatment Effects</a></li>
+  <li><a href="#effect-modification-heterogeneity" id="toc-effect-modification-heterogeneity" class="nav-link" data-scroll-target="#effect-modification-heterogeneity">Effect Modification/ Heterogeneity</a></li>
+  <li><a href="#how-traditional-statistical-mediation-analysis-fails" id="toc-how-traditional-statistical-mediation-analysis-fails" class="nav-link" data-scroll-target="#how-traditional-statistical-mediation-analysis-fails">How Traditional Statistical Mediation Analysis Fails</a></li>
+  <li><a href="#design" id="toc-design" class="nav-link" data-scroll-target="#design">Design</a></li>
   </ul></li>
   <li><a href="#educational-materials" id="toc-educational-materials" class="nav-link" data-scroll-target="#educational-materials">Educational Materials</a>
   <ul class="collapse">
@@ -452,7 +450,7 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="learning-pathways">Learning Pathways</h2>
 <section id="start-here-methods-in-causal-inference-series" class="level3">
 <h3 class="anchored" data-anchor-id="start-here-methods-in-causal-inference-series">🎯 Start Here: Methods in Causal Inference Series</h3>
-<p>A comprehensive four-part tutorial series published in <em>Evolutionary Human Sciences</em> that provides a systematic introduction to causal inference methods:</p>
+<p>A four-part tutorial series published in <em>Evolutionary Human Sciences</em> that provides a systematic introduction to causal inference methods:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>Part 1: <a href="https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-1-causal-diagrams-and-confounding/E734F72109F1BE99836E268DF3AA0359">Causal Diagrams and Confounding</a></strong><br>
@@ -495,7 +493,7 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p><strong>margot</strong> <em>(migrating to margotverse)</em><br>
-A comprehensive framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses. - <a href="https://go-bayes.github.io/margot/">Documentation</a> - <a href="https://github.com/go-bayes/margot/">Source Code</a> - Installation: <code>devtools::install_github("go-bayes/margot")</code></p>
+A framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses. - <a href="https://go-bayes.github.io/margot/">Documentation</a> - <a href="https://github.com/go-bayes/margot/">Source Code</a> - Installation: <code>devtools::install_github("go-bayes/margot")</code></p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -510,7 +508,7 @@ A comprehensive framework for causal inference with panel data, supporting doubl
 </div>
 </div>
 <p><strong>ggdag</strong><br>
-Create and analyze directed acyclic graphs (DAGs) for causal inference. - <a href="https://r-causal.github.io/ggdag/">Documentation</a> - <a href="https://cran.r-project.org/package=ggdag">CRAN</a> - Installation: <code>install.packages("ggdag")</code></p>
+Create directed acyclic graphs (DAGs) for causal inference. - <a href="https://r-causal.github.io/ggdag/">Documentation</a> - <a href="https://cran.r-project.org/package=ggdag">CRAN</a> - Installation: <code>install.packages("ggdag")</code></p>
 <p><strong>WeightIt</strong><br>
 Weighting for covariate balance in observational studies. - <a href="https://ngreifer.github.io/WeightIt/">Documentation</a> - <a href="https://cran.r-project.org/package=WeightIt">CRAN</a> - Installation: <code>install.packages("WeightIt")</code></p>
 </div>
@@ -534,9 +532,10 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <p><strong>Core Readings</strong> - Barrett, M. (2023). <a href="https://github.com/malcolmbarrett/ggdag">ggdag: Analyze and Create Elegant Directed Acyclic Graphs</a> - Suzuki, E. et al.&nbsp;(2020). <a href="https://www.dropbox.com/scl/fi/4midxwr9ltg9oce02e0ss/suzuki-causal-diagrams.pdf?rlkey=uktzf3nurtgpbj8m4h0xz82dn&amp;dl=0">Causal Diagrams: Pitfalls and Tips</a> 🟡 - Neal, B. (2020). <a href="https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf">Introduction to Causal Inference</a> - Chapter 3 🟢</p>
-<p><strong>Advanced Topics</strong> - Hernán, M.A.&nbsp;&amp; Robins, J.M. (2024). <a href="https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&amp;dl=0">Causal Inference: What If</a> - Chapter 6 🔴</p>
+<p><strong>On the Importance of Timing in Data</strong> - Hernán, M.A.&nbsp;&amp; Robins, J.M. (2024). <a href="https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&amp;dl=0">Causal Inference: What If</a> - Chapter 6 🔴</p>
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p><strong>Tutorial</strong> - VanderWeele, T.J. and Knol, M.J. (2014). <a href="https://www.degruyterbrill.com/document/doi/10.1515/em-2013-0005/html?lang=en&amp;srsltid=AfmBOopUbFZ6aArax32MEBwLRB2jtM9nDST_KQ8XjhCuZ2fnNsrrvrij">A tutorial on interaction</a></p>
 <p><strong>Foundational Papers</strong> - VanderWeele, T.J. (2007). <a href="https://www.dropbox.com/scl/fi/drytp2ui2b8o9jplh4bm9/four_types_of_effect_modification__a.6.pdf?rlkey=mb9nl599v93m6kyyo69iv5nz1&amp;dl=0">Four Types of Effect Modification</a> 🟡 - VanderWeele, T.J. (2009). <a href="https://www.dropbox.com/scl/fi/srpynr0dvjcndveplcydn/OutcomeWide_StatisticalScience.pdf?rlkey=h4fv32oyjegdfl3jq9u1fifc3&amp;dl=0">On the Distinction Between Interaction and Effect Modification</a> 🟡</p>
 <p><strong>Applied Methods</strong> - Hernán, M.A.&nbsp;&amp; Robins, J.M. (2024). <a href="https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&amp;dl=0">Causal Inference: What If</a> - Chapters 4-5 🟡</p>
 </div>
@@ -562,26 +561,50 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 </section>
 <section id="video-library" class="level2">
 <h2 class="anchored" data-anchor-id="video-library">Video Library</h2>
-<section id="core-concepts" class="level3">
-<h3 class="anchored" data-anchor-id="core-concepts">Core Concepts</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
-<section id="getting-started-in-r" class="level4">
-<h4 class="anchored" data-anchor-id="getting-started-in-r">Getting Started in R</h4>
-<p><em>Johannes Karl</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/haYxa3vWA28" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="how-do-we-learn-what-works" class="level4">
+<h4 class="anchored" data-anchor-id="how-do-we-learn-what-works">How Do We Learn What Works?</h4>
+<p><em>Miguel Hernán</em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/NsVDfKiVGPc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 </div><div class="column" style="width:50%;">
-<section id="causal-inference-1" class="level4">
-<h4 class="anchored" data-anchor-id="causal-inference-1">Causal Inference</h4>
-<p><em>Richard McElreath</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KNPYUVmY3NM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="measurement-constructs" class="level4">
+<h4 class="anchored" data-anchor-id="measurement-constructs">Measurement Constructs</h4>
+<p><em>Tyler VanderWeele</em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/UA2WvYlT2RE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</div>
+</div>
+<section id="effect-modification-heterogeneity" class="level3">
+<h3 class="anchored" data-anchor-id="effect-modification-heterogeneity">Effect Modification/ Heterogeneity</h3>
+<p><em>Stijn Vansteelandt &amp; Betsy Ogburn</em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/DkyNCJLWqUg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="introduction-to-causal-forests" class="level4">
+<h4 class="anchored" data-anchor-id="introduction-to-causal-forests">Introduction to Causal Forests</h4>
+<p><em>Susan Athey &amp; Stefan Wager</em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/YBbnCDRCcAI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="technical-deep-dive-causal-forests" class="level4">
+<h4 class="anchored" data-anchor-id="technical-deep-dive-causal-forests">Technical Deep Dive: Causal Forests</h4>
+<p><em>Stefan Wager</em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/lBW4fwjCF44" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 </div>
 </div>
 </section>
-<section id="causal-inference-methods" class="level3">
-<h3 class="anchored" data-anchor-id="causal-inference-methods">Causal Inference Methods</h3>
+<section id="how-traditional-statistical-mediation-analysis-fails" class="level3">
+<h3 class="anchored" data-anchor-id="how-traditional-statistical-mediation-analysis-fails">How Traditional Statistical Mediation Analysis Fails</h3>
+<div class="column" style="width:100%;">
+<p><em>Stijn Vansteelandt </em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/IgC7R07Qk6A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</section>
+<section id="design" class="level3">
+<h3 class="anchored" data-anchor-id="design">Design</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <section id="synthetic-control-methods" class="level4">
@@ -605,54 +628,10 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/B0SRWteGoOw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 </div><div class="column" style="width:50%;">
-<section id="problems-with-mediation-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="problems-with-mediation-analysis">Problems with Mediation Analysis</h4>
-<p><em>Tyler VanderWeele</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/IgC7R07Qk6A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</div>
-</div>
-</section>
-<section id="advanced-topics" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-topics">Advanced Topics</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="how-do-we-learn-what-works" class="level4">
-<h4 class="anchored" data-anchor-id="how-do-we-learn-what-works">How Do We Learn What Works?</h4>
-<p><em>Miguel Hernán</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/NsVDfKiVGPc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</div><div class="column" style="width:50%;">
-<section id="measurement-constructs" class="level4">
-<h4 class="anchored" data-anchor-id="measurement-constructs">Measurement Constructs</h4>
-<p><em>Tyler VanderWeele</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/UA2WvYlT2RE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</div>
-</div>
-</section>
-<section id="specialized-topics" class="level3">
-<h3 class="anchored" data-anchor-id="specialized-topics">Specialized Topics</h3>
-<section id="causal-inference-workflows" class="level4">
-<h4 class="anchored" data-anchor-id="causal-inference-workflows">Causal Inference Workflows</h4>
-<p><em>Stijn Vansteelandt &amp; Betsy Ogburn</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/DkyNCJLWqUg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</section>
-<section id="heterogeneous-treatment-effects-1" class="level3">
-<h3 class="anchored" data-anchor-id="heterogeneous-treatment-effects-1">Heterogeneous Treatment Effects</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="introduction-to-causal-forests" class="level4">
-<h4 class="anchored" data-anchor-id="introduction-to-causal-forests">Introduction to Causal Forests</h4>
-<p><em>Susan Athey &amp; Stefan Wager</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/YBbnCDRCcAI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</div><div class="column" style="width:50%;">
-<section id="technical-deep-dive-causal-forests" class="level4">
-<h4 class="anchored" data-anchor-id="technical-deep-dive-causal-forests">Technical Deep Dive: Causal Forests</h4>
-<p><em>Stefan Wager</em></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/lBW4fwjCF44" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="introduction-to-causal-inference" class="level4">
+<h4 class="anchored" data-anchor-id="introduction-to-causal-inference">Introduction to Causal Inference</h4>
+<p><em>Richard McElreath</em></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KNPYUVmY3NM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 </div>
 </div>
@@ -679,16 +658,17 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <p><strong>Causal Inference: What If</strong><br>
 <em>Miguel A. Hernán &amp; James M. Robins</em><br>
 <a href="https://miguelhernan.org/whatifbook">Free Book &amp; Resources</a> • The definitive text on causal inference methods with code examples</p>
-<p><strong>Introduction to Causal Inference</strong><br>
-<em>Brady Neal</em><br>
-<a href="https://www.bradyneal.com/causal-inference-course">Free Online Course</a> • Modern introduction with code examples</p>
 </div><div class="column" style="width:50%;">
-<p><strong>Methodology in Cross-Cultural Psychology</strong><br>
-<em>Fons J.R. van de Vijver &amp; Kwok Leung</em><br>
-<a href="https://doi.org/10.1017/9781107415188">Cambridge University Press</a> • Essential for cross-cultural research</p>
-<p><strong>The Effect: An Introduction to Research Design and Causality</strong><br>
+<p><strong>Explanation in Causal Inference</strong><br>
+<em>Tyler VanderWeele</em><br>
+<a href="https://global.oup.com/academic/product/explanation-in-causal-inference-9780199325870">Link to OUP page</a> * I think this best book ever written on causal mediation analysis and interaction – and arguably one of the best books every written in statistics! Expensive, unfortunately, but worth checking out of the library (or purchasing if you have the means).</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>The Effect</strong><br>
 <em>Nick Huntington-Klein</em><br>
-<a href="https://theeffectbook.net/">Free Online</a> • Practical guide with visualizations</p>
+<a href="https://theeffectbook.net/">Free Online</a> • Practical guide with good visualisations. Accessible.</p>
 </div>
 </div>
 </section>
@@ -1220,7 +1200,7 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎯 Start Here: Methods in Causal Inference Series</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>A comprehensive four-part tutorial series published in *Evolutionary Human Sciences* that provides a systematic introduction to causal inference methods:</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>A four-part tutorial series published in *Evolutionary Human Sciences* that provides a systematic introduction to causal inference methods:</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
@@ -1258,7 +1238,7 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Causal Inference</span></span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>**margot** *(migrating to margotverse)*  </span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>A comprehensive framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>A framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses.</span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Documentation</span><span class="co">](https://go-bayes.github.io/margot/)</span></span>
 <span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Source Code</span><span class="co">](https://github.com/go-bayes/margot/)</span></span>
 <span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Installation: <span class="in">`devtools::install_github("go-bayes/margot")`</span></span>
@@ -1269,7 +1249,7 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>**ggdag**  </span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Create and analyze directed acyclic graphs (DAGs) for causal inference.</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Create directed acyclic graphs (DAGs) for causal inference.</span>
 <span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Documentation</span><span class="co">](https://r-causal.github.io/ggdag/)</span></span>
 <span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">CRAN</span><span class="co">](https://cran.r-project.org/package=ggdag)</span></span>
 <span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Installation: <span class="in">`install.packages("ggdag")`</span></span>
@@ -1309,219 +1289,218 @@ Tools for generating standardised boilerplate text and documentation for reprodu
 <span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Suzuki, E. et al. (2020). <span class="co">[</span><span class="ot">Causal Diagrams: Pitfalls and Tips</span><span class="co">](https://www.dropbox.com/scl/fi/4midxwr9ltg9oce02e0ss/suzuki-causal-diagrams.pdf?rlkey=uktzf3nurtgpbj8m4h0xz82dn&amp;dl=0)</span> 🟡</span>
 <span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Neal, B. (2020). <span class="co">[</span><span class="ot">Introduction to Causal Inference</span><span class="co">](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf)</span> - Chapter 3 🟢</span>
 <span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>**Advanced Topics**</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>**On the Importance of Timing in Data**</span>
 <span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. &amp; Robins, J.M. (2024). <span class="co">[</span><span class="ot">Causal Inference: What If</span><span class="co">](https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&amp;dl=0)</span> - Chapter 6 🔴</span>
 <span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effect Modification &amp; Interaction</span></span>
 <span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>**Foundational Papers**</span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. (2007). <span class="co">[</span><span class="ot">Four Types of Effect Modification</span><span class="co">](https://www.dropbox.com/scl/fi/drytp2ui2b8o9jplh4bm9/four_types_of_effect_modification__a.6.pdf?rlkey=mb9nl599v93m6kyyo69iv5nz1&amp;dl=0)</span> 🟡</span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. (2009). <span class="co">[</span><span class="ot">On the Distinction Between Interaction and Effect Modification</span><span class="co">](https://www.dropbox.com/scl/fi/srpynr0dvjcndveplcydn/OutcomeWide_StatisticalScience.pdf?rlkey=h4fv32oyjegdfl3jq9u1fifc3&amp;dl=0)</span> 🟡</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>**Tutorial**</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J.  and Knol, M.J. (2014). <span class="co">[</span><span class="ot">A tutorial on interaction</span><span class="co">](https://www.degruyterbrill.com/document/doi/10.1515/em-2013-0005/html?lang=en&amp;srsltid=AfmBOopUbFZ6aArax32MEBwLRB2jtM9nDST_KQ8XjhCuZ2fnNsrrvrij)</span></span>
 <span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>**Applied Methods**</span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. &amp; Robins, J.M. (2024). <span class="co">[</span><span class="ot">Causal Inference: What If</span><span class="co">](https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&amp;dl=0)</span> - Chapters 4-5 🟡</span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">### Measurement &amp; Cross-Cultural Validity</span></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>**Foundational Papers**</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. (2007). <span class="co">[</span><span class="ot">Four Types of Effect Modification</span><span class="co">](https://www.dropbox.com/scl/fi/drytp2ui2b8o9jplh4bm9/four_types_of_effect_modification__a.6.pdf?rlkey=mb9nl599v93m6kyyo69iv5nz1&amp;dl=0)</span> 🟡</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. (2009). <span class="co">[</span><span class="ot">On the Distinction Between Interaction and Effect Modification</span><span class="co">](https://www.dropbox.com/scl/fi/srpynr0dvjcndveplcydn/OutcomeWide_StatisticalScience.pdf?rlkey=h4fv32oyjegdfl3jq9u1fifc3&amp;dl=0)</span> 🟡</span>
 <span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>**Measurement Theory**</span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. (2022). <span class="co">[</span><span class="ot">Constructed Measures and Causal Inference</span><span class="co">](https://www.dropbox.com/scl/fi/mmyguc0hrci8wtyyfkv6w/tyler-vanderweele-contruct-measures.pdf?rlkey=o18fiyajdqqpyjgssyh6mz6qm&amp;dl=0)</span> 🔴</span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fischer, R. &amp; Karl, J.A. (2019). <span class="co">[</span><span class="ot">A Primer to (Cross-Cultural) Multi-Group Invariance Testing</span><span class="co">](https://www.dropbox.com/scl/fi/1h8slzy3vzscvbtp6yrjh/FischeKarlprimer.pdf?rlkey=xl93d5y7280c1qjhn3k2g8qls&amp;dl=0)</span> 🟡</span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>**Cross-Cultural Methods**</span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>He, J. &amp; Van de Vijver, F.J.R. (2012). <span class="co">[</span><span class="ot">Bias and Equivalence in Cross-Cultural Research</span><span class="co">](https://www.dropbox.com/scl/fi/zuv4odmxbz8dbtdjfap3e/He-BiasandEquivalence.pdf?rlkey=wezprklb4jm6rgvvx0g58nw1n&amp;dl=0)</span> 🟡</span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Harkness, J.A. (2003). <span class="co">[</span><span class="ot">Questionnaire Translation</span><span class="co">](https://www.dropbox.com/scl/fi/hmmje9vbunmcu3oiahaa5/Harkness_CC_translation.pdf?rlkey=6vqq3ap5n52qp7t1e570ubpgt&amp;dl=0)</span> 🟢</span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="fu">### Selection Bias &amp; Experimental Design</span></span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>**Selection Bias**</span>
-<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. et al. (2004). <span class="co">[</span><span class="ot">A Structural Approach to Selection Bias</span><span class="co">](https://www.dropbox.com/scl/fi/qni0y1lstntmdw410m2nh/Heran2004StructuralSelectionBias.pdf?rlkey=0ob86mmx7vscxqmn3ipg9m94f&amp;dl=0)</span> 🔴</span>
-<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. (2017). <span class="co">[</span><span class="ot">Selection Without Colliders</span><span class="co">](https://www.dropbox.com/scl/fi/zr3tk7ngsutjprqr18bbg/hernan-selection-without-colliders.pdf?rlkey=vfluyl3a7zksfphqepao04fix&amp;dl=0)</span> 🔴</span>
-<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a>**Measurement Error**</span>
-<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. &amp; Cole, S.R. (2009). <span class="co">[</span><span class="ot">Causal Diagrams for Measurement Error</span><span class="co">](https://www.dropbox.com/scl/fi/ip8nil6uc5l0x9xw14mbr/hernan_cole_Measure_causal_diagrams.pdf?rlkey=wkj3ayen8xb6ncog46sps2g49&amp;dl=0)</span> 🟡</span>
-<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="fu">### Practical Workflows</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>**Applied Methods**</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. &amp; Robins, J.M. (2024). <span class="co">[</span><span class="ot">Causal Inference: What If</span><span class="co">](https://www.dropbox.com/scl/fi/9hy6xw1g1o4yz94ip8cvd/hernanrobins_WhatIf_2jan24.pdf?rlkey=8eaw6lqhmes7ddepuriwk5xk9&amp;dl=0)</span> - Chapters 4-5 🟡</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="fu">### Measurement &amp; Cross-Cultural Validity</span></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>**Measurement Theory**</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. (2022). <span class="co">[</span><span class="ot">Constructed Measures and Causal Inference</span><span class="co">](https://www.dropbox.com/scl/fi/mmyguc0hrci8wtyyfkv6w/tyler-vanderweele-contruct-measures.pdf?rlkey=o18fiyajdqqpyjgssyh6mz6qm&amp;dl=0)</span> 🔴</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fischer, R. &amp; Karl, J.A. (2019). <span class="co">[</span><span class="ot">A Primer to (Cross-Cultural) Multi-Group Invariance Testing</span><span class="co">](https://www.dropbox.com/scl/fi/1h8slzy3vzscvbtp6yrjh/FischeKarlprimer.pdf?rlkey=xl93d5y7280c1qjhn3k2g8qls&amp;dl=0)</span> 🟡</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>**Cross-Cultural Methods**</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>He, J. &amp; Van de Vijver, F.J.R. (2012). <span class="co">[</span><span class="ot">Bias and Equivalence in Cross-Cultural Research</span><span class="co">](https://www.dropbox.com/scl/fi/zuv4odmxbz8dbtdjfap3e/He-BiasandEquivalence.pdf?rlkey=wezprklb4jm6rgvvx0g58nw1n&amp;dl=0)</span> 🟡</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Harkness, J.A. (2003). <span class="co">[</span><span class="ot">Questionnaire Translation</span><span class="co">](https://www.dropbox.com/scl/fi/hmmje9vbunmcu3oiahaa5/Harkness_CC_translation.pdf?rlkey=6vqq3ap5n52qp7t1e570ubpgt&amp;dl=0)</span> 🟢</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="fu">### Selection Bias &amp; Experimental Design</span></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a>**Selection Bias**</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. et al. (2004). <span class="co">[</span><span class="ot">A Structural Approach to Selection Bias</span><span class="co">](https://www.dropbox.com/scl/fi/qni0y1lstntmdw410m2nh/Heran2004StructuralSelectionBias.pdf?rlkey=0ob86mmx7vscxqmn3ipg9m94f&amp;dl=0)</span> 🔴</span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. (2017). <span class="co">[</span><span class="ot">Selection Without Colliders</span><span class="co">](https://www.dropbox.com/scl/fi/zr3tk7ngsutjprqr18bbg/hernan-selection-without-colliders.pdf?rlkey=vfluyl3a7zksfphqepao04fix&amp;dl=0)</span> 🔴</span>
 <span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a>**Implementation Guides**</span>
-<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Bulbulia, J.A. (2024). <span class="co">[</span><span class="ot">A Practical Guide to Causal Inference</span><span class="co">](https://osf.io/preprints/psyarxiv/uyg3d)</span> 🟢</span>
-<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hoffman, K.M. et al. (2023). <span class="co">[</span><span class="ot">Comparison Groups in Propensity Score Analysis</span><span class="co">](https://arxiv.org/pdf/2304.09460.pdf)</span> 🟡</span>
-<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a>**Outcome-Wide Approaches**</span>
-<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. et al. (2020). <span class="co">[</span><span class="ot">Outcome-Wide Longitudinal Designs</span><span class="co">](https://www.dropbox.com/scl/fi/srpynr0dvjcndveplcydn/OutcomeWide_StatisticalScience.pdf?rlkey=h4fv32oyjegdfl3jq9u1fifc3&amp;dl=0)</span> 🟡</span>
-<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="fu">### Heterogeneous Treatment Effects</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a>**Measurement Error**</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hernán, M.A. &amp; Cole, S.R. (2009). <span class="co">[</span><span class="ot">Causal Diagrams for Measurement Error</span><span class="co">](https://www.dropbox.com/scl/fi/ip8nil6uc5l0x9xw14mbr/hernan_cole_Measure_causal_diagrams.pdf?rlkey=wkj3ayen8xb6ncog46sps2g49&amp;dl=0)</span> 🟡</span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="fu">### Practical Workflows</span></span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>**Implementation Guides**</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Bulbulia, J.A. (2024). <span class="co">[</span><span class="ot">A Practical Guide to Causal Inference</span><span class="co">](https://osf.io/preprints/psyarxiv/uyg3d)</span> 🟢</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hoffman, K.M. et al. (2023). <span class="co">[</span><span class="ot">Comparison Groups in Propensity Score Analysis</span><span class="co">](https://arxiv.org/pdf/2304.09460.pdf)</span> 🟡</span>
 <span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>**Key Papers**</span>
-<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Athey, S. &amp; Wager, S. (2019). <span class="co">[</span><span class="ot">Estimating Treatment Effects with Causal Forests: An Application</span><span class="co">](https://arxiv.org/pdf/1902.07409.pdf)</span> 🟡</span>
-<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Wager, S. &amp; Athey, S. (2018). <span class="co">[</span><span class="ot">Estimation and Inference of Heterogeneous Treatment Effects using Random Forests</span><span class="co">](https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1319839)</span> 🔴</span>
-<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Künzel, S.R. et al. (2019). <span class="co">[</span><span class="ot">Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning</span><span class="co">](https://www.pnas.org/doi/10.1073/pnas.1804597116)</span> 🟡</span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>**Outcome-Wide Approaches**</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>VanderWeele, T.J. et al. (2020). <span class="co">[</span><span class="ot">Outcome-Wide Longitudinal Designs</span><span class="co">](https://www.dropbox.com/scl/fi/srpynr0dvjcndveplcydn/OutcomeWide_StatisticalScience.pdf?rlkey=h4fv32oyjegdfl3jq9u1fifc3&amp;dl=0)</span> 🟡</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="fu">### Heterogeneous Treatment Effects</span></span>
 <span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a>**Practical Applications**</span>
-<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Davis, J. &amp; Heller, S.B. (2017). <span class="co">[</span><span class="ot">Using Causal Forests to Predict Treatment Heterogeneity</span><span class="co">](https://arxiv.org/pdf/1707.02641.pdf)</span> 🟢</span>
-<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Athey, S. &amp; Imbens, G.W. (2016). <span class="co">[</span><span class="ot">Recursive Partitioning for Heterogeneous Causal Effects</span><span class="co">](https://www.pnas.org/doi/10.1073/pnas.1510489113)</span> 🟡</span>
-<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a><span class="fu">## Video Library</span></span>
-<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a><span class="fu">### Core Concepts</span></span>
-<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
-<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Getting Started in R</span></span>
-<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a>*Johannes Karl*</span>
-<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/embed/haYxa3vWA28 &gt;}}</span>
-<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a>**Key Papers**</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Athey, S. &amp; Wager, S. (2019). <span class="co">[</span><span class="ot">Estimating Treatment Effects with Causal Forests: An Application</span><span class="co">](https://arxiv.org/pdf/1902.07409.pdf)</span> 🟡</span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Wager, S. &amp; Athey, S. (2018). <span class="co">[</span><span class="ot">Estimation and Inference of Heterogeneous Treatment Effects using Random Forests</span><span class="co">](https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1319839)</span> 🔴</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Künzel, S.R. et al. (2019). <span class="co">[</span><span class="ot">Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning</span><span class="co">](https://www.pnas.org/doi/10.1073/pnas.1804597116)</span> 🟡</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>**Practical Applications**</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Davis, J. &amp; Heller, S.B. (2017). <span class="co">[</span><span class="ot">Using Causal Forests to Predict Treatment Heterogeneity</span><span class="co">](https://arxiv.org/pdf/1707.02641.pdf)</span> 🟢</span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Athey, S. &amp; Imbens, G.W. (2016). <span class="co">[</span><span class="ot">Recursive Partitioning for Heterogeneous Causal Effects</span><span class="co">](https://www.pnas.org/doi/10.1073/pnas.1510489113)</span> 🟡</span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="fu">## Video Library</span></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="fu">#### How Do We Learn What Works?</span></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a>*Miguel Hernán*</span>
 <span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Causal Inference</span></span>
-<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a>*Richard McElreath*</span>
-<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=KNPYUVmY3NM &gt;}}</span>
-<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a><span class="fu">### Causal Inference Methods</span></span>
-<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
-<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Synthetic Control Methods</span></span>
-<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a>*Alberto Abadie*</span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=NsVDfKiVGPc &gt;}}</span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Measurement Constructs</span></span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a>*Tyler VanderWeele*</span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=UA2WvYlT2RE&amp;t=24s &gt;}}</span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a>::::</span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effect Modification/ Heterogeneity</span></span>
 <span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=nKzNp-qpE-I&amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&amp;index=11 &gt;}}</span>
-<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Difference-in-Differences</span></span>
-<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a>*Paul Goldsmith-Pinkham*</span>
-<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=2nDgrNP7XSE&amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&amp;index=10 &gt;}}</span>
-<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
-<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Instrumental Variables</span></span>
-<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a>*Brady Neal*</span>
-<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=B0SRWteGoOw&amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&amp;index=9 &gt;}}</span>
-<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Problems with Mediation Analysis</span></span>
-<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a>*Tyler VanderWeele*</span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a>*Stijn Vansteelandt &amp; Betsy Ogburn*</span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=DkyNCJLWqUg&amp;t=2827s &gt;}}</span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Introduction to Causal Forests</span></span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>*Susan Athey &amp; Stefan Wager*</span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=YBbnCDRCcAI&amp;t=1241s &gt;}}</span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Technical Deep Dive: Causal Forests</span></span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a>*Stefan Wager*</span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=lBW4fwjCF44 &gt;}}</span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a>::::</span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a><span class="fu">### How Traditional Statistical Mediation Analysis Fails</span></span>
 <span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=IgC7R07Qk6A&amp;t=953s &gt;}}</span>
-<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a><span class="fu">### Advanced Topics</span></span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a>::: {.column width="100%"}</span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>*Stijn Vansteelandt *</span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=IgC7R07Qk6A&amp;t=953s &gt;}}</span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
-<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a><span class="fu">#### How Do We Learn What Works?</span></span>
-<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a>*Miguel Hernán*</span>
-<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=NsVDfKiVGPc &gt;}}</span>
-<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a><span class="fu">### Design</span></span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Synthetic Control Methods</span></span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a>*Alberto Abadie*</span>
 <span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Measurement Constructs</span></span>
-<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a>*Tyler VanderWeele*</span>
-<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=UA2WvYlT2RE&amp;t=24s &gt;}}</span>
-<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a><span class="fu">### Specialized Topics</span></span>
-<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Causal Inference Workflows</span></span>
-<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a>*Stijn Vansteelandt &amp; Betsy Ogburn*</span>
-<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=DkyNCJLWqUg&amp;t=2827s &gt;}}</span>
-<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a><span class="fu">### Heterogeneous Treatment Effects</span></span>
-<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
-<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Introduction to Causal Forests</span></span>
-<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a>*Susan Athey &amp; Stefan Wager*</span>
-<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=YBbnCDRCcAI&amp;t=1241s &gt;}}</span>
-<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Technical Deep Dive: Causal Forests</span></span>
-<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a>*Stefan Wager*</span>
-<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=lBW4fwjCF44 &gt;}}</span>
-<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a><span class="fu">## Educational Materials</span></span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=nKzNp-qpE-I&amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&amp;index=11 &gt;}}</span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Difference-in-Differences</span></span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a>*Paul Goldsmith-Pinkham*</span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=2nDgrNP7XSE&amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&amp;index=10 &gt;}}</span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a>::::</span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Instrumental Variables</span></span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a>*Brady Neal*</span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=B0SRWteGoOw&amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&amp;index=9 &gt;}}</span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Introduction to Causal Inference</span></span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a>*Richard McElreath*</span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=KNPYUVmY3NM &gt;}}</span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a><span class="fu">## Educational Materials</span></span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a><span class="fu">### Workshop Materials</span></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">SPARCC Causal Inference Workshop</span><span class="co">](https://go-bayes.github.io/sparcc-day-2/)</span></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">PSYC 434: Conducting Research Across Cultures</span><span class="co">](https://go-bayes.github.io/psych-434-2025/)</span> - Full course materials</span>
 <span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a><span class="fu">### Workshop Materials</span></span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">SPARCC Causal Inference Workshop</span><span class="co">](https://go-bayes.github.io/sparcc-day-2/)</span></span>
-<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">PSYC 434: Conducting Research Across Cultures</span><span class="co">](https://go-bayes.github.io/psych-434-2025/)</span> - Full course materials</span>
-<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reference Texts</span></span>
-<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a><span class="fu">### Core Textbooks</span></span>
-<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
-<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a>**Causal Inference: What If**  </span>
-<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a>*Miguel A. Hernán &amp; James M. Robins*  </span>
-<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Free Book &amp; Resources</span><span class="co">](https://miguelhernan.org/whatifbook)</span> • The definitive text on causal inference methods with code examples</span>
-<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a>**Introduction to Causal Inference**  </span>
-<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a>*Brady Neal*  </span>
-<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Free Online Course</span><span class="co">](https://www.bradyneal.com/causal-inference-course)</span> • Modern introduction with code examples</span>
-<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reference Texts</span></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a><span class="fu">### Core Textbooks</span></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a>**Causal Inference: What If**  </span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a>*Miguel A. Hernán &amp; James M. Robins*  </span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Free Book &amp; Resources</span><span class="co">](https://miguelhernan.org/whatifbook)</span> • The definitive text on causal inference methods with code examples</span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a>**Explanation in Causal Inference**  </span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a>*Tyler VanderWeele*  </span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Link to OUP page</span><span class="co">](https://global.oup.com/academic/product/explanation-in-causal-inference-9780199325870)</span> * I think this best book ever written on causal mediation analysis and interaction -- and arguably one of the best books every written in statistics! Expensive, unfortunately, but worth checking out of the library (or purchasing if you have the means).</span>
+<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a>::::</span>
+<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
 <span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
-<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a>**Methodology in Cross-Cultural Psychology**  </span>
-<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a>*Fons J.R. van de Vijver &amp; Kwok Leung*  </span>
-<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Cambridge University Press</span><span class="co">](https://doi.org/10.1017/9781107415188)</span> • Essential for cross-cultural research</span>
-<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a>**The Effect: An Introduction to Research Design and Causality**  </span>
-<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a>*Nick Huntington-Klein*  </span>
-<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Free Online</span><span class="co">](https://theeffectbook.net/)</span> • Practical guide with visualizations</span>
-<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a>::::</span>
-<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a><span class="fu">### Additional Resources</span></span>
-<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Statistical Rethinking** by Richard McElreath - Bayesian approach to causal inference</span>
-<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Counterfactuals and Causal Inference** by Morgan &amp; Winship - Social science applications</span>
-<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Targeted Learning** by van der Laan &amp; Rose - Machine learning for causal inference</span>
-<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a><span class="fu">## Quick Reference</span></span>
-<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
-<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Where to Start?</span></span>
-<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**New to causal inference?** → Start with our <span class="co">[</span><span class="ot">four-part tutorial series</span><span class="co">](#learning-pathways)</span></span>
-<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Need DAGs?** → Check out the <span class="co">[</span><span class="ot">ggdag tutorials</span><span class="co">](#getting-started-with-r--causal-tools)</span></span>
-<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Ready to analyze?** → Install <span class="co">[</span><span class="ot">margot</span><span class="co">](#causal-inference)</span> and follow our <span class="co">[</span><span class="ot">practical guide</span><span class="co">](https://osf.io/preprints/psyarxiv/uyg3d)</span></span>
-<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Cross-cultural research?** → See <span class="co">[</span><span class="ot">Part 3</span><span class="co">](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-3-measurement-error-and-external-validity-threats/4D35FFDECF32B2EFF7557EC26075175F)</span> of our series</span>
-<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip}</span>
-<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contributing</span></span>
-<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a>Have a resource to suggest? Found a broken link? Please <span class="co">[</span><span class="ot">contact us</span><span class="co">](about.qmd)</span> or submit an issue on our <span class="co">[</span><span class="ot">GitHub repository</span><span class="co">](https://github.com/go-bayes/epic-lab)</span>.</span>
-<span id="cb1-310"><a href="#cb1-310" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a>**The Effect**  </span>
+<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a>*Nick Huntington-Klein*  </span>
+<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Free Online</span><span class="co">](https://theeffectbook.net/)</span> • Practical guide with good visualisations. Accessible.</span>
+<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a>::::</span>
+<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="fu">### Additional Resources</span></span>
+<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Statistical Rethinking** by Richard McElreath - Bayesian approach to causal inference</span>
+<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Counterfactuals and Causal Inference** by Morgan &amp; Winship - Social science applications</span>
+<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Targeted Learning** by van der Laan &amp; Rose - Machine learning for causal inference</span>
+<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a><span class="fu">## Quick Reference</span></span>
+<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
+<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Where to Start?</span></span>
+<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**New to causal inference?** → Start with our <span class="co">[</span><span class="ot">four-part tutorial series</span><span class="co">](#learning-pathways)</span></span>
+<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Need DAGs?** → Check out the <span class="co">[</span><span class="ot">ggdag tutorials</span><span class="co">](#getting-started-with-r--causal-tools)</span></span>
+<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Ready to analyze?** → Install <span class="co">[</span><span class="ot">margot</span><span class="co">](#causal-inference)</span> and follow our <span class="co">[</span><span class="ot">practical guide</span><span class="co">](https://osf.io/preprints/psyarxiv/uyg3d)</span></span>
+<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Cross-cultural research?** → See <span class="co">[</span><span class="ot">Part 3</span><span class="co">](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-3-measurement-error-and-external-validity-threats/4D35FFDECF32B2EFF7557EC26075175F)</span> of our series</span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip}</span>
+<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contributing</span></span>
+<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a>Have a resource to suggest? Found a broken link? Please <span class="co">[</span><span class="ot">contact us</span><span class="co">](about.qmd)</span> or submit an issue on our <span class="co">[</span><span class="ot">GitHub repository</span><span class="co">](https://github.com/go-bayes/epic-lab)</span>.</span>
+<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
