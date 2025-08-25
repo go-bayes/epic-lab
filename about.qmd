@@ -46,14 +46,16 @@ The EPIC-lab gratefully acknowledges support from:
 
 **Templeton Religion Trust**
 
+- TRT0418: "New Zealand Attitudes and Values Study Matching Grant"
+  - Joseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton
+  
 - TRT-2022-30666: "Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities"
   - Joseph Bulbulia (Contact PI) and Joseph Watts
   
 - TRT-2022-30579: "A national longitudinal study of Muslim diversity and flourishing"
   - Usman Afzali (Contact PI), Joseph Bulbulia (Co-PI)
   
-- TRT0418: "New Zealand Attitudes and Values Study Matching Grant"
-  - Joseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton
+
 
 :::: {.columns}
 ::: {.column width="60%"}

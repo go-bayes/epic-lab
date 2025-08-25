@@ -24,7 +24,7 @@ Conference Presentation | Duration: ~50 minutes | Format: HTML Slides
 ```{=html}
 <div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
     <h3>🎯 View Presentation</h3>
-    <p>This presentation is hosted on Dropbox for optimal performance.</p>
+    <p>The presentation is hosted on Dropbox. It will not render on a cellphone</p>
     <a href="https://www.dropbox.com/scl/fi/ggs8mcnhdrzt67wlcoy99/index.html?rlkey=wuf0j6vp1jvzv0nodgvxx4m62&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
         Open Presentation
     </a>
@@ -41,15 +41,15 @@ Conference Presentation | Duration: ~50 minutes | Format: HTML Slides
 ## Viewing Tips
 - Open in full screen mode
 - Use arrow keys to navigate between slides
-- Press 'S' for speaker notes (if available)
+- Press 'S' for speaker notes.
 :::
 
-**Abstract:** This presentation examines who benefits from religious attendance using heterogeneous treatment effect methods applied to longitudinal data from New Zealand. We explore how the causal effects of religious participation on well-being and cooperation vary across different population subgroups, providing insights into when and for whom religious engagement promotes positive outcomes. The study links two literatures on religious attendance that have developed independently: health and cooperation.
+**Abstract:**  We examine how the causal effects of religious participation on well-being and cooperation vary across different population subgroups. The study links two literatures on religious attendance that have developed independently: health and cooperation.
 
 **Keywords:** causal inference, heterogeneous effects, religion, well-being, cooperation, longitudinal, panel, New Zealand
 
 ### Venue Location
-
+x
 ```{r}
 #| echo: false
 #| message: false
@@ -83,7 +83,7 @@ Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
 ```{=html}
 <div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
     <h3>📖 View Presentation</h3>
-    <p>This PDF presentation is hosted on Dropbox for optimal performance.</p>
+    <p>The PDF presentation is hosted on Dropbox.</p>
     <a href="https://www.dropbox.com/scl/fo/7r6651nqozmdo8f1smqj5/AM7_oWlk9p11BGEvypojG10?rlkey=7onptof2aak3pagnzx9m0sk3a&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
         📖 Open Presentation
     </a>
@@ -128,7 +128,7 @@ Workshop Presentation | Duration: ~60 minutes | Format: PDF Slides
 ```{=html}
 <div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
     <h3>📖 View Presentation</h3>
-    <p>This PDF presentation is hosted on Dropbox for optimal performance.</p>
+    <p>This PDF presentation is hosted on Dropbox.</p>
     <a href="https://www.dropbox.com/scl/fi/op60chx25eypm36u30zo8/presentation.pdf?rlkey=ya244bljbj7y953p37sejgq0w&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
         📖 Open Presentation
     </a>
@@ -160,23 +160,14 @@ These presentations were delivered as part of SPARCC Day 2, a methods workshop f
 ### Workshop Materials
 
 ::: {.callout-note}
-## Download Workshop Scripts Package
+## Workshop Matierals
 
-The complete set of R scripts used in the SPARCC Day 2 workshop is available for download. This package includes:
+The complete set of R scripts used in the SPARCC Day 2 workshop is available here:
+https://go-bayes.github.io/sparcc-day-2/
 
-- **Setup verification** script with CLI alerts
-- **4 hands-on scripts** demonstrating causal inference methods
-- **Simulated datasets** with realistic NZ population characteristics  
-- **Comprehensive README** with installation and usage instructions
-- **Clean, documented code** with lower-case comments and NZ English
 
-<div style="text-align: center; padding: 1rem;">
-<a href="https://www.dropbox.com/scl/fi/a0jxyossvmijwne75hdvq/sparcc-workshop-scripts.zip?rlkey=clzv8p30yxezngyu5r7e313qk&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #28a745; color: white; text-decoration: none; border-radius: 4px; margin: 0.5rem;">
-    📦 Download Workshop Scripts (.zip)
-</a>
-</div>
 
-**Package Contents:** Baseline adjustment, ATE estimation, heterogeneous effects, and policy learning scripts with the margot ecosystem.
+
 :::
 :::
 

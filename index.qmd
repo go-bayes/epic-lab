@@ -41,7 +41,7 @@ Disentangling the forces that shape human behaviour is like trying to isolate a 
 
 ## Featured Work
 
-Visit our [Presentations](presentations.qmd) section to explore our latest research talks and workshops, including recent presentations at major conferences.
+Visit our [Presentations](presentations.qmd) section to explore our latest research talks and workshops.
 
 ## Resources
 
@@ -49,7 +49,7 @@ Visit our [about](about.qmd) section for tools and materials to get started.
 
 ## Get Involved
 
-Check out our [about](about.qmd) section to get in touch!
+Check out our [about](about.qmd) section to get in touch.
 
 ---
 
