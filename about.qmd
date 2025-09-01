@@ -2,12 +2,12 @@
 title: "About EPIC-lab"
 ---
 
-## Our Vision
+## Vision
 
 The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address long-standing debates and pressing real-world challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions.
 
 
-## Our Approach
+## Approach
 
 We combine causal inference workflows with domain expertise to:
 
@@ -59,13 +59,13 @@ The EPIC-lab gratefully acknowledges support from:
 
 :::: {.columns}
 ::: {.column width="60%"}
-![Victoria University of Wellington](images/logos/vuw-logo.jpg){height="120px"}
+![Victoria University of Wellington](images/logos/vuw-logo.jpg){height="180px"}
 :::
 ::::
 
 :::: {.columns}
 ::: {.column width="50%"}
-![Templeton Religion Trust](images/logos/trt-logo.png.pdf){height="120px"}
+![Templeton Religion Trust](images/logos/trt-logo.png.pdf){height="201px"}
 :::
 ::::
 
