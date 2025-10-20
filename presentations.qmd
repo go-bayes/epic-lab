@@ -49,7 +49,7 @@ Conference Presentation | Duration: ~50 minutes | Format: HTML Slides
 **Keywords:** causal inference, heterogeneous effects, religion, well-being, cooperation, longitudinal, panel, New Zealand
 
 ### Venue Location
-x
+
 ```{r}
 #| echo: false
 #| message: false

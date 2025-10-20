@@ -2,16 +2,24 @@
 title: "News"
 ---
 
+## 2025
+
+## We're going to Melbourne! :)
+
+Zahle and Hannah will be presented at a day long workshop (run by Bulbulia), on causal inference for psychological scientists. 
+
+Workshop materials are here 👇
+
+- **[2025 November 19]:** Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology
+[link](https://go-bayes.github.io/2025-workshop-ci-sasp/)
 
 
-## Upcoming Events
+## Past Events
 
 - **[2025 August 10-13]:** Workshop on Causal Inferece at the University of San Diego [link](https://go-bayes.github.io/sparcc-day-2/)
-- **[2025 November 19]:** Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology [converence link](https://sasp.org.au/events/conference/sasp-acpid-2025-conference/sasp-acpid-2025-program/) 
 
----
 
-## 2025
+
 
 ### August 2025: William Bier Interdisciplinary Award Lecture
 
