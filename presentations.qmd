@@ -4,6 +4,64 @@ title: "Presentations"
 
 ## 2025 Presentations
 
+### SASP 2025 Pre-Conference Workshop: Student Presentations {#sasp-2025}
+
+::: {.presentation-container}
+::: {.presentation-header}
+**Event:** SASP 2025 Pre-Conference Workshop — Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology
+**Date:** 19 November 2025
+**Location:** University of Melbourne
+:::
+
+#### Zahle Wiseley: Does Employer Gratitude Improve Employee Well-being?
+
+::: {.presentation-meta}
+Student Presentation | Format: PDF Slides
+:::
+
+::: {.presentation-embed}
+```{=html}
+<div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
+    <h3>📖 View Presentation</h3>
+    <p>The PDF presentation is hosted on Dropbox.</p>
+    <a href="https://www.dropbox.com/scl/fi/humnzsgo5blg7rrtvz3dt/Employer-Gratitude-and-Employee-Well-being.pdf?rlkey=oc4esqaip1loeaf7zt6eodx7n&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
+        📖 Open Presentation
+    </a>
+</div>
+```
+:::
+
+**Abstract:** Using longitudinal data from Wave 20 of the New Zealand Attitudes and Values Study (NZAVS), this presentation examines the causal effects of perceived employer gratitude on employee well-being outcomes across multiple domains including health, psychological, present-focused, life-reflective, and social well-being.
+
+**Keywords:** employer gratitude, employee well-being, causal inference, NZAVS, workplace appreciation
+
+---
+
+#### Hannah Robinson: Religion and Personality
+
+::: {.presentation-meta}
+Student Presentation | Format: PDF Slides
+:::
+
+::: {.presentation-embed}
+```{=html}
+<div style="text-align: center; padding: 2rem; background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;">
+    <h3>📖 View Presentation</h3>
+    <p>The PDF presentation is hosted on Dropbox.</p>
+    <a href="https://www.dropbox.com/scl/fi/awse06fy0gh3vw208qo2b/Melbourne-Presentation-Religion-and-Personality-Hannah-Robinson.pdf?rlkey=no9p11rxzr79f049zeqwo8p1l&dl=0" class="btn btn-primary" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem;">
+        📖 Open Presentation
+    </a>
+</div>
+```
+:::
+
+**Abstract:** This presentation investigates the causal relationship between religious service attendance and personality traits, moving beyond correlational findings to examine whether religious participation causally influences personality development.
+
+**Keywords:** religion, personality, religious service attendance, causal inference, NZAVS
+:::
+
+---
+
 ### William Bier Interdisciplinary Award Lecture {#apa-bier-2025}
 
 ::: {.presentation-container}
