@@ -3,19 +3,19 @@ title: "EPIC-lab"
 subtitle: "Evaluating Policy Implications with Causal-inference"
 ---
 
-## Welcome to the EPIC-Lab
+## Why EPIC-Lab
 
-Does participation in an after-school tutoring programme *cause* better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme's true effect from background factors is the central challenge of evaluation. EPIC-Lab (**E**valuating **P**olicy **I**mplications with **C**ausal-inference) is designed to solve this problem. We pair the rigorous logic of causal inference with the predictive power of machine learning to quantify *whether* interventions work, *for whom* they are most effective, and *under which* circumstances they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand.
+Does participation in an after-school tutoring programme *cause* better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme's true effect from background factors is the central challenge of evaluation. EPIC-Lab (**E**valuating **P**olicy **I**mplications with **C**ausal-inference) focuses on that challenge, using causal inference and machine learning to estimate *whether* interventions work, *for whom* they work best, and *when* they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand.
 
-## Our Mission
+## What We Aim For
 
+We advance causal inference in the social sciences, across observational research and experimental design.
 
-1. **Advance causal inference in the social sciences**, both in observational research and experimental design. 
-<!-- - **Bridge theory and practice** by developing accessible tools for social scientists -->
-2. **Educate scholars** through hands‑on training in modern causal methods  
-3. **Promote evidence-based decision making** through robust causal workflows and collaboration with experts. 
+We educate scholars through hands-on training in modern causal methods.
 
-## Research Focus
+We promote evidence-based decision making through robust workflows and collaboration with domain experts.
+
+## What We Study
 
 
 :::: {.columns}
@@ -23,39 +23,33 @@ Does participation in an after-school tutoring programme *cause* better marks? S
 ::: {.column width="60%"}
 ### Causal Methods in Social Science
 
-- stating clear causal questions
-- doubly robust machine learning
-- causal forests and heterogeneous treatment effects
-- longitudinal modified treatment policies (multi-exposures)
+We state clear causal questions, then build doubly robust models to answer them. We use causal forests to estimate heterogeneous treatment effects, and we study longitudinal modified treatment policies for multi-exposure settings.
 :::
 
 ::: {.column width="40%"}
 ### Application Domains
 
-- volunteering/charity
-- institutional trust
-- individual differences
-- religion
+We study volunteering and charity, institutional trust, individual differences, and religion.
 
 :::
 
 ::::
 
-## Featured Work
+## Recent Work
 
-Visit our [Presentations](presentations.qmd) section to explore our latest research talks and workshops.
+Visit our [Presentations](presentations.qmd) section to explore recent research talks and workshops.
 
-## Resources
+## Start Here
 
 Visit our [about](about.qmd) section for tools and materials to get started. 
 
-## Get Involved
+## Work With Us
 
 Check out our [about](about.qmd) section to get in touch.
 
 ---
 
 ::: {.callout-note}
-## Recent News
+## Updates
 Stay updated with our latest research, publications, and events in the [news](news.qmd) section.
 :::

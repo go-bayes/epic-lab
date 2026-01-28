@@ -4,56 +4,56 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods:\n\n\nPart 1: Causal Diagrams and Confounding\n🟢 Beginner • Essential concepts, DAGs, and confounding bias\nPart 2: Interaction, Mediation, and Time-Varying Treatments\n🟡 Intermediate • Effect modification and complex causal structures\n\nPart 3: Measurement Error and External Validity\n🟡 Intermediate • Critical for cross-cultural research\nPart 4: Confounding in Experiments\n🔴 Advanced • Experimental design considerations\n\n\n\n\n\n\n\n\nTipGetting Started with R & Causal Tools\n\n\n\n\nIntroduction to Directed Acyclic Graphs - Interactive tutorial\nCommon Structures of Bias - Visual guide\nWeightIt Documentation - Propensity score weighting"
+    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods.\n\n\nPart 1: Causal Diagrams and Confounding Beginner level covering essential concepts, DAGs, and confounding bias.\nPart 2: Interaction, Mediation, and Time-Varying Treatments Intermediate level covering effect modification and complex causal structures.\n\nPart 3: Measurement Error and External Validity Intermediate level focusing on measurement and cross-cultural validity.\nPart 4: Confounding in Experiments Advanced level covering experimental design considerations.\n\n\n\n\n\n\n\n\nTipGetting Started with R and Causal Tools\n\n\n\nFor an interactive introduction to directed acyclic graphs, see Introduction to Directed Acyclic Graphs. For a visual guide to common bias structures, see Common Structures of Bias. For propensity score weighting, start with the WeightIt documentation."
   },
   {
     "objectID": "resources.html#learning-pathways",
     "href": "resources.html#learning-pathways",
     "title": "Resources",
     "section": "",
-    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods:\n\n\nPart 1: Causal Diagrams and Confounding\n🟢 Beginner • Essential concepts, DAGs, and confounding bias\nPart 2: Interaction, Mediation, and Time-Varying Treatments\n🟡 Intermediate • Effect modification and complex causal structures\n\nPart 3: Measurement Error and External Validity\n🟡 Intermediate • Critical for cross-cultural research\nPart 4: Confounding in Experiments\n🔴 Advanced • Experimental design considerations\n\n\n\n\n\n\n\n\nTipGetting Started with R & Causal Tools\n\n\n\n\nIntroduction to Directed Acyclic Graphs - Interactive tutorial\nCommon Structures of Bias - Visual guide\nWeightIt Documentation - Propensity score weighting"
+    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods.\n\n\nPart 1: Causal Diagrams and Confounding Beginner level covering essential concepts, DAGs, and confounding bias.\nPart 2: Interaction, Mediation, and Time-Varying Treatments Intermediate level covering effect modification and complex causal structures.\n\nPart 3: Measurement Error and External Validity Intermediate level focusing on measurement and cross-cultural validity.\nPart 4: Confounding in Experiments Advanced level covering experimental design considerations.\n\n\n\n\n\n\n\n\nTipGetting Started with R and Causal Tools\n\n\n\nFor an interactive introduction to directed acyclic graphs, see Introduction to Directed Acyclic Graphs. For a visual guide to common bias structures, see Common Structures of Bias. For propensity score weighting, start with the WeightIt documentation."
   },
   {
-    "objectID": "resources.html#software-tools",
-    "href": "resources.html#software-tools",
+    "objectID": "resources.html#software-and-tools",
+    "href": "resources.html#software-and-tools",
     "title": "Resources",
-    "section": "Software & Tools",
-    "text": "Software & Tools\n\nR Packages\n\nCausal InferenceResearch Tools\n\n\nmargot (migrating to margotverse)\nA framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses. - Documentation - Source Code - Installation: devtools::install_github(\"go-bayes/margot\")\n\n\n\n\n\n\nWarningPackage Migration Notice\n\n\n\nThe margot package is currently being restructured into the margotverse ecosystem. This migration will provide a more modular and maintainable framework for causal inference.\n\n\nggdag\nCreate directed acyclic graphs (DAGs) for causal inference. - Documentation - CRAN - Installation: install.packages(\"ggdag\")\nWeightIt\nWeighting for covariate balance in observational studies. - Documentation - CRAN - Installation: install.packages(\"WeightIt\")\n\n\nboilerplate\nTools for generating standardised boilerplate text and documentation for reproducible research. - Documentation - CRAN - Installation: install.packages(\"boilerplate\")"
+    "section": "Software and Tools",
+    "text": "Software and Tools\n\nR Packages\n\nCausal InferenceResearch Tools\n\n\nmargot A framework for causal inference with panel data, supporting doubly robust estimation and sensitivity analyses. Documentation is at go-bayes.github.io/margot, and the source code is at github.com/go-bayes/margot. Install with devtools::install_github(\"go-bayes/margot\").\nggdag Create directed acyclic graphs for causal inference. Documentation is at r-causal.github.io/ggdag, and the CRAN page is cran.r-project.org/package=ggdag. Install with install.packages(\"ggdag\").\nWeightIt Weighting for covariate balance in observational studies. Documentation is at ngreifer.github.io/WeightIt, and the CRAN page is cran.r-project.org/package=WeightIt. Install with install.packages(\"WeightIt\").\n\n\nboilerplate Tools for generating standardised boilerplate text and documentation for reproducible research. Documentation is at go-bayes.github.io/boilerplate, and the CRAN page is cran.r-project.org/package=boilerplate. Install with install.packages(\"boilerplate\")."
   },
   {
     "objectID": "resources.html#essential-readings",
     "href": "resources.html#essential-readings",
     "title": "Resources",
     "section": "Essential Readings",
-    "text": "Essential Readings\n\nCausal Diagrams & DAGsEffect Modification & InteractionMeasurement & Cross-Cultural ValiditySelection Bias & Experimental DesignPractical WorkflowsHeterogeneous Treatment Effects\n\n\nCore Readings - Barrett, M. (2023). ggdag: Analyze and Create Elegant Directed Acyclic Graphs - Suzuki, E. et al. (2020). Causal Diagrams: Pitfalls and Tips 🟡 - Neal, B. (2020). Introduction to Causal Inference - Chapter 3 🟢\nOn the Importance of Timing in Data - Hernán, M.A. & Robins, J.M. (2024). Causal Inference: What If - Chapter 6 🔴\n\n\nTutorial - VanderWeele, T.J. and Knol, M.J. (2014). A tutorial on interaction\nFoundational Papers - VanderWeele, T.J. (2007). Four Types of Effect Modification 🟡 - VanderWeele, T.J. (2009). On the Distinction Between Interaction and Effect Modification 🟡\nApplied Methods - Hernán, M.A. & Robins, J.M. (2024). Causal Inference: What If - Chapters 4-5 🟡\n\n\nMeasurement Theory - VanderWeele, T.J. (2022). Constructed Measures and Causal Inference 🔴 - Fischer, R. & Karl, J.A. (2019). A Primer to (Cross-Cultural) Multi-Group Invariance Testing 🟡\nCross-Cultural Methods - He, J. & Van de Vijver, F.J.R. (2012). Bias and Equivalence in Cross-Cultural Research 🟡 - Harkness, J.A. (2003). Questionnaire Translation 🟢\n\n\nSelection Bias - Hernán, M.A. et al. (2004). A Structural Approach to Selection Bias 🔴 - Hernán, M.A. (2017). Selection Without Colliders 🔴\nMeasurement Error - Hernán, M.A. & Cole, S.R. (2009). Causal Diagrams for Measurement Error 🟡\n\n\nImplementation Guides - Bulbulia, J.A. (2024). A Practical Guide to Causal Inference 🟢 - Hoffman, K.M. et al. (2023). Comparison Groups in Propensity Score Analysis 🟡\nOutcome-Wide Approaches - VanderWeele, T.J. et al. (2020). Outcome-Wide Longitudinal Designs 🟡\n\n\nKey Papers - Athey, S. & Wager, S. (2019). Estimating Treatment Effects with Causal Forests: An Application 🟡 - Wager, S. & Athey, S. (2018). Estimation and Inference of Heterogeneous Treatment Effects using Random Forests 🔴 - Künzel, S.R. et al. (2019). Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning 🟡\nPractical Applications - Davis, J. & Heller, S.B. (2017). Using Causal Forests to Predict Treatment Heterogeneity 🟢 - Athey, S. & Imbens, G.W. (2016). Recursive Partitioning for Heterogeneous Causal Effects 🟡"
+    "text": "Essential Readings\n\nCausal Diagrams and DAGsEffect Modification and InteractionMeasurement and Cross-Cultural ValiditySelection Bias and Experimental DesignPractical WorkflowsHeterogeneous Treatment Effects\n\n\nCore Readings Barrett, M. (2023). ggdag: Analyze and Create Elegant Directed Acyclic Graphs.\nSuzuki, E. et al. (2020). Causal Diagrams: Pitfalls and Tips. Intermediate level.\nNeal, B. (2020). Introduction to Causal Inference, Chapter 3. Beginner level.\nOn the Importance of Timing in Data Hernan, M.A. and Robins, J.M. (2024). Causal Inference: What If, Chapter 6. Advanced level.\n\n\nTutorial VanderWeele, T.J. and Knol, M.J. (2014). A tutorial on interaction.\nFoundational Papers VanderWeele, T.J. (2007). Four Types of Effect Modification. Intermediate level.\nVanderWeele, T.J. (2009). On the Distinction Between Interaction and Effect Modification. Intermediate level.\nApplied Methods Hernan, M.A. and Robins, J.M. (2024). Causal Inference: What If, Chapters 4-5. Intermediate level.\n\n\nMeasurement Theory VanderWeele, T.J. (2022). Constructed Measures and Causal Inference. Advanced level.\nFischer, R. and Karl, J.A. (2019). A Primer to (Cross-Cultural) Multi-Group Invariance Testing. Intermediate level.\nCross-Cultural Methods He, J. and Van de Vijver, F.J.R. (2012). Bias and Equivalence in Cross-Cultural Research. Intermediate level.\nHarkness, J.A. (2003). Questionnaire Translation. Beginner level.\n\n\nSelection Bias Hernan, M.A. et al. (2004). A Structural Approach to Selection Bias. Advanced level.\nHernan, M.A. (2017). Selection Without Colliders. Advanced level.\nMeasurement Error Hernan, M.A. and Cole, S.R. (2009). Causal Diagrams for Measurement Error. Intermediate level.\n\n\nImplementation Guides Bulbulia, J.A. (2024). A Practical Guide to Causal Inference. Beginner level.\nHoffman, K.M. et al. (2023). Comparison Groups in Propensity Score Analysis. Intermediate level.\nOutcome-Wide Approaches VanderWeele, T.J. et al. (2020). Outcome-Wide Longitudinal Designs. Intermediate level.\n\n\nKey Papers Athey, S. and Wager, S. (2019). Estimating Treatment Effects with Causal Forests: An Application. Intermediate level.\nWager, S. and Athey, S. (2018). Estimation and Inference of Heterogeneous Treatment Effects using Random Forests. Advanced level.\nKunzel, S.R. et al. (2019). Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning. Intermediate level.\nPractical Applications Davis, J. and Heller, S.B. (2017). Using Causal Forests to Predict Treatment Heterogeneity. Beginner level.\nAthey, S. and Imbens, G.W. (2016). Recursive Partitioning for Heterogeneous Causal Effects. Intermediate level."
   },
   {
     "objectID": "resources.html#video-library",
     "href": "resources.html#video-library",
     "title": "Resources",
     "section": "Video Library",
-    "text": "Video Library\n\n\n\nHow Do We Learn What Works?\nMiguel Hernán\n\n\n\n\nMeasurement Constructs\nTyler VanderWeele\n\n\n\n\n\nEffect Modification/ Heterogeneity\nStijn Vansteelandt & Betsy Ogburn\n\n\n\n\nIntroduction to Causal Forests\nSusan Athey & Stefan Wager\n\n\n\n\nTechnical Deep Dive: Causal Forests\nStefan Wager\n\n\n\n\n\n\nHow Traditional Statistical Mediation Analysis Fails\n\nStijn Vansteelandt \n\n\n\n\nDesign\n\n\n\nSynthetic Control Methods\nAlberto Abadie\n\n\n\n\nDifference-in-Differences\nPaul Goldsmith-Pinkham\n\n\n\n\n\n\n\nInstrumental Variables\nBrady Neal\n\n\n\n\nIntroduction to Causal Inference\nRichard McElreath"
+    "text": "Video Library\n\n\n\nHow Do We Learn What Works?\nMiguel Hernan\n\n\n\n\nMeasurement Constructs\nTyler VanderWeele\n\n\n\n\n\nEffect Modification and Heterogeneity\nStijn Vansteelandt and Betsy Ogburn\n\n\n\n\nIntroduction to Causal Forests\nSusan Athey and Stefan Wager\n\n\n\n\nTechnical Deep Dive: Causal Forests\nStefan Wager\n\n\n\n\n\n\nHow Traditional Statistical Mediation Analysis Fails\n\nStijn Vansteelandt\n\n\n\n\nDesign\n\n\n\nSynthetic Control Methods\nAlberto Abadie\n\n\n\n\nDifference-in-Differences\nPaul Goldsmith-Pinkham\n\n\n\n\n\n\n\nInstrumental Variables\nBrady Neal\n\n\n\n\nIntroduction to Causal Inference\nRichard McElreath"
   },
   {
     "objectID": "resources.html#educational-materials",
     "href": "resources.html#educational-materials",
     "title": "Resources",
     "section": "Educational Materials",
-    "text": "Educational Materials\n\nWorkshop Materials\n\nSPARCC Causal Inference Workshop\nPSYC 434: Conducting Research Across Cultures - Full course materials"
+    "text": "Educational Materials\n\nWorkshop Materials\nThe SPARCC Causal Inference Workshop offers a concise, practical entry point. For a full course sequence, see PSYC 434: Conducting Research Across Cultures."
   },
   {
     "objectID": "resources.html#reference-texts",
     "href": "resources.html#reference-texts",
     "title": "Resources",
     "section": "Reference Texts",
-    "text": "Reference Texts\n\nCore Textbooks\n\n\nCausal Inference: What If\nMiguel A. Hernán & James M. Robins\nFree Book & Resources • The definitive text on causal inference methods with code examples\n\nExplanation in Causal Inference\nTyler VanderWeele\nLink to OUP page * I think this best book ever written on causal mediation analysis and interaction – and arguably one of the best books every written in statistics! Expensive, unfortunately, but worth checking out of the library (or purchasing if you have the means).\n\n\n\n\nThe Effect\nNick Huntington-Klein\nFree Online • Practical guide with good visualisations. Accessible.\n\n\n\n\nAdditional Resources\n\nStatistical Rethinking by Richard McElreath - Bayesian approach to causal inference\nCounterfactuals and Causal Inference by Morgan & Winship - Social science applications\nTargeted Learning by van der Laan & Rose - Machine learning for causal inference"
+    "text": "Reference Texts\n\nCore Textbooks\n\n\nCausal Inference: What If Miguel A. Hernan and James M. Robins Free Book and Resources. The definitive text on causal inference methods with code examples.\n\nExplanation in Causal Inference Tyler VanderWeele Link to OUP page. A strong account of causal mediation analysis and interaction. The hardback is expensive, so a library copy is often the easiest option.\n\n\n\n\nThe Effect Nick Huntington-Klein Free Online. A practical guide with clear visualisations.\n\n\n\n\nAdditional Resources\nStatistical Rethinking by Richard McElreath provides a Bayesian approach to causal inference. Counterfactuals and Causal Inference by Morgan and Winship focuses on social science applications. Targeted Learning by van der Laan and Rose offers a machine learning perspective on causal inference."
   },
   {
     "objectID": "resources.html#quick-reference",
     "href": "resources.html#quick-reference",
     "title": "Resources",
     "section": "Quick Reference",
-    "text": "Quick Reference\n\n\n\n\n\n\nNote🎯 Where to Start?\n\n\n\n\nNew to causal inference? → Start with our four-part tutorial series\nNeed DAGs? → Check out the ggdag tutorials\nReady to analyze? → Install margot and follow our practical guide\nCross-cultural research? → See Part 3 of our series\n\n\n\n\n\n\n\n\n\nTipContributing\n\n\n\nHave a resource to suggest? Found a broken link? Please contact us or submit an issue on our GitHub repository."
+    "text": "Quick Reference\n\n\n\n\n\n\nNoteWhere to Start\n\n\n\nIf you are new to causal inference, begin with our four-part tutorial series. If you need DAGs, the ggdag tutorials are a good first step. If you are ready to analyse data, install margot and follow the practical guide. For cross-cultural research, start with Part 3 of the series.\n\n\n\n\n\n\n\n\nTipContributing\n\n\n\nHave a resource to suggest or a broken link to fix? Please contact us or submit an issue on our GitHub repository."
   },
   {
     "objectID": "about.html",
@@ -620,49 +620,49 @@
     "href": "index.html",
     "title": "EPIC-lab",
     "section": "",
-    "text": "Does participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) is designed to solve this problem. We pair the rigorous logic of causal inference with the predictive power of machine learning to quantify whether interventions work, for whom they are most effective, and under which circumstances they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
+    "text": "Does participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
   },
   {
-    "objectID": "index.html#welcome-to-the-epic-lab",
-    "href": "index.html#welcome-to-the-epic-lab",
+    "objectID": "index.html#why-epic-lab",
+    "href": "index.html#why-epic-lab",
     "title": "EPIC-lab",
     "section": "",
-    "text": "Does participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) is designed to solve this problem. We pair the rigorous logic of causal inference with the predictive power of machine learning to quantify whether interventions work, for whom they are most effective, and under which circumstances they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
+    "text": "Does participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
   },
   {
-    "objectID": "index.html#our-mission",
-    "href": "index.html#our-mission",
+    "objectID": "index.html#what-we-aim-for",
+    "href": "index.html#what-we-aim-for",
     "title": "EPIC-lab",
-    "section": "Our Mission",
-    "text": "Our Mission\n\nAdvance causal inference in the social sciences, both in observational research and experimental design. \nEducate scholars through hands‑on training in modern causal methods\n\nPromote evidence-based decision making through robust causal workflows and collaboration with experts."
+    "section": "What We Aim For",
+    "text": "What We Aim For\nWe advance causal inference in the social sciences, across observational research and experimental design.\nWe educate scholars through hands-on training in modern causal methods.\nWe promote evidence-based decision making through robust workflows and collaboration with domain experts."
   },
   {
-    "objectID": "index.html#research-focus",
-    "href": "index.html#research-focus",
+    "objectID": "index.html#what-we-study",
+    "href": "index.html#what-we-study",
     "title": "EPIC-lab",
-    "section": "Research Focus",
-    "text": "Research Focus\n\n\n\nCausal Methods in Social Science\n\nstating clear causal questions\ndoubly robust machine learning\ncausal forests and heterogeneous treatment effects\nlongitudinal modified treatment policies (multi-exposures)\n\n\n\n\nApplication Domains\n\nvolunteering/charity\ninstitutional trust\nindividual differences\nreligion"
+    "section": "What We Study",
+    "text": "What We Study\n\n\n\nCausal Methods in Social Science\nWe state clear causal questions, then build doubly robust models to answer them. We use causal forests to estimate heterogeneous treatment effects, and we study longitudinal modified treatment policies for multi-exposure settings.\n\n\n\nApplication Domains\nWe study volunteering and charity, institutional trust, individual differences, and religion."
   },
   {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
+    "objectID": "index.html#recent-work",
+    "href": "index.html#recent-work",
     "title": "EPIC-lab",
-    "section": "Featured Work",
-    "text": "Featured Work\nVisit our Presentations section to explore our latest research talks and workshops."
+    "section": "Recent Work",
+    "text": "Recent Work\nVisit our Presentations section to explore recent research talks and workshops."
   },
   {
-    "objectID": "index.html#resources",
-    "href": "index.html#resources",
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
     "title": "EPIC-lab",
-    "section": "Resources",
-    "text": "Resources\nVisit our about section for tools and materials to get started."
+    "section": "Start Here",
+    "text": "Start Here\nVisit our about section for tools and materials to get started."
   },
   {
-    "objectID": "index.html#get-involved",
-    "href": "index.html#get-involved",
+    "objectID": "index.html#work-with-us",
+    "href": "index.html#work-with-us",
     "title": "EPIC-lab",
-    "section": "Get Involved",
-    "text": "Get Involved\nCheck out our about section to get in touch.\n\n\n\n\n\n\n\nNoteRecent News\n\n\n\nStay updated with our latest research, publications, and events in the news section."
+    "section": "Work With Us",
+    "text": "Work With Us\nCheck out our about section to get in touch.\n\n\n\n\n\n\n\nNoteUpdates\n\n\n\nStay updated with our latest research, publications, and events in the news section."
   },
   {
     "objectID": "presentations.html",
