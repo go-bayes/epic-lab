@@ -49,9 +49,9 @@ website:
       - icon: twitter
         href: "https://x.com/prof_joe_"
         aria-label: "X (Twitter)"
-      - text: "Bluesky"
-        href: "https://epiclab.bsky.social"
-        aria-label: "Bluesky"
+      - text: "LinkedIn"
+        href: "https://linkedin.com/in/joseph-bulbulia-1ba5a514"
+        aria-label: "LinkedIn"
       - text: "ORCID"
         href: "https://orcid.org/0000-0002-5861-2056"
         aria-label: "ORCID"

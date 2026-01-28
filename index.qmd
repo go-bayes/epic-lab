@@ -40,7 +40,9 @@ Visit our [about](about.qmd) section for tools and materials to get started.
 
 ## Work With Us
 
-Check out our [about](about.qmd) section to get in touch.
+If you would like to collaborate or discuss opportunities, email us directly or visit the [about](about.qmd) page.
+
+[Contact: joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-primary}
 
 ---
 
