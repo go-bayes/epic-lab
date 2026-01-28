@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - fonts
 
 website:
   title: "EPIC-lab: Evaluating Policy Implications with Causal-inference"

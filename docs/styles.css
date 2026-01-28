@@ -1,25 +1,81 @@
 /* EPIC-LAB WEBSITE STYLES */
 
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/JetBrainsMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/JetBrainsMono-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
 /* ========== COLOUR PALETTE ========== */
+/* light theme (catppuccin latte inspired) */
 :root {
   /* greys */
-  --header-dark: #2d3748;
-  --header-border: #1a202c;
-  --text-dark: #1a202c;
-  --text-body: #4a5568;
-  --text-light: #718096;
-  --bg-light: #f7fafc;
+  --header-dark: #4c4f69;
+  --header-border: #dce0e8;
+  --text-dark: #4c4f69;
+  --text-body: #5c5f77;
+  --text-light: #6c6f85;
+  --bg-light: #eff1f5;
   --bg-white: #ffffff;
 
   /* accent colours */
-  --accent-primary: #3182ce;
-  --accent-hover: #2c5282;
-  --accent-presentations: #9f7aea;  /* purple for presentations */
-  --success: #48bb78;
-  --warning: #ed8936;
+  --accent-primary: #1e66f5;
+  --accent-hover: #1a5bd6;
+  --accent-presentations: #8839ef;
+  --success: #40a02b;
+  --warning: #fe640b;
 
   /* spacing */
   --content-max-width: 850px;
+
+  /* radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+}
+
+/* dark theme (catppuccin mocha inspired) */
+body.quarto-dark {
+  --header-dark: #11111b;
+  --header-border: #313244;
+  --text-dark: #cdd6f4;
+  --text-body: #bac2de;
+  --text-light: #a6adc8;
+  --bg-light: #1e1e2e;
+  --bg-white: #181825;
+
+  --accent-primary: #89b4fa;
+  --accent-hover: #74c7ec;
+  --accent-presentations: #cba6f7;
+  --success: #a6e3a1;
+  --warning: #fab387;
 }
 
 /* ========== GLOBAL STYLES ========== */
@@ -27,12 +83,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: var(--text-body);
   line-height: 1.7;
-  font-size: 16px;
+  font-size: 17px;
+  background-color: var(--bg-light);
 }
 
 /* monospace fonts for code */
 pre, code, kbd, samp {
-  font-family: "SF Mono", "Cascadia Code", "Roboto Mono", "Consolas", "Courier New", monospace;
+  font-family: "JetBrains Mono", "SF Mono", "Cascadia Code", "Roboto Mono", "Consolas", "Courier New", monospace;
 }
 
 /* ========== HEADER/NAVBAR ========== */
@@ -46,6 +103,7 @@ pre, code, kbd, samp {
 .navbar-nav .nav-link,
 .navbar-nav .dropdown-toggle {
   color: #f7fafc !important;
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .navbar-nav .nav-link:hover,
@@ -84,6 +142,7 @@ pre, code, kbd, samp {
 /* ========== TYPOGRAPHY ========== */
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-dark);
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
@@ -91,9 +150,21 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.25rem;
-  border-bottom: 3px solid var(--accent-primary);
-  padding-bottom: 0.5rem;
   margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+  display: inline-block;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6px;
+  background: var(--accent-primary);
+  border-radius: var(--radius-pill);
 }
 
 h2 {
@@ -184,7 +255,7 @@ tr:hover {
 
 /* ========== CARDS/BOXES ========== */
 .card {
-  background: white;
+  background: var(--bg-white);
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   padding: 1.5rem;
@@ -199,8 +270,8 @@ tr:hover {
 
 /* ========== PRESENTATION EMBED ========== */
 .presentation-container {
-  background: white;
-  border: 1px solid #e2e8f0;
+  background: var(--bg-white);
+  border: 1px solid var(--header-border);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 2rem 0;
@@ -210,7 +281,7 @@ tr:hover {
 .presentation-header {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .presentation-meta {
@@ -223,7 +294,7 @@ tr:hover {
   position: relative;
   width: 100%;
   height: 600px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--header-border);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -236,9 +307,10 @@ tr:hover {
 
 /* ========== SIDEBAR TOC ========== */
 .sidebar nav[role="doc-toc"] {
-  background-color: #f7fafc;
+  background-color: var(--bg-white);
   border-radius: 8px;
   padding: 1rem;
+  border: 1px solid var(--header-border);
 }
 
 .sidebar nav[role="doc-toc"] > ul {
@@ -258,7 +330,7 @@ tr:hover {
 /* ========== BUTTONS ========== */
 .btn {
   padding: 0.5rem 1.5rem;
-  border-radius: 6px;
+  border-radius: var(--radius-pill);
   font-weight: 500;
   transition: all 0.2s ease;
   text-decoration: none;
@@ -281,7 +353,7 @@ tr:hover {
 .embed-notice {
   text-align: center;
   padding: 2rem;
-  background-color: #f8f9fa;
+  background-color: var(--bg-light);
   border-radius: 8px;
 }
 
@@ -346,6 +418,37 @@ tr:hover {
   color: var(--text-light);
   font-size: 3rem;
   font-weight: 300;
+}
+
+/* ========== DARK MODE TWEAKS ========== */
+body.quarto-dark pre {
+  background-color: #181825;
+  border-color: #313244;
+}
+
+body.quarto-dark code:not(pre code) {
+  background-color: #313244;
+  color: #f38ba8;
+}
+
+body.quarto-dark td {
+  border-bottom-color: #313244;
+}
+
+body.quarto-dark tr:hover {
+  background-color: #1e1e2e;
+}
+
+body.quarto-dark .callout-note {
+  background-color: #313244;
+}
+
+body.quarto-dark .callout-tip {
+  background-color: #45475a;
+}
+
+body.quarto-dark .callout-warning {
+  background-color: #313244;
 }
 
 /* ========== RESPONSIVE ========== */
