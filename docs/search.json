@@ -4,14 +4,14 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods.\n\n\nPart 1: Causal Diagrams and Confounding Beginner level covering essential concepts, DAGs, and confounding bias.\nPart 2: Interaction, Mediation, and Time-Varying Treatments Intermediate level covering effect modification and complex causal structures.\n\nPart 3: Measurement Error and External Validity Intermediate level focusing on measurement and cross-cultural validity.\nPart 4: Confounding in Experiments Advanced level covering experimental design considerations.\n\n\n\n\n\n\n\n\nTipGetting Started with R and Causal Tools\n\n\n\nFor an interactive introduction to directed acyclic graphs, see Introduction to Directed Acyclic Graphs. For a visual guide to common bias structures, see Common Structures of Bias. For propensity score weighting, start with the WeightIt documentation."
+    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods.\n\n\nBeginner level covering essential concepts, DAGs, and confounding bias.\n\n\n\nIntermediate level covering effect modification and complex causal structures.\n\n\n\nIntermediate level focusing on measurement and cross-cultural validity.\n\n\n\nAdvanced level covering experimental design considerations.\n\n\n\n\n\n\nTipGetting Started with R and Causal Tools\n\n\n\nFor an interactive introduction to directed acyclic graphs, see Introduction to Directed Acyclic Graphs. For a visual guide to common bias structures, see Common Structures of Bias. For propensity score weighting, start with the WeightIt documentation."
   },
   {
     "objectID": "resources.html#learning-pathways",
     "href": "resources.html#learning-pathways",
     "title": "Resources",
     "section": "",
-    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods.\n\n\nPart 1: Causal Diagrams and Confounding Beginner level covering essential concepts, DAGs, and confounding bias.\nPart 2: Interaction, Mediation, and Time-Varying Treatments Intermediate level covering effect modification and complex causal structures.\n\nPart 3: Measurement Error and External Validity Intermediate level focusing on measurement and cross-cultural validity.\nPart 4: Confounding in Experiments Advanced level covering experimental design considerations.\n\n\n\n\n\n\n\n\nTipGetting Started with R and Causal Tools\n\n\n\nFor an interactive introduction to directed acyclic graphs, see Introduction to Directed Acyclic Graphs. For a visual guide to common bias structures, see Common Structures of Bias. For propensity score weighting, start with the WeightIt documentation."
+    "text": "A four-part tutorial series published in Evolutionary Human Sciences that provides a systematic introduction to causal inference methods.\n\n\nBeginner level covering essential concepts, DAGs, and confounding bias.\n\n\n\nIntermediate level covering effect modification and complex causal structures.\n\n\n\nIntermediate level focusing on measurement and cross-cultural validity.\n\n\n\nAdvanced level covering experimental design considerations.\n\n\n\n\n\n\nTipGetting Started with R and Causal Tools\n\n\n\nFor an interactive introduction to directed acyclic graphs, see Introduction to Directed Acyclic Graphs. For a visual guide to common bias structures, see Common Structures of Bias. For propensity score weighting, start with the WeightIt documentation."
   },
   {
     "objectID": "resources.html#software-and-tools",
@@ -32,7 +32,7 @@
     "href": "resources.html#video-library",
     "title": "Resources",
     "section": "Video Library",
-    "text": "Video Library\n\n\n\nHow Do We Learn What Works?\nMiguel Hernan\n\n\n\n\nMeasurement Constructs\nTyler VanderWeele\n\n\n\n\n\nEffect Modification and Heterogeneity\nStijn Vansteelandt and Betsy Ogburn\n\n\n\n\nIntroduction to Causal Forests\nSusan Athey and Stefan Wager\n\n\n\n\nTechnical Deep Dive: Causal Forests\nStefan Wager\n\n\n\n\n\n\nHow Traditional Statistical Mediation Analysis Fails\n\nStijn Vansteelandt\n\n\n\n\nDesign\n\n\n\nSynthetic Control Methods\nAlberto Abadie\n\n\n\n\nDifference-in-Differences\nPaul Goldsmith-Pinkham\n\n\n\n\n\n\n\nInstrumental Variables\nBrady Neal\n\n\n\n\nIntroduction to Causal Inference\nRichard McElreath"
+    "text": "Video Library\n\nHow Do We Learn What Works?\nMiguel Hernan\n\n\n\n\n\nMeasurement Constructs\nTyler VanderWeele\n\n\n\n\n\nEffect Modification and Heterogeneity\nStijn Vansteelandt and Betsy Ogburn\n\n\n\n\nIntroduction to Causal Forests\nSusan Athey and Stefan Wager\n\n\n\n\n\nTechnical Deep Dive: Causal Forests\nStefan Wager\n\n\n\n\n\n\nHow Traditional Statistical Mediation Analysis Fails\nStijn Vansteelandt\n\n\n\n\n\nDesign\n\nSynthetic Control Methods\nAlberto Abadie\n\n\n\n\n\nDifference-in-Differences\nPaul Goldsmith-Pinkham\n\n\n\n\n\nInstrumental Variables\nBrady Neal\n\n\n\n\n\nIntroduction to Causal Inference\nRichard McElreath"
   },
   {
     "objectID": "resources.html#educational-materials",
@@ -620,14 +620,14 @@
     "href": "index.html",
     "title": "EPIC-lab",
     "section": "",
-    "text": "Does participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
+    "text": "Evaluating Policy Implications with Causal-inference"
   },
   {
     "objectID": "index.html#why-epic-lab",
     "href": "index.html#why-epic-lab",
     "title": "EPIC-lab",
-    "section": "",
-    "text": "Does participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
+    "section": "Why EPIC-Lab",
+    "text": "Why EPIC-Lab\nDoes participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
   },
   {
     "objectID": "index.html#what-we-aim-for",

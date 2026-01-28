@@ -8,23 +8,21 @@ title: "Resources"
 
 A four-part tutorial series published in *Evolutionary Human Sciences* that provides a systematic introduction to causal inference methods.
 
-:::: {.columns}
-::: {.column width="50%"}
-**Part 1: [Causal Diagrams and Confounding](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-1-causal-diagrams-and-confounding/E734F72109F1BE99836E268DF3AA0359)**
+#### Part 1: [Causal Diagrams and Confounding](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-1-causal-diagrams-and-confounding/E734F72109F1BE99836E268DF3AA0359)
+
 Beginner level covering essential concepts, DAGs, and confounding bias.
 
-**Part 2: [Interaction, Mediation, and Time-Varying Treatments](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-2-interaction-mediation-and-timevarying-treatments/D7FD95D3ED64FE0FBBEC37AC6CEAFBC1)**
-Intermediate level covering effect modification and complex causal structures.
-:::
+#### Part 2: [Interaction, Mediation, and Time-Varying Treatments](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-2-interaction-mediation-and-timevarying-treatments/D7FD95D3ED64FE0FBBEC37AC6CEAFBC1)
 
-::: {.column width="50%"}
-**Part 3: [Measurement Error and External Validity](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-3-measurement-error-and-external-validity-threats/4D35FFDECF32B2EFF7557EC26075175F)**
+Intermediate level covering effect modification and complex causal structures.
+
+#### Part 3: [Measurement Error and External Validity](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-3-measurement-error-and-external-validity-threats/4D35FFDECF32B2EFF7557EC26075175F)
+
 Intermediate level focusing on measurement and cross-cultural validity.
 
-**Part 4: [Confounding in Experiments](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-4-confounding-in-experiments/570D60A5FCCA007B55427384818C368E)**
+#### Part 4: [Confounding in Experiments](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/methods-in-causal-inference-part-4-confounding-in-experiments/570D60A5FCCA007B55427384818C368E)
+
 Advanced level covering experimental design considerations.
-:::
-::::
 
 ::: {.callout-tip}
 ## Getting Started with R and Causal Tools
@@ -141,87 +139,79 @@ Athey, S. and Imbens, G.W. (2016). [Recursive Partitioning for Heterogeneous Cau
 
 ## Video Library
 
-:::: {.columns}
-::: {.column width="50%"}
 #### How Do We Learn What Works?
 *Miguel Hernan*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=NsVDfKiVGPc >}}
 :::
 
-::: {.column width="50%"}
 #### Measurement Constructs
 *Tyler VanderWeele*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=UA2WvYlT2RE&t=24s >}}
 :::
-::::
 
 ### Effect Modification and Heterogeneity
 
 *Stijn Vansteelandt and Betsy Ogburn*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=DkyNCJLWqUg&t=2827s >}}
+:::
 
-
-:::: {.columns}
-::: {.column width="50%"}
 #### Introduction to Causal Forests
 *Susan Athey and Stefan Wager*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=YBbnCDRCcAI&t=1241s >}}
 :::
 
-::: {.column width="50%"}
 #### Technical Deep Dive: Causal Forests
 *Stefan Wager*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=lBW4fwjCF44 >}}
 :::
-::::
 
 ### How Traditional Statistical Mediation Analysis Fails
 
-::: {.column width="100%"}
 *Stijn Vansteelandt*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=IgC7R07Qk6A&t=953s >}}
 :::
 
 
 ### Design
 
-:::: {.columns}
-::: {.column width="50%"}
 #### Synthetic Control Methods
 *Alberto Abadie*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=nKzNp-qpE-I&list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&index=11 >}}
 :::
 
-::: {.column width="50%"}
 #### Difference-in-Differences
 *Paul Goldsmith-Pinkham*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=2nDgrNP7XSE&list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&index=10 >}}
 :::
-::::
 
-:::: {.columns}
-::: {.column width="50%"}
 #### Instrumental Variables
 *Brady Neal*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=B0SRWteGoOw&list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&index=9 >}}
 :::
 
-::: {.column width="50%"}
 #### Introduction to Causal Inference
 *Richard McElreath*
 
+::: {.video-embed}
 {{< video https://www.youtube.com/watch?v=KNPYUVmY3NM >}}
-:::
-
 :::
 
 ---

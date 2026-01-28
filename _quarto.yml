@@ -5,7 +5,7 @@ project:
     - fonts
 
 website:
-  title: "EPIC-lab: Evaluating Policy Implications with Causal-inference"
+  title: "EPIC-lab"
   site-url: https://go-bayes.github.io/epic-lab/
   description: "EPIC-lab at Victoria University of Wellington advances causal inference methods for policy evaluation using machine learning and statistical rigor"
   image: "images/epic-lab-social.png"

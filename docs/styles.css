@@ -50,6 +50,42 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/CrimsonPro-Medium-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/CrimsonPro-Medium-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/CrimsonPro-Medium-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/CrimsonPro-Medium-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* ========== COLOUR PALETTE ========== */
 /* light theme (catppuccin latte inspired) */
 :root {
@@ -103,7 +139,7 @@ body {
   line-height: 1.7;
   font-size: 20px;
   background-color: var(--bg-light);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 p {
@@ -190,6 +226,53 @@ h1::after {
   height: 6px;
   background: var(--accent-primary);
   border-radius: var(--radius-pill);
+}
+
+.home .quarto-title-block {
+  display: none;
+}
+
+.hero {
+  padding: 2.5rem 2rem;
+  margin: 1.5rem 0 3rem;
+  background: var(--bg-white);
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 20px rgba(17, 17, 27, 0.08);
+}
+
+.hero-title {
+  margin: 0 0 0.75rem;
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  color: var(--text-dark);
+}
+
+.hero-subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body.quarto-dark .hero {
+  box-shadow: none;
+}
+
+.quarto-title .subtitle,
+.quarto-title-block .subtitle,
+.subtitle.lead {
+  margin-top: 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 h2 {
@@ -328,6 +411,28 @@ tr:hover {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* ========== VIDEO EMBEDS ========== */
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0 2.5rem;
+  background-color: var(--bg-white);
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.video-embed iframe,
+.video-embed embed,
+.video-embed object {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /* ========== SIDEBAR TOC ========== */
@@ -474,6 +579,15 @@ body.quarto-dark .callout-tip {
 
 body.quarto-dark .callout-warning {
   background-color: #313244;
+}
+
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4,
+body.quarto-dark h5,
+body.quarto-dark h6 {
+  color: var(--text-dark);
 }
 
 /* ========== RESPONSIVE ========== */

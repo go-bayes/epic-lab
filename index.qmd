@@ -1,7 +1,12 @@
 ---
 title: "EPIC-lab"
-subtitle: "Evaluating Policy Implications with Causal-inference"
+body-classes: home
 ---
+
+::: {.hero}
+<h1 class="hero-title">EPIC-lab</h1>
+<p class="hero-subtitle">Evaluating Policy Implications with Causal-inference</p>
+:::
 
 ## Why EPIC-Lab
 
