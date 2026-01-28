@@ -36,13 +36,13 @@ Visit our [Presentations](presentations.qmd) section to explore recent research 
 
 ## Start Here
 
-Visit our [about](about.qmd) section for tools and materials to get started. 
+Visit our [about](about.qmd) section for tools and materials to get started.
 
 ## Work With Us
 
 If you would like to collaborate or discuss opportunities, email us directly or visit the [about](about.qmd) page.
 
-[Contact: joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-primary}
+[Email: joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-primary}
 
 ---
 
