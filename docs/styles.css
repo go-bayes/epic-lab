@@ -70,7 +70,7 @@
   --warning: #fe640b;
 
   /* spacing */
-  --content-max-width: 850px;
+  --content-max-width: 820px;
 
   /* radius */
   --radius-sm: 6px;
@@ -101,9 +101,15 @@ body {
   font-family: "Crimson Pro", "Georgia", "Times New Roman", serif;
   color: var(--text-body);
   line-height: 1.7;
-  font-size: 18px;
+  font-size: 20px;
   background-color: var(--bg-light);
-  font-weight: 200;
+  font-weight: 400;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 /* monospace fonts for code */
