@@ -4,12 +4,8 @@ title: "Reports"
 
 ## Research Reports & Working Papers
 
-Access our collection of research reports, working papers, and detailed analyses through our dedicated report repositories.
-
-### Report Collections
-
 ::: {.callout-note}
-## General Research Reports  (Previous Reports Page)
+### General Research Reports  (Previous Reports Page)
 **[Browse General Reports →](https://go-bayes.github.io/reports/)**
 
 Our main repository of research reports covering:
@@ -22,7 +18,7 @@ Our main repository of research reports covering:
 :::
 
 ::: {.callout-note}
-## B-Causal: Causal Inference Resources (Previous Lab)
+### B-Causal: Causal Inference Resources (Previous Lab)
 **[Browse B-Causal Reports →](https://go-bayes.github.io/b-causal/)**
 
 Specialised resources for causal inference including:
@@ -34,7 +30,6 @@ Specialised resources for causal inference including:
 
 ---
 
-### Featured Reports
 
 #### Recent Highlights
 
@@ -58,3 +53,4 @@ All reports are freely available through our GitHub Pages repositories. For spec
 When citing our reports, please use the following format:
 
 > Author(s). (Year). *Report Title*. EPIC-lab Reports, Victoria University of Wellington. URL
+

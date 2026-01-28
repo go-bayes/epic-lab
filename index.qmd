@@ -17,23 +17,13 @@ We promote evidence-based decision making through robust workflows and collabora
 
 ## What We Study
 
-
-:::: {.columns}
-
-::: {.column width="60%"}
 ### Causal Methods in Social Science
 
 We state clear causal questions, then build doubly robust models to answer them. We use causal forests to estimate heterogeneous treatment effects, and we study longitudinal modified treatment policies for multi-exposure settings.
-:::
 
-::: {.column width="40%"}
 ### Application Domains
 
 We study volunteering and charity, institutional trust, individual differences, and religion.
-
-:::
-
-::::
 
 ## Recent Work
 
