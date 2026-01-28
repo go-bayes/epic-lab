@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap");
+
 /* EPIC-LAB WEBSITE STYLES */
 
 @font-face {
@@ -134,12 +136,12 @@ body.quarto-dark {
 
 /* ========== GLOBAL STYLES ========== */
 body {
-  font-family: "Crimson Pro", "Georgia", "Times New Roman", serif;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: var(--text-body);
   line-height: 1.7;
   font-size: 20px;
   background-color: var(--bg-light);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 p {
