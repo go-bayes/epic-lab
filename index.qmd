@@ -28,7 +28,7 @@ We state clear causal questions, then build doubly robust models to answer them.
 
 ### Application Domains
 
-We study volunteering and charity, institutional trust, individual differences, and religion.
+We study volunteering and charity, institutional trust, political psychology, personality, health and well-being, meaning and purpose, spirituality, and religion.
 
 ## Recent Work
 
