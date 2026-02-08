@@ -58,107 +58,107 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About EPIC-lab",
+    "title": "About EPICC-Lab",
     "section": "",
-    "text": "The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address long-standing debates and pressing real-world challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions."
+    "text": "EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) uses causal inference to address long-standing debates and real-world problems. Rigorous causal analysis clarifies what works, for whom, and when — questions that matter for both science and policy."
   },
   {
-    "objectID": "about.html#vision",
-    "href": "about.html#vision",
-    "title": "About EPIC-lab",
+    "objectID": "about.html#what-we-do",
+    "href": "about.html#what-we-do",
+    "title": "About EPICC-Lab",
     "section": "",
-    "text": "The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address long-standing debates and pressing real-world challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions."
+    "text": "EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) uses causal inference to address long-standing debates and real-world problems. Rigorous causal analysis clarifies what works, for whom, and when — questions that matter for both science and policy."
   },
   {
     "objectID": "about.html#approach",
     "href": "about.html#approach",
-    "title": "About EPIC-lab",
+    "title": "About EPICC-Lab",
     "section": "Approach",
     "text": "Approach\nWe combine causal inference workflows with domain expertise to:\n\nIdentify and state clearly defined causal questions\nDesign studies that answer these questions\nClearly communicate findings"
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About EPIC-lab",
+    "title": "About EPICC-Lab",
     "section": "Contact",
     "text": "Contact\nEmail: joseph.bulbulia@vuw.ac.nz\nInstitution: Victoria University of Wellington, New Zealand\nLocation: Easterfield Building, Room EA 324, Kelburn Campus\nX (Twitter): @prof_joe_\nBluesky: epiclab.bsky.social\n\nLocation"
   },
   {
     "objectID": "about.html#funding",
     "href": "about.html#funding",
-    "title": "About EPIC-lab",
+    "title": "About EPICC-Lab",
     "section": "Funding",
-    "text": "Funding\nThe EPIC-lab gratefully acknowledges support from:\nTempleton Religion Trust\n\nTRT0418: “New Zealand Attitudes and Values Study Matching Grant”\n\nJoseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton\n\nTRT-2022-30666: “Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities”\n\nJoseph Bulbulia (Contact PI) and Joseph Watts\n\nTRT-2022-30579: “A national longitudinal study of Muslim diversity and flourishing”\n\nUsman Afzali (Contact PI), Joseph Bulbulia (Co-PI)\n\n\n\n\n\n\n\nVictoria University of Wellington\n\n\n\n\n\n\n\n\n\nTempleton Religion Trust\n\n\n\n\n*The EPIC-lab is based at Victoria University of Wellington, New Zealand."
+    "text": "Funding\nThe EPICC-Lab gratefully acknowledges support from:\nTempleton Religion Trust\n\nTRT0418: “New Zealand Attitudes and Values Study Matching Grant”\n\nJoseph Bulbulia (Contact PI) and Donnie Davis, Ken Rice, Chris G Sibley, Geoffrey Troughton\n\nTRT-2022-30666: “Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities”\n\nJoseph Bulbulia (Contact PI) and Joseph Watts\n\nTRT-2022-30579: “A national longitudinal study of Muslim diversity and flourishing”\n\nUsman Afzali (Contact PI), Joseph Bulbulia (Co-PI)\n\n\n\n\n\n\n\nVictoria University of Wellington\n\n\n\n\n\n\n\n\n\nTempleton Religion Trust\n\n\n\n\n*The EPICC-Lab is based at Victoria University of Wellington, New Zealand."
   },
   {
     "objectID": "reports.html",
     "href": "reports.html",
     "title": "Reports",
     "section": "",
-    "text": "NoteGeneral Research Reports (Previous Reports Page)\n\n\n\nBrowse General Reports →\nOur main repository of research reports covering: - Muslim acceptance and prejudice studies - COVID-19 pandemic impacts - Climate science trust - Environmental attitudes and religion - Health and well-being analyses - Methodological papers\n\n\n\n\n\n\n\n\nNoteB-Causal: Causal Inference Resources (Previous Lab)\n\n\n\nBrowse B-Causal Reports →\nSpecialised resources for causal inference including: - Causal inference tutorials - Methodological guides - Applied examples - Code demonstrations\n\n\n\n\n\n\nMuslim Acceptance Study - How the Christchurch attacks affected attitudes toward Muslims in New Zealand\nCOVID-19 Analysis - Pandemic impacts on well-being and social cohesion\nClimate Science Trust - Causal relationships between trust in science and environmental attitudes\nReligious Simpson’s Paradox - Uncovering complex patterns in religious data\n\n\n\n\n\nAll reports are freely available through our GitHub Pages repositories. For specific reports, datasets, or questions, please contact:\n📧 joseph.bulbulia@vuw.ac.nz\n\n\n\n\nWhen citing our reports, please use the following format:\n\nAuthor(s). (Year). Report Title. EPIC-lab Reports, Victoria University of Wellington. URL"
+    "text": "NoteGeneral Research Reports (Previous Reports Page)\n\n\n\nBrowse General Reports →\nOur main repository of research reports covering: - Muslim acceptance and prejudice studies - COVID-19 pandemic impacts - Climate science trust - Environmental attitudes and religion - Health and well-being analyses - Methodological papers\n\n\n\n\n\n\n\n\nNoteB-Causal: Causal Inference Resources (Previous Lab)\n\n\n\nBrowse B-Causal Reports →\nSpecialised resources for causal inference including: - Causal inference tutorials - Methodological guides - Applied examples - Code demonstrations\n\n\n\n\n\n\nMuslim Acceptance Study - How the Christchurch attacks affected attitudes toward Muslims in New Zealand\nCOVID-19 Analysis - Pandemic impacts on well-being and social cohesion\nClimate Science Trust - Causal relationships between trust in science and environmental attitudes\nReligious Simpson’s Paradox - Uncovering complex patterns in religious data\n\n\n\n\n\nAll reports are freely available through our GitHub Pages repositories. For specific reports, datasets, or questions, please contact:\n📧 joseph.bulbulia@vuw.ac.nz\n\n\n\n\nWhen citing our reports, please use the following format:\n\nAuthor(s). (Year). Report Title. EPICC-Lab Reports, Victoria University of Wellington. URL"
   },
   {
     "objectID": "reports.html#research-reports-working-papers",
     "href": "reports.html#research-reports-working-papers",
     "title": "Reports",
     "section": "",
-    "text": "NoteGeneral Research Reports (Previous Reports Page)\n\n\n\nBrowse General Reports →\nOur main repository of research reports covering: - Muslim acceptance and prejudice studies - COVID-19 pandemic impacts - Climate science trust - Environmental attitudes and religion - Health and well-being analyses - Methodological papers\n\n\n\n\n\n\n\n\nNoteB-Causal: Causal Inference Resources (Previous Lab)\n\n\n\nBrowse B-Causal Reports →\nSpecialised resources for causal inference including: - Causal inference tutorials - Methodological guides - Applied examples - Code demonstrations\n\n\n\n\n\n\nMuslim Acceptance Study - How the Christchurch attacks affected attitudes toward Muslims in New Zealand\nCOVID-19 Analysis - Pandemic impacts on well-being and social cohesion\nClimate Science Trust - Causal relationships between trust in science and environmental attitudes\nReligious Simpson’s Paradox - Uncovering complex patterns in religious data\n\n\n\n\n\nAll reports are freely available through our GitHub Pages repositories. For specific reports, datasets, or questions, please contact:\n📧 joseph.bulbulia@vuw.ac.nz\n\n\n\n\nWhen citing our reports, please use the following format:\n\nAuthor(s). (Year). Report Title. EPIC-lab Reports, Victoria University of Wellington. URL"
+    "text": "NoteGeneral Research Reports (Previous Reports Page)\n\n\n\nBrowse General Reports →\nOur main repository of research reports covering: - Muslim acceptance and prejudice studies - COVID-19 pandemic impacts - Climate science trust - Environmental attitudes and religion - Health and well-being analyses - Methodological papers\n\n\n\n\n\n\n\n\nNoteB-Causal: Causal Inference Resources (Previous Lab)\n\n\n\nBrowse B-Causal Reports →\nSpecialised resources for causal inference including: - Causal inference tutorials - Methodological guides - Applied examples - Code demonstrations\n\n\n\n\n\n\nMuslim Acceptance Study - How the Christchurch attacks affected attitudes toward Muslims in New Zealand\nCOVID-19 Analysis - Pandemic impacts on well-being and social cohesion\nClimate Science Trust - Causal relationships between trust in science and environmental attitudes\nReligious Simpson’s Paradox - Uncovering complex patterns in religious data\n\n\n\n\n\nAll reports are freely available through our GitHub Pages repositories. For specific reports, datasets, or questions, please contact:\n📧 joseph.bulbulia@vuw.ac.nz\n\n\n\n\nWhen citing our reports, please use the following format:\n\nAuthor(s). (Year). Report Title. EPICC-Lab Reports, Victoria University of Wellington. URL"
   },
   {
     "objectID": "team.html",
     "href": "team.html",
-    "title": "Team",
+    "title": "Lab",
     "section": "",
-    "text": "Joseph Bulbulia\n\n\n\nDirector, EPIC-lab: 📧 joseph.bulbulia@vuw.ac.nz\n🔗 University Profile Full CV\nAboutProfessor Joseph Bulbulia (Joe) teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPIC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).Research Projects Joe’s methodological focus is applied through his leadership roles in two major longitudinal projects:\nNew Zealand Attitudes and Values Study (NZAVS): Joe is a member of the senior leadership team and principle investigator on the study’s largest projects. He uses 15-years of repeated measures longitudinal data from over 76,000+ New Zealanders to investigate religion, social cohesion, and trust.\nPulotu Database of Pacific Religions: as a founding co-investigator, Joe uses this database of 116 Austronesian cultures to test theories about the evolution of religious beliefs and their effects on social behaviour.\n\n\nJoe supervises students in a broad range of areas, including:\n\nPersonality and individual differences\nPolitical psychology\nWell-being/Flourishing\nReligion (his primary interest)"
+    "text": "Joseph Bulbulia\n\n\n\nDirector, EPICC-Lab: 📧 joseph.bulbulia@vuw.ac.nz\n🔗 University Profile Full CV\nAboutProfessor Joseph Bulbulia (Joe) teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPICC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).Research Projects Joe’s methodological focus is applied through his leadership roles in two major longitudinal projects:\nNew Zealand Attitudes and Values Study (NZAVS): Joe is a member of the senior leadership team and principle investigator on the study’s largest projects. He uses 15-years of repeated measures longitudinal data from over 76,000+ New Zealanders to investigate religion, social cohesion, and trust.\nPulotu Database of Pacific Religions: as a founding co-investigator, Joe uses this database of 116 Austronesian cultures to test theories about the evolution of religious beliefs and their effects on social behaviour.\n\n\nJoe supervises students in a broad range of areas, including:\n\nPersonality and individual differences\nPolitical psychology\nWell-being/Flourishing\nReligion (his primary interest)"
   },
   {
     "objectID": "team.html#director",
     "href": "team.html#director",
-    "title": "Team",
+    "title": "Lab",
     "section": "",
-    "text": "Joseph Bulbulia\n\n\n\nDirector, EPIC-lab: 📧 joseph.bulbulia@vuw.ac.nz\n🔗 University Profile Full CV\nAboutProfessor Joseph Bulbulia (Joe) teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPIC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).Research Projects Joe’s methodological focus is applied through his leadership roles in two major longitudinal projects:\nNew Zealand Attitudes and Values Study (NZAVS): Joe is a member of the senior leadership team and principle investigator on the study’s largest projects. He uses 15-years of repeated measures longitudinal data from over 76,000+ New Zealanders to investigate religion, social cohesion, and trust.\nPulotu Database of Pacific Religions: as a founding co-investigator, Joe uses this database of 116 Austronesian cultures to test theories about the evolution of religious beliefs and their effects on social behaviour.\n\n\nJoe supervises students in a broad range of areas, including:\n\nPersonality and individual differences\nPolitical psychology\nWell-being/Flourishing\nReligion (his primary interest)"
+    "text": "Joseph Bulbulia\n\n\n\nDirector, EPICC-Lab: 📧 joseph.bulbulia@vuw.ac.nz\n🔗 University Profile Full CV\nAboutProfessor Joseph Bulbulia (Joe) teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPICC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).Research Projects Joe’s methodological focus is applied through his leadership roles in two major longitudinal projects:\nNew Zealand Attitudes and Values Study (NZAVS): Joe is a member of the senior leadership team and principle investigator on the study’s largest projects. He uses 15-years of repeated measures longitudinal data from over 76,000+ New Zealanders to investigate religion, social cohesion, and trust.\nPulotu Database of Pacific Religions: as a founding co-investigator, Joe uses this database of 116 Austronesian cultures to test theories about the evolution of religious beliefs and their effects on social behaviour.\n\n\nJoe supervises students in a broad range of areas, including:\n\nPersonality and individual differences\nPolitical psychology\nWell-being/Flourishing\nReligion (his primary interest)"
   },
   {
     "objectID": "team.html#research-fellow",
     "href": "team.html#research-fellow",
-    "title": "Team",
+    "title": "Lab",
     "section": "Research Fellow",
     "text": "Research Fellow\n\nDr. Inkuk Kim\n\n\n\n\n\nDr. Inkuk Kim\n\n\n\nDr. Inkuk Kim is a Research Fellow at the Centre for Applied Cross-cultural Research and the School of Psychological Sciences at Victoria University of Wellington. His research focuses on fostering social cohesion to mitigate conflicts in multicultural societies, addressing climate change, and enhancing well-being. He is currently investigating the causal effects of trust in science on environmental attitudes and behaviours.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Longitudinal Modified Treatment Policies; Causal Machine Learning\nORCID Profile\nUniversity Profile\nGitHub"
   },
   {
     "objectID": "team.html#phd-students",
     "href": "team.html#phd-students",
-    "title": "Team",
+    "title": "Lab",
     "section": "PhD Students",
     "text": "PhD Students\n\nJake Ireland\n\n\n\n\n\nJake Ireland\n\n\n\nJake graduated with a Bachelor of Science in Psychology and Mathematics from Victoria University of Wellington in 2020. During his studies, he contributed to research on cross-cultural psychology, drug abuse, and face perception. Since graduating, he has worked in cyber security and, since 2022, has been researching cultural evolution with the Causal Lab at Victoria University. He completed his Honours in 2024 and began his PhD in 2025. Jake is investigating the co-evolution of religious and political culture in the Pacific.\n\nProject: Pulotu\nMethods: Causal Machine Learning\nORCID Profile\n\n\n\n\n\nJessie Auckram\n\n\n\n\n\nJessie Auckram\n\n\n\nJessie is investigating individual differences in personal resilience related to poverty.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
   },
   {
     "objectID": "team.html#masters-students",
     "href": "team.html#masters-students",
-    "title": "Team",
+    "title": "Lab",
     "section": "Master’s Students",
     "text": "Master’s Students\n\nBoyang Cao\n\n\n\n\n\nBoyang Cao\n\n\n\nBoyang is researching the causal effects of prejudice on personality.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning\n\n\n\n\n\nHannah Robinson\n\n\n\n\n\nHannah Robinson\n\n\n\nHannah is researching the causal effects of religious service attendance on personality.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning\n\n\n\n\n\nZahle Wisely\n\n\n\n\n\nZahle Wisely\n\n\n\nZahle is investigating the causal effects of employer gratitude on multi-dimensional well-being.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
   },
   {
     "objectID": "team.html#research-assistants",
     "href": "team.html#research-assistants",
-    "title": "Team",
+    "title": "Lab",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\nMillie Rea\n\n\n\n\n\nMillie Rea\n\n\n\nMillie is investigating extensions of epic-lab workflows to policy settings, focusing on IDI (Integrated Data Infrastructure) data.\n\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
+    "text": "Research Assistants\n\nMillie Rea\n\n\n\n\n\nMillie Rea\n\n\n\nMillie is investigating extensions of EPICC-Lab workflows to policy settings, focusing on IDI (Integrated Data Infrastructure) data.\n\nMethods: Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning"
   },
   {
     "objectID": "team.html#alumni",
     "href": "team.html#alumni",
-    "title": "Team",
+    "title": "Lab",
     "section": "Alumni",
     "text": "Alumni\n\nDr. John Mark Kempthorne\n\n\n\n\n\nDr. JohnMark Kempthorne\n\n\n\nJohn Mark received his PhD from the School of Psychology at Victoria University of Wellington in 2025. His disseration investigated application of causal methods to NZAVS time-series data. He is currently working as a Post-doctoral Fellow at the Shaver Lab\n\nORCID Profile\n\n\n\n\n\nBella Chong\n\n\n\n\n\nBella Chong\n\n\n\nBella received her Master’s degree from Victoria University of Wellington in 2023. Her research investigated the causal effects of work hours on multi-dimensional well-being.\n\nProject: New Zealand Attitudes and Values Study (NZAVS)\nMethods: Longitudinal Modified Treatment Policies\nORCID Profile"
   },
   {
-    "objectID": "team.html#join-us",
-    "href": "team.html#join-us",
-    "title": "Team",
-    "section": "Join Us!",
-    "text": "Join Us!\nIf you’re interested in joining our team, please contact:\n📧 joseph.bulbulia@vuw.ac.nz"
+    "objectID": "team.html#join-the-lab",
+    "href": "team.html#join-the-lab",
+    "title": "Lab",
+    "section": "Join the lab",
+    "text": "Join the lab\nIf you’re interested in joining the lab, please contact:\n📧 joseph.bulbulia@vuw.ac.nz"
   },
   {
     "objectID": "research.html",
@@ -592,14 +592,14 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPIC-lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
+    "text": "19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPICC-Lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
   },
   {
     "objectID": "news.html#section",
     "href": "news.html#section",
     "title": "News",
     "section": "",
-    "text": "19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPIC-lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
+    "text": "19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPICC-Lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
   },
   {
     "objectID": "news.html#past-events",
@@ -618,49 +618,49 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EPIC-lab",
+    "title": "EPICC-Lab",
     "section": "",
-    "text": "Evaluating Policy Implications with Causal-inference"
+    "text": "Evolution · Policy · Inference · Causality · Culture"
   },
   {
-    "objectID": "index.html#why-epic-lab",
-    "href": "index.html#why-epic-lab",
-    "title": "EPIC-lab",
-    "section": "Why EPIC-Lab",
-    "text": "Why EPIC-Lab\nDoes participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPIC-Lab (Evaluating Policy Implications with Causal-inference) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
+    "objectID": "index.html#why-epicc-lab",
+    "href": "index.html#why-epicc-lab",
+    "title": "EPICC-Lab",
+    "section": "Why EPICC-Lab",
+    "text": "Why EPICC-Lab\nDoes participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. We address open questions in psychological science and public policy. EPICC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
   },
   {
     "objectID": "index.html#what-we-aim-for",
     "href": "index.html#what-we-aim-for",
-    "title": "EPIC-lab",
+    "title": "EPICC-Lab",
     "section": "What We Aim For",
-    "text": "What We Aim For\nWe advance causal inference in the social sciences, across observational research and experimental design.\nWe educate scholars through hands-on training in modern causal methods.\nWe promote evidence-based decision making through robust workflows and collaboration with domain experts."
+    "text": "What We Aim For\nWe advance causal inference in the social sciences, across observational research and experimental design.\nWe educate scholars through hands-on training in modern causal methods.\nWe work with domain experts to connect causal analysis to policy and practice."
   },
   {
     "objectID": "index.html#what-we-study",
     "href": "index.html#what-we-study",
-    "title": "EPIC-lab",
+    "title": "EPICC-Lab",
     "section": "What We Study",
     "text": "What We Study\n\nCausal Methods in Social Science\nWe state clear causal questions, then build doubly robust models to answer them. We use causal forests to estimate heterogeneous treatment effects, and we study longitudinal modified treatment policies for multi-exposure settings.\n\n\nApplication Domains\nWe study volunteering and charity, institutional trust, political psychology, personality, health and well-being, meaning and purpose, spirituality, and religion."
   },
   {
     "objectID": "index.html#recent-work",
     "href": "index.html#recent-work",
-    "title": "EPIC-lab",
+    "title": "EPICC-Lab",
     "section": "Recent Work",
     "text": "Recent Work\nVisit our Presentations section to explore recent research talks and workshops."
   },
   {
     "objectID": "index.html#start-here",
     "href": "index.html#start-here",
-    "title": "EPIC-lab",
+    "title": "EPICC-Lab",
     "section": "Start Here",
     "text": "Start Here\nVisit our about section for tools and materials to get started."
   },
   {
     "objectID": "index.html#work-with-us",
     "href": "index.html#work-with-us",
-    "title": "EPIC-lab",
+    "title": "EPICC-Lab",
     "section": "Work With Us",
     "text": "Work With Us\nIf you would like to collaborate or discuss opportunities, email us directly or visit the about page.\nEmail: joseph.bulbulia@vuw.ac.nz\n\n\n\n\n\n\n\nNoteUpdates\n\n\n\nStay updated with our latest research, publications, and events in the news section."
   },

@@ -52,5 +52,5 @@ All reports are freely available through our GitHub Pages repositories. For spec
 
 When citing our reports, please use the following format:
 
-> Author(s). (Year). *Report Title*. EPIC-lab Reports, Victoria University of Wellington. URL
+> Author(s). (Year). *Report Title*. EPICC-Lab Reports, Victoria University of Wellington. URL
 

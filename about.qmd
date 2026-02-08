@@ -1,10 +1,10 @@
 ---
-title: "About EPIC-lab"
+title: "About EPICC-Lab"
 ---
 
-## Vision
+## What we do
 
-The EPIC-lab (Evaluating Policy Implications with Causal-inference) is committed to advancing the science of causal inference to address long-standing debates and pressing real-world challenges. We believe that rigorous causal analysis is essential for evidence-based policy making and effective interventions.
+EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) uses causal inference to address long-standing debates and real-world problems. Rigorous causal analysis clarifies what works, for whom, and when — questions that matter for both science and policy.
 
 
 ## Approach
@@ -35,14 +35,14 @@ library(leaflet)
 leaflet() %>%
   addTiles() %>%
   addMarkers(lng=174.7681, lat=-41.2889, 
-             popup="EPIC-lab<br>Easterfield Building EA 324<br>Victoria University of Wellington")
+             popup="EPICC-Lab<br>Easterfield Building EA 324<br>Victoria University of Wellington")
 ```
 
 ---
 
 ## Funding
 
-The EPIC-lab gratefully acknowledges support from:
+The EPICC-Lab gratefully acknowledges support from:
 
 **Templeton Religion Trust**
 
@@ -69,4 +69,4 @@ The EPIC-lab gratefully acknowledges support from:
 :::
 ::::
 
-*The EPIC-lab is based at Victoria University of Wellington, New Zealand.
+*The EPICC-Lab is based at Victoria University of Wellington, New Zealand.

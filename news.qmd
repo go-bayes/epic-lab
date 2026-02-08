@@ -10,7 +10,7 @@ title: "News"
 
 The lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: *Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology*.
 
-Two EPIC-lab students presented their research applying causal inference methods:
+Two EPICC-Lab students presented their research applying causal inference methods:
 
 - **Zahle Wiseley**: *Does Employer Gratitude Improve Employee Well-being?* — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. [Slides (PDF)](https://www.dropbox.com/scl/fi/humnzsgo5blg7rrtvz3dt/Employer-Gratitude-and-Employee-Well-being.pdf?rlkey=oc4esqaip1loeaf7zt6eodx7n&dl=0)
 

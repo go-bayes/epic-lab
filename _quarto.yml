@@ -5,15 +5,15 @@ project:
     - fonts
 
 website:
-  title: "EPIC-lab"
+  title: "EPICC-Lab"
   site-url: https://go-bayes.github.io/epic-lab/
-  description: "EPIC-lab at Victoria University of Wellington advances causal inference methods for policy evaluation using machine learning and statistical rigor"
+  description: "EPICC-Lab at Victoria University of Wellington advances causal inference methods for policy evaluation using machine learning and statistical rigor"
   image: "images/epic-lab-social.png"
   favicon: "images/favicon.ico"
   google-analytics: "G-XXXXXXXXXX"
   open-graph:
     locale: en_US
-    site-name: EPIC-lab
+    site-name: EPICC-Lab
   twitter-card:
     creator: "@prof_joe_"
     site: "@prof_joe_"
@@ -22,7 +22,7 @@ website:
     left:
       - text: "About"
         href: about.qmd
-      - text: "Team"
+      - text: "Lab"
         href: team.qmd
       - text: "Research"
         href: research.qmd

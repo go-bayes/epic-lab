@@ -1,16 +1,16 @@
 ---
-title: "EPIC-lab"
+title: "EPICC-Lab"
 body-classes: home
 ---
 
 ::: {.hero}
-<h1 class="hero-title">EPIC-lab</h1>
-<p class="hero-subtitle">Evaluating Policy Implications with Causal-inference</p>
+<h1 class="hero-title">EPICC-Lab</h1>
+<p class="hero-subtitle">Evolution · Policy · Inference · Causality · Culture</p>
 :::
 
-## Why EPIC-Lab
+## Why EPICC-Lab
 
-Does participation in an after-school tutoring programme *cause* better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme's true effect from background factors is the central challenge of evaluation. EPIC-Lab (**E**valuating **P**olicy **I**mplications with **C**ausal-inference) focuses on that challenge, using causal inference and machine learning to estimate *whether* interventions work, *for whom* they work best, and *when* they provide benefit. Our work delivers robust answers to urgent questions in psychological science and public policy. EPIC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand.
+Does participation in an after-school tutoring programme *cause* better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme's true effect from background factors is the central challenge of evaluation. EPICC-Lab (**E**volution · **P**olicy · **I**nference · **C**ausality · **C**ulture) focuses on that challenge, using causal inference and machine learning to estimate *whether* interventions work, *for whom* they work best, and *when* they provide benefit. We address open questions in psychological science and public policy. EPICC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand.
 
 ## What We Aim For
 
@@ -18,7 +18,7 @@ We advance causal inference in the social sciences, across observational researc
 
 We educate scholars through hands-on training in modern causal methods.
 
-We promote evidence-based decision making through robust workflows and collaboration with domain experts.
+We work with domain experts to connect causal analysis to policy and practice.
 
 ## What We Study
 

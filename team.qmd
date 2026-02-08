@@ -1,5 +1,5 @@
 ---
-title: "Team"
+title: "Lab"
 ---
 
 ## Director
@@ -13,13 +13,13 @@ title: "Team"
 :::
 
 ::: {.column width="65%"}
-**Director, EPIC-lab**: 📧 joseph.bulbulia@vuw.ac.nz  
+**Director, EPICC-Lab**: 📧 joseph.bulbulia@vuw.ac.nz  
 🔗 [University Profile](https://people.wgtn.ac.nz/joseph.bulbulia) [Full CV](https://www.dropbox.com/scl/fi/jtlekxwxf05rfu1dw5hw9/bulbulia-j-a-cv.pdf?rlkey=4mink1sq6hftvje39t4y53s46&dl=0)
 ::::
 
 **About** 
 
-Professor Joseph Bulbulia (Joe) teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPIC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).
+Professor Joseph Bulbulia (Joe) teaches and researches in the School of Psychological Science at Victoria University of Wellington. His research investigates the complex drivers of human cooperation, conflict, and well-being, with a focus on the role of religion and values. Answering such fundamental questions requires moving beyond correlation to identify cause and effect. To meet this challenge, Joseph specialises in methodologies for inferring causality from observational data and founded EPICC-Lab to advance this work. He also directs the Centre for Applied Cross-Cultural Research (CACR).
 
 **Research Projects**
 Joe's methodological focus is applied through his leadership roles in two major longitudinal projects:
@@ -171,7 +171,7 @@ Zahle is investigating the causal effects of employer gratitude on multi-dimensi
 :::
 
 ::: {.column width="75%"}
-Millie is investigating extensions of epic-lab workflows to policy settings, focusing on IDI (Integrated Data Infrastructure) data.
+Millie is investigating extensions of EPICC-Lab workflows to policy settings, focusing on IDI (Integrated Data Infrastructure) data.
 
 - **Methods:** Heterogeneous Treatment Effects; Longitudinal Modified Treatment Policies; Causal Machine Learning
 :::
@@ -221,8 +221,8 @@ Bella received her Master's degree from Victoria University of Wellington in 202
 
 ---
 
-## Join Us!
+## Join the lab
 
-If you're interested in joining our team, please contact:
+If you're interested in joining the lab, please contact:
 
 📧 **joseph.bulbulia@vuw.ac.nz**
