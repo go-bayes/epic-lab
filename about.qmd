@@ -4,7 +4,7 @@ title: "About EPICC-Lab"
 
 ## What we do
 
-EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) uses causal inference to address long-standing debates and real-world problems. Rigorous causal analysis clarifies what works, for whom, and when — questions that matter for both science and policy.
+EPICC-Lab (Evaluating Policy Implications with Causal-inference and Cultural-psychology) uses causal inference to address long-standing debates and real-world problems. Rigorous causal workflows clarify what works, for whom, when, and in which context — questions that matter for science, policy, and describing the fabric of cultural diversity.
 
 
 ## Approach
