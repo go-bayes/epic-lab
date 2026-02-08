@@ -60,14 +60,14 @@
     "href": "about.html",
     "title": "About EPICC-Lab",
     "section": "",
-    "text": "EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) uses causal inference to address long-standing debates and real-world problems. Rigorous causal analysis clarifies what works, for whom, and when — questions that matter for both science and policy."
+    "text": "EPICC-Lab (Evaluating Policy Implications with Causal-inference and Cultural-psychology) uses causal inference to address long-standing debates and real-world problems. Rigorous causal workflows clarify what works, for whom, when, and in which context — questions that matter for science, policy, and describing the fabric of cultural diversity."
   },
   {
     "objectID": "about.html#what-we-do",
     "href": "about.html#what-we-do",
     "title": "About EPICC-Lab",
     "section": "",
-    "text": "EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) uses causal inference to address long-standing debates and real-world problems. Rigorous causal analysis clarifies what works, for whom, and when — questions that matter for both science and policy."
+    "text": "EPICC-Lab (Evaluating Policy Implications with Causal-inference and Cultural-psychology) uses causal inference to address long-standing debates and real-world problems. Rigorous causal workflows clarify what works, for whom, when, and in which context — questions that matter for science, policy, and describing the fabric of cultural diversity."
   },
   {
     "objectID": "about.html#approach",
@@ -620,14 +620,14 @@
     "href": "index.html",
     "title": "EPICC-Lab",
     "section": "",
-    "text": "Evolution · Policy · Inference · Causality · Culture"
+    "text": "Evaluating Policy Implications with Causal-inference and Cultural-psychology"
   },
   {
     "objectID": "index.html#why-epicc-lab",
     "href": "index.html#why-epicc-lab",
     "title": "EPICC-Lab",
     "section": "Why EPICC-Lab",
-    "text": "Why EPICC-Lab\nDoes participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPICC-Lab (Evolution · Policy · Inference · Causality · Culture) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. We address open questions in psychological science and public policy. EPICC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
+    "text": "Why EPICC-Lab\nDoes participation in an after-school tutoring programme cause better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme’s true effect from background factors is the central challenge of evaluation. EPICC-Lab (Evaluating Policy Implications with Causal-inference and Cultural-psychology) focuses on that challenge, using causal inference and machine learning to estimate whether interventions work, for whom they work best, and when they provide benefit. We address open questions in psychological science and public policy. EPICC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand."
   },
   {
     "objectID": "index.html#what-we-aim-for",
