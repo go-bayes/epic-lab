@@ -1,52 +1,13 @@
 ---
 title: "EPICC-Lab"
 body-classes: home
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://go-bayes.github.io/accept/">
 ---
 
-::: {.hero}
-<h1 class="hero-title">EPICC-Lab</h1>
-<p class="hero-subtitle">Evaluating Policy Implications with Causal-inference and Cultural-psychology</p>
-:::
+EPICC-Lab has moved to [ACCEPT at VUW](https://go-bayes.github.io/accept/).
 
-## Why EPICC-Lab
-
-Does participation in an after-school tutoring programme *cause* better marks? Simple observation might show participants have higher scores, but these students might also be more motivated or have more supportive parents. Distinguishing the programme's true effect from background factors is the central challenge of evaluation. EPICC-Lab (**E**valuating **P**olicy **I**mplications with **C**ausal-inference and **C**ultural-psychology) focuses on that challenge, using causal inference and machine learning to estimate *whether* interventions work, *for whom* they work best, and *when* they provide benefit. We address open questions in psychological science and public policy. EPICC-Lab is based at the School of Psychological Science at Victoria University of Wellington (Te Herenga Waka), New Zealand.
-
-## What We Aim For
-
-We advance causal inference in the social sciences, across observational research and experimental design.
-
-We educate scholars through hands-on training in modern causal methods.
-
-We work with domain experts to connect causal analysis to policy and practice.
-
-## What We Study
-
-### Causal Methods in Social Science
-
-We state clear causal questions, then build doubly robust models to answer them. We use causal forests to estimate heterogeneous treatment effects, and we study longitudinal modified treatment policies for multi-exposure settings.
-
-### Application Domains
-
-We study volunteering and charity, institutional trust, political psychology, personality, health and well-being, meaning and purpose, spirituality, and religion.
-
-## Recent Work
-
-Visit our [Presentations](presentations.qmd) section to explore recent research talks and workshops.
-
-## Start Here
-
-Visit our [about](about.qmd) section for tools and materials to get started.
-
-## Work With Us
-
-If you would like to collaborate or discuss opportunities, email us directly or visit the [about](about.qmd) page.
-
-[Email: joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-primary}
-
----
-
-::: {.callout-note}
-## Updates
-Stay updated with our latest research, publications, and events in the [news](news.qmd) section.
-:::
+If you are not redirected automatically, please open the ACCEPT at VUW site directly.
