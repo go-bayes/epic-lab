@@ -2,6 +2,20 @@
 title: "News"
 ---
 
+## 2026
+
+### Bella Chong Publishes Honours-Thesis Research in PLOS ONE
+
+**2 June 2026 | PLOS ONE**
+
+Congratulations to **Bella Chong**, whose revised honours-thesis research has been published in *PLOS ONE*: *How work hours affect well-being: A target trial emulation*. The study uses three annual waves of the New Zealand Attitudes and Values Study to estimate how population-average well-being would differ if weekly paid work hours shifted up or down by 10 hours.
+
+The clearest effects centre on fatigue, sleep, body mass index, and perceived physical health, with most other well-being outcomes showing little movement under either work-hours policy.
+
+[Read the article](https://doi.org/10.1371/journal.pone.0350816)
+
+---
+
 ## 2025
 
 ### SASP 2025 Pre-Conference Workshop in Melbourne
@@ -64,4 +78,3 @@ Joseph Bulbulia delivered the William Bier Interdisciplinary Award lecture: *Who
 *News archive coming soon...*
 
 ---
-

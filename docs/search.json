@@ -592,14 +592,14 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPICC-Lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
+    "text": "2 June 2026 | PLOS ONE\nCongratulations to Bella Chong, whose revised honours-thesis research has been published in PLOS ONE: How work hours affect well-being: A target trial emulation. The study uses three annual waves of the New Zealand Attitudes and Values Study to estimate how population-average well-being would differ if weekly paid work hours shifted up or down by 10 hours.\nThe clearest effects centre on fatigue, sleep, body mass index, and perceived physical health, with most other well-being outcomes showing little movement under either work-hours policy.\nRead the article"
   },
   {
     "objectID": "news.html#section",
     "href": "news.html#section",
     "title": "News",
     "section": "",
-    "text": "19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPICC-Lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
+    "text": "2 June 2026 | PLOS ONE\nCongratulations to Bella Chong, whose revised honours-thesis research has been published in PLOS ONE: How work hours affect well-being: A target trial emulation. The study uses three annual waves of the New Zealand Attitudes and Values Study to estimate how population-average well-being would differ if weekly paid work hours shifted up or down by 10 hours.\nThe clearest effects centre on fatigue, sleep, body mass index, and perceived physical health, with most other well-being outcomes showing little movement under either work-hours policy.\nRead the article"
   },
   {
     "objectID": "news.html#past-events",
@@ -612,8 +612,8 @@
     "objectID": "news.html#section-1",
     "href": "news.html#section-1",
     "title": "News",
-    "section": "2024",
-    "text": "2024\nNews archive coming soon…"
+    "section": "2025",
+    "text": "2025\n\nSASP 2025 Pre-Conference Workshop in Melbourne\n19 November 2025 | University of Melbourne | 23 participants\nThe lab travelled to Melbourne for the Society of Australasian Social Psychologists (SASP) 2025 conference, where Joseph Bulbulia led a full-day pre-conference workshop: Beyond Correlation: A Practical Introduction to Causal Inference in Observational Social Psychology.\nTwo EPICC-Lab students presented their research applying causal inference methods:\n\nZahle Wiseley: Does Employer Gratitude Improve Employee Well-being? — Using NZAVS data to examine causal effects of workplace appreciation on employee outcomes. Slides (PDF)\nHannah Robinson: Religion and Personality — Investigating causal relationships between religious service attendance and personality traits. Slides (PDF)\n\nWe were also joined by collaborator Dr Usman Afzali (University of Otago, Muslim Flourishing Study), who presented on Muslim community-making and resilience in New Zealand.\n\n\n\n\n\n\nJoseph Bulbulia presenting on causal inference\n\n\n\n\n\n\n\nWorkshop participants\n\n\n\n\n\n\n\n\n\nZahle Wiseley presenting her research\n\n\n\n\n\n\n\nHannah Robinson presenting her research\n\n\n\n\n\n\n\n\nDr Usman Afzali presenting on Muslim community-making and resilience\n\n\nResources:\n\nWorkshop website: go-bayes.github.io/2025-workshop-ci-sasp\nWorkshop materials: github.com/go-bayes/2025-workshop-ci-sasp\nTeaching software: causalworkshop package"
   },
   {
     "objectID": "index.html",
@@ -684,5 +684,12 @@
     "title": "Presentations",
     "section": "Archive of Presentations",
     "text": "Archive of Presentations\nComing soon…"
+  },
+  {
+    "objectID": "news.html#section-2",
+    "href": "news.html#section-2",
+    "title": "News",
+    "section": "2024",
+    "text": "2024\nNews archive coming soon…"
   }
 ]
